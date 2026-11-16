@@ -1,0 +1,86 @@
+
+===== A.4b-1c started 14:17:38 on cuda =====
+pre-cue ME subject  1: 180 trials (0.1 min)
+pre-cue ME subject  2: 180 trials (0.1 min)
+pre-cue ME subject  3: 180 trials (0.2 min)
+pre-cue ME subject  4: 180 trials (0.2 min)
+pre-cue ME subject  5: 180 trials (0.3 min)
+pre-cue ME subject  6: 180 trials (0.3 min)
+pre-cue ME subject  7: 180 trials (0.4 min)
+pre-cue ME subject  8: 180 trials (0.4 min)
+pre-cue ME subject  9: 180 trials (0.5 min)
+pre-cue ME subject 10: 180 trials (0.5 min)
+pre-cue ME subject 11: 180 trials (0.6 min)
+pre-cue ME subject 12: 180 trials (0.6 min)
+pre-cue ME subject 13: 180 trials (0.7 min)
+pre-cue ME subject 14: 180 trials (0.7 min)
+pre-cue ME subject 15: 180 trials (0.8 min)
+pre-cue MI subject  1: 180 trials (0.8 min)
+pre-cue MI subject  2: 180 trials (0.9 min)
+pre-cue MI subject  3: 180 trials (1.0 min)
+pre-cue MI subject  4: 180 trials (1.0 min)
+pre-cue MI subject  5: 180 trials (1.0 min)
+pre-cue MI subject  6: 180 trials (1.1 min)
+pre-cue MI subject  7: 180 trials (1.2 min)
+pre-cue MI subject  8: 180 trials (1.2 min)
+pre-cue MI subject  9: 180 trials (1.3 min)
+pre-cue MI subject 10: 180 trials (1.3 min)
+pre-cue MI subject 11: 180 trials (1.3 min)
+pre-cue MI subject 12: 180 trials (1.4 min)
+pre-cue MI subject 13: 180 trials (1.5 min)
+pre-cue MI subject 14: 180 trials (1.5 min)
+pre-cue MI subject 15: 180 trials (1.6 min)
+data ready (1.6 min)
+person  1 done (4.0 min)
+person  2 done (6.2 min)
+person  3 done (8.7 min)
+person  4 done (11.1 min)
+person  5 done (13.3 min)
+person  6 done (15.5 min)
+person  7 done (17.7 min)
+person  8 done (20.3 min)
+person  9 done (22.5 min)
+person 10 done (24.6 min)
+person 11 done (26.8 min)
+person 12 done (29.6 min)
+person 13 done (31.8 min)
+
+===== A.4b-1c started 15:07:39 on cuda =====
+data ready (0.1 min)
+person 15 done (3.7 min)
+
+=== A.4b-1c: controls for the deep models (strict, T1, new person MI runs 6-10, %, mean of 2 seeds) ===
+       cell          model                  control  mean  n_above_50  p_vs_50 change_vs_full p_change TS+LDA_same_control
+2 MI others         EEGNet      full 0-3 s (A.4b-1)  65.3          15   0.0000              -        -                   -
+2 MI others         EEGNet      without first 0.5 s  66.5          15   0.0000            1.3   0.0992                64.8
+2 MI others         EEGNet      pre-cue (-2 to 0 s)  50.6           7   0.3348          -14.7   0.0001                49.2
+2 MI others         EEGNet            central5 only  61.5          15   0.0003           -3.8    0.064                57.4
+2 MI others         EEGNet           parietal3 only  57.3          14   0.0004           -8.0    0.002                52.1
+2 MI others         EEGNet shuffled training labels  50.1           7   0.4749          -15.1   0.0001                   -
+2 MI others ShallowConvNet      full 0-3 s (A.4b-1)  68.5          15   0.0000              -        -                   -
+2 MI others ShallowConvNet      without first 0.5 s  68.8          14   0.0005            0.3   0.7762                64.8
+2 MI others ShallowConvNet      pre-cue (-2 to 0 s)  48.9           3   0.9300          -19.6   0.0001                49.2
+2 MI others ShallowConvNet            central5 only  61.7          13   0.0006           -6.8   0.0038                57.4
+2 MI others ShallowConvNet           parietal3 only  60.1          15   0.0003           -8.4   0.0199                52.1
+2 MI others ShallowConvNet shuffled training labels  53.3          11   0.0050          -15.2   0.0002                   -
+4 ME others         EEGNet      full 0-3 s (A.4b-1)  65.8          15   0.0003              -        -                   -
+4 ME others         EEGNet      without first 0.5 s  67.0          15   0.0000            1.2    0.124                62.6
+4 ME others         EEGNet      pre-cue (-2 to 0 s)  51.5          12   0.0275          -14.3   0.0008                50.2
+4 ME others         EEGNet            central5 only  61.9          14   0.0001           -3.9   0.0781                55.6
+4 ME others         EEGNet           parietal3 only  59.5          14   0.0001           -6.3    0.002                51.6
+4 ME others         EEGNet shuffled training labels  48.4           7   0.8892          -17.4   0.0009                   -
+4 ME others ShallowConvNet      full 0-3 s (A.4b-1)  66.5          15   0.0003              -        -                   -
+4 ME others ShallowConvNet      without first 0.5 s  65.3          14   0.0001           -1.2     0.46                62.6
+4 ME others ShallowConvNet      pre-cue (-2 to 0 s)  49.5           7   0.6955          -17.0   0.0001                50.2
+4 ME others ShallowConvNet            central5 only  63.0          15   0.0003           -3.5   0.0381                55.6
+4 ME others ShallowConvNet           parietal3 only  60.9          13   0.0006           -5.6    0.073                51.6
+4 ME others ShallowConvNet shuffled training labels  50.3           8   0.4435          -16.2   0.0001                   -
+
+=== pre-specified rules (gain accepted as motor-related only if all three hold) ===
+2 MI others  EEGNet          | first 0.5 s not needed: True | pre-cue & shuffle at chance: True | central5 above chance: True -> ACCEPTED
+2 MI others  ShallowConvNet  | first 0.5 s not needed: True | pre-cue & shuffle at chance: False | central5 above chance: True -> NOT accepted
+4 ME others  EEGNet          | first 0.5 s not needed: True | pre-cue & shuffle at chance: False | central5 above chance: True -> NOT accepted
+4 ME others  ShallowConvNet  | first 0.5 s not needed: True | pre-cue & shuffle at chance: True | central5 above chance: True -> ACCEPTED
+
+total time 3.7 min
+===== A.4b-1c FINISHED =====

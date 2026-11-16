@@ -1,0 +1,42 @@
+===== A.10 started 20:41:30 =====
+GPU: NVIDIA L4
+A.4b cache example files: ['ME_sub01.npz', 'ME_sub02.npz', 'ME_sub03.npz', 'ME_sub04.npz']
+keys: {'X31': ((180, 31, 384), 'float32'), 'y': ((180,), 'int64'), 'run': ((180,), 'int64'), 'r4m': ((180,), 'bool')}
+deep cache matches the A.2b trial order; 384 samples per trial
+subject 1 done: strict 57.1, aligned all 50.0 (2.8 min)
+subject 2 done: strict 62.9, aligned all 73.3 (2.9 min)
+subject 3 done: strict 69.2, aligned all 63.3 (3.1 min)
+subject 4 done: strict 77.9, aligned all 80.8 (3.3 min)
+subject 5 done: strict 69.6, aligned all 77.1 (3.4 min)
+subject 6 done: strict 70.8, aligned all 75.0 (3.5 min)
+subject 7 done: strict 67.5, aligned all 67.1 (3.6 min)
+subject 8 done: strict 57.1, aligned all 62.5 (3.8 min)
+subject 9 done: strict 58.8, aligned all 56.2 (3.9 min)
+subject 10 done: strict 52.9, aligned all 51.2 (4.0 min)
+subject 11 done: strict 75.4, aligned all 67.1 (4.2 min)
+subject 12 done: strict 69.6, aligned all 69.6 (4.4 min)
+subject 13 done: strict 47.9, aligned all 57.9 (4.5 min)
+subject 14 done: strict 68.3, aligned all 67.1 (4.6 min)
+subject 15 done: strict 72.5, aligned all 71.7 (4.8 min)
+
+=== anchors (A.4b-1, ShallowConvNet, cell 4; deep models vary slightly between runs, tolerance 1 point) ===
+  strict        65.2  (A.4b-1: 66.5)  DIFFERENT
+  aligned all   66.0  (A.4b-1: 67.9)  DIFFERENT
+
+=== A.10: ShallowConvNet calibration curve (others ME -> new person MI runs 6-10, fold-specific 8, mean of 15, 2 seeds) ===
+method           mean  median  >50    p>50 | vs TS+LDA same budget
+strict           65.2    68.3   14  0.0004 | +4.2 (p = 0.033)
+aligned 10       66.1    67.1   15  0.0000 | 
+aligned 20       66.6    67.1   13  0.0002 | 
+aligned 30       67.2    67.1   14  0.0001 | 
+aligned 45       67.2    67.1   14  0.0001 | 
+aligned 60       66.9    67.5   14  0.0001 | +1.6 vs TS+LDA recentered 60 (p = 0.306)
+aligned all      66.0    67.1   14  0.0005 | 
+
+=== equivalence with the TS+LDA full labelled calibration (cell 1, 67.1%), margin +/-5 points (TOST) ===
+  ShallowConvNet strict       - own calibration:  -1.9 [90% CI  -6.2,  +2.3], p TOST = 0.115 -> not shown (within 6.2 points)
+  ShallowConvNet aligned 10   - own calibration:  -1.0 [90% CI  -5.3,  +3.2], p TOST = 0.060 -> not shown (within 5.3 points)
+  ShallowConvNet aligned 60   - own calibration:  -0.2 [90% CI  -3.8,  +3.4], p TOST = 0.017 -> EQUIVALENT (within 3.8 points)
+  ShallowConvNet aligned all  - own calibration:  -1.1 [90% CI  -4.8,  +2.6], p TOST = 0.043 -> EQUIVALENT (within 4.8 points)
+total time (4.8 min)
+===== A.10 FINISHED =====

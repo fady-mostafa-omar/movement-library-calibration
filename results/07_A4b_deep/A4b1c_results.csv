@@ -1,0 +1,601 @@
+subject,control,cell,model,seed,bal_acc
+1,without first 0.5 s,2 MI others,EEGNet,0,62.5
+1,without first 0.5 s,2 MI others,ShallowConvNet,0,60.00000000000001
+1,without first 0.5 s,2 MI others,EEGNet,1,54.16666666666666
+1,without first 0.5 s,2 MI others,ShallowConvNet,1,61.66666666666667
+1,without first 0.5 s,4 ME others,EEGNet,0,59.16666666666666
+1,without first 0.5 s,4 ME others,ShallowConvNet,0,49.16666666666667
+1,without first 0.5 s,4 ME others,EEGNet,1,57.49999999999999
+1,without first 0.5 s,4 ME others,ShallowConvNet,1,55.00000000000001
+1,pre-cue (-2 to 0 s),2 MI others,EEGNet,0,51.66666666666666
+1,pre-cue (-2 to 0 s),2 MI others,ShallowConvNet,0,50.83333333333333
+1,pre-cue (-2 to 0 s),2 MI others,EEGNet,1,54.16666666666667
+1,pre-cue (-2 to 0 s),2 MI others,ShallowConvNet,1,49.16666666666667
+1,pre-cue (-2 to 0 s),4 ME others,EEGNet,0,55.833333333333336
+1,pre-cue (-2 to 0 s),4 ME others,ShallowConvNet,0,56.66666666666666
+1,pre-cue (-2 to 0 s),4 ME others,EEGNet,1,50.0
+1,pre-cue (-2 to 0 s),4 ME others,ShallowConvNet,1,48.333333333333336
+1,central5 only,2 MI others,EEGNet,0,49.16666666666666
+1,central5 only,2 MI others,ShallowConvNet,0,60.0
+1,central5 only,2 MI others,EEGNet,1,59.16666666666666
+1,central5 only,2 MI others,ShallowConvNet,1,58.33333333333333
+1,central5 only,4 ME others,EEGNet,0,60.83333333333334
+1,central5 only,4 ME others,ShallowConvNet,0,59.16666666666666
+1,central5 only,4 ME others,EEGNet,1,65.83333333333333
+1,central5 only,4 ME others,ShallowConvNet,1,63.33333333333333
+1,parietal3 only,2 MI others,EEGNet,0,54.16666666666667
+1,parietal3 only,2 MI others,ShallowConvNet,0,61.66666666666667
+1,parietal3 only,2 MI others,EEGNet,1,56.66666666666666
+1,parietal3 only,2 MI others,ShallowConvNet,1,66.66666666666666
+1,parietal3 only,4 ME others,EEGNet,0,52.5
+1,parietal3 only,4 ME others,ShallowConvNet,0,50.83333333333333
+1,parietal3 only,4 ME others,EEGNet,1,52.5
+1,parietal3 only,4 ME others,ShallowConvNet,1,64.99999999999999
+1,shuffled training labels,2 MI others,EEGNet,0,41.66666666666666
+1,shuffled training labels,2 MI others,ShallowConvNet,0,56.66666666666666
+1,shuffled training labels,2 MI others,EEGNet,1,52.5
+1,shuffled training labels,2 MI others,ShallowConvNet,1,52.5
+1,shuffled training labels,4 ME others,EEGNet,0,52.5
+1,shuffled training labels,4 ME others,ShallowConvNet,0,52.5
+1,shuffled training labels,4 ME others,EEGNet,1,44.99999999999999
+1,shuffled training labels,4 ME others,ShallowConvNet,1,41.66666666666666
+2,without first 0.5 s,2 MI others,EEGNet,0,55.00000000000001
+2,without first 0.5 s,2 MI others,ShallowConvNet,0,65.83333333333333
+2,without first 0.5 s,2 MI others,EEGNet,1,77.5
+2,without first 0.5 s,2 MI others,ShallowConvNet,1,75.83333333333333
+2,without first 0.5 s,4 ME others,EEGNet,0,78.33333333333333
+2,without first 0.5 s,4 ME others,ShallowConvNet,0,69.16666666666667
+2,without first 0.5 s,4 ME others,EEGNet,1,72.50000000000001
+2,without first 0.5 s,4 ME others,ShallowConvNet,1,64.16666666666667
+2,pre-cue (-2 to 0 s),2 MI others,EEGNet,0,45.0
+2,pre-cue (-2 to 0 s),2 MI others,ShallowConvNet,0,45.833333333333336
+2,pre-cue (-2 to 0 s),2 MI others,EEGNet,1,53.333333333333336
+2,pre-cue (-2 to 0 s),2 MI others,ShallowConvNet,1,48.33333333333333
+2,pre-cue (-2 to 0 s),4 ME others,EEGNet,0,54.16666666666667
+2,pre-cue (-2 to 0 s),4 ME others,ShallowConvNet,0,62.5
+2,pre-cue (-2 to 0 s),4 ME others,EEGNet,1,50.83333333333333
+2,pre-cue (-2 to 0 s),4 ME others,ShallowConvNet,1,61.66666666666667
+2,central5 only,2 MI others,EEGNet,0,68.33333333333333
+2,central5 only,2 MI others,ShallowConvNet,0,68.33333333333333
+2,central5 only,2 MI others,EEGNet,1,65.83333333333333
+2,central5 only,2 MI others,ShallowConvNet,1,64.16666666666667
+2,central5 only,4 ME others,EEGNet,0,70.83333333333334
+2,central5 only,4 ME others,ShallowConvNet,0,59.16666666666666
+2,central5 only,4 ME others,EEGNet,1,70.0
+2,central5 only,4 ME others,ShallowConvNet,1,62.5
+2,parietal3 only,2 MI others,EEGNet,0,60.83333333333334
+2,parietal3 only,2 MI others,ShallowConvNet,0,55.833333333333336
+2,parietal3 only,2 MI others,EEGNet,1,60.83333333333334
+2,parietal3 only,2 MI others,ShallowConvNet,1,44.99999999999999
+2,parietal3 only,4 ME others,EEGNet,0,65.83333333333333
+2,parietal3 only,4 ME others,ShallowConvNet,0,68.33333333333333
+2,parietal3 only,4 ME others,EEGNet,1,68.33333333333333
+2,parietal3 only,4 ME others,ShallowConvNet,1,58.333333333333336
+2,shuffled training labels,2 MI others,EEGNet,0,52.5
+2,shuffled training labels,2 MI others,ShallowConvNet,0,49.16666666666667
+2,shuffled training labels,2 MI others,EEGNet,1,53.333333333333336
+2,shuffled training labels,2 MI others,ShallowConvNet,1,58.33333333333333
+2,shuffled training labels,4 ME others,EEGNet,0,50.83333333333333
+2,shuffled training labels,4 ME others,ShallowConvNet,0,64.99999999999999
+2,shuffled training labels,4 ME others,EEGNet,1,50.83333333333333
+2,shuffled training labels,4 ME others,ShallowConvNet,1,56.66666666666666
+3,without first 0.5 s,2 MI others,EEGNet,0,74.16666666666667
+3,without first 0.5 s,2 MI others,ShallowConvNet,0,76.66666666666666
+3,without first 0.5 s,2 MI others,EEGNet,1,76.66666666666666
+3,without first 0.5 s,2 MI others,ShallowConvNet,1,65.83333333333333
+3,without first 0.5 s,4 ME others,EEGNet,0,68.33333333333333
+3,without first 0.5 s,4 ME others,ShallowConvNet,0,64.16666666666667
+3,without first 0.5 s,4 ME others,EEGNet,1,71.66666666666667
+3,without first 0.5 s,4 ME others,ShallowConvNet,1,64.16666666666666
+3,pre-cue (-2 to 0 s),2 MI others,EEGNet,0,50.0
+3,pre-cue (-2 to 0 s),2 MI others,ShallowConvNet,0,40.0
+3,pre-cue (-2 to 0 s),2 MI others,EEGNet,1,66.66666666666667
+3,pre-cue (-2 to 0 s),2 MI others,ShallowConvNet,1,50.83333333333333
+3,pre-cue (-2 to 0 s),4 ME others,EEGNet,0,50.83333333333333
+3,pre-cue (-2 to 0 s),4 ME others,ShallowConvNet,0,40.0
+3,pre-cue (-2 to 0 s),4 ME others,EEGNet,1,54.16666666666666
+3,pre-cue (-2 to 0 s),4 ME others,ShallowConvNet,1,42.50000000000001
+3,central5 only,2 MI others,EEGNet,0,51.66666666666666
+3,central5 only,2 MI others,ShallowConvNet,0,58.333333333333336
+3,central5 only,2 MI others,EEGNet,1,61.66666666666667
+3,central5 only,2 MI others,ShallowConvNet,1,56.66666666666666
+3,central5 only,4 ME others,EEGNet,0,49.16666666666667
+3,central5 only,4 ME others,ShallowConvNet,0,54.16666666666667
+3,central5 only,4 ME others,EEGNet,1,61.66666666666667
+3,central5 only,4 ME others,ShallowConvNet,1,61.66666666666667
+3,parietal3 only,2 MI others,EEGNet,0,51.66666666666667
+3,parietal3 only,2 MI others,ShallowConvNet,0,51.66666666666667
+3,parietal3 only,2 MI others,EEGNet,1,50.0
+3,parietal3 only,2 MI others,ShallowConvNet,1,60.0
+3,parietal3 only,4 ME others,EEGNet,0,56.66666666666666
+3,parietal3 only,4 ME others,ShallowConvNet,0,55.833333333333336
+3,parietal3 only,4 ME others,EEGNet,1,57.49999999999999
+3,parietal3 only,4 ME others,ShallowConvNet,1,56.66666666666666
+3,shuffled training labels,2 MI others,EEGNet,0,50.83333333333333
+3,shuffled training labels,2 MI others,ShallowConvNet,0,50.83333333333333
+3,shuffled training labels,2 MI others,EEGNet,1,49.16666666666667
+3,shuffled training labels,2 MI others,ShallowConvNet,1,57.49999999999999
+3,shuffled training labels,4 ME others,EEGNet,0,46.66666666666666
+3,shuffled training labels,4 ME others,ShallowConvNet,0,58.333333333333336
+3,shuffled training labels,4 ME others,EEGNet,1,36.66666666666666
+3,shuffled training labels,4 ME others,ShallowConvNet,1,44.16666666666666
+4,without first 0.5 s,2 MI others,EEGNet,0,77.49999999999999
+4,without first 0.5 s,2 MI others,ShallowConvNet,0,82.5
+4,without first 0.5 s,2 MI others,EEGNet,1,81.66666666666667
+4,without first 0.5 s,2 MI others,ShallowConvNet,1,80.83333333333333
+4,without first 0.5 s,4 ME others,EEGNet,0,85.00000000000001
+4,without first 0.5 s,4 ME others,ShallowConvNet,0,78.33333333333334
+4,without first 0.5 s,4 ME others,EEGNet,1,74.16666666666667
+4,without first 0.5 s,4 ME others,ShallowConvNet,1,73.33333333333334
+4,pre-cue (-2 to 0 s),2 MI others,EEGNet,0,51.66666666666666
+4,pre-cue (-2 to 0 s),2 MI others,ShallowConvNet,0,47.5
+4,pre-cue (-2 to 0 s),2 MI others,EEGNet,1,44.99999999999999
+4,pre-cue (-2 to 0 s),2 MI others,ShallowConvNet,1,50.0
+4,pre-cue (-2 to 0 s),4 ME others,EEGNet,0,57.49999999999999
+4,pre-cue (-2 to 0 s),4 ME others,ShallowConvNet,0,42.50000000000001
+4,pre-cue (-2 to 0 s),4 ME others,EEGNet,1,47.5
+4,pre-cue (-2 to 0 s),4 ME others,ShallowConvNet,1,41.66666666666666
+4,central5 only,2 MI others,EEGNet,0,70.0
+4,central5 only,2 MI others,ShallowConvNet,0,67.5
+4,central5 only,2 MI others,EEGNet,1,74.16666666666667
+4,central5 only,2 MI others,ShallowConvNet,1,66.66666666666667
+4,central5 only,4 ME others,EEGNet,0,54.16666666666666
+4,central5 only,4 ME others,ShallowConvNet,0,75.0
+4,central5 only,4 ME others,EEGNet,1,80.83333333333333
+4,central5 only,4 ME others,ShallowConvNet,1,73.33333333333333
+4,parietal3 only,2 MI others,EEGNet,0,55.833333333333336
+4,parietal3 only,2 MI others,ShallowConvNet,0,64.99999999999999
+4,parietal3 only,2 MI others,EEGNet,1,63.33333333333333
+4,parietal3 only,2 MI others,ShallowConvNet,1,61.66666666666667
+4,parietal3 only,4 ME others,EEGNet,0,62.5
+4,parietal3 only,4 ME others,ShallowConvNet,0,66.66666666666667
+4,parietal3 only,4 ME others,EEGNet,1,67.5
+4,parietal3 only,4 ME others,ShallowConvNet,1,63.33333333333333
+4,shuffled training labels,2 MI others,EEGNet,0,52.5
+4,shuffled training labels,2 MI others,ShallowConvNet,0,56.66666666666666
+4,shuffled training labels,2 MI others,EEGNet,1,50.83333333333333
+4,shuffled training labels,2 MI others,ShallowConvNet,1,56.66666666666666
+4,shuffled training labels,4 ME others,EEGNet,0,41.66666666666666
+4,shuffled training labels,4 ME others,ShallowConvNet,0,48.333333333333336
+4,shuffled training labels,4 ME others,EEGNet,1,48.33333333333333
+4,shuffled training labels,4 ME others,ShallowConvNet,1,55.833333333333336
+5,without first 0.5 s,2 MI others,EEGNet,0,84.16666666666667
+5,without first 0.5 s,2 MI others,ShallowConvNet,0,68.33333333333333
+5,without first 0.5 s,2 MI others,EEGNet,1,72.50000000000001
+5,without first 0.5 s,2 MI others,ShallowConvNet,1,63.33333333333333
+5,without first 0.5 s,4 ME others,EEGNet,0,76.66666666666666
+5,without first 0.5 s,4 ME others,ShallowConvNet,0,64.16666666666666
+5,without first 0.5 s,4 ME others,EEGNet,1,78.33333333333333
+5,without first 0.5 s,4 ME others,ShallowConvNet,1,70.0
+5,pre-cue (-2 to 0 s),2 MI others,EEGNet,0,40.833333333333336
+5,pre-cue (-2 to 0 s),2 MI others,ShallowConvNet,0,50.83333333333333
+5,pre-cue (-2 to 0 s),2 MI others,EEGNet,1,48.333333333333336
+5,pre-cue (-2 to 0 s),2 MI others,ShallowConvNet,1,43.333333333333336
+5,pre-cue (-2 to 0 s),4 ME others,EEGNet,0,55.00000000000001
+5,pre-cue (-2 to 0 s),4 ME others,ShallowConvNet,0,50.0
+5,pre-cue (-2 to 0 s),4 ME others,EEGNet,1,45.833333333333336
+5,pre-cue (-2 to 0 s),4 ME others,ShallowConvNet,1,41.66666666666666
+5,central5 only,2 MI others,EEGNet,0,66.66666666666667
+5,central5 only,2 MI others,ShallowConvNet,0,56.66666666666666
+5,central5 only,2 MI others,EEGNet,1,62.5
+5,central5 only,2 MI others,ShallowConvNet,1,58.333333333333336
+5,central5 only,4 ME others,EEGNet,0,65.83333333333333
+5,central5 only,4 ME others,ShallowConvNet,0,59.16666666666666
+5,central5 only,4 ME others,EEGNet,1,68.33333333333333
+5,central5 only,4 ME others,ShallowConvNet,1,65.83333333333333
+5,parietal3 only,2 MI others,EEGNet,0,63.33333333333333
+5,parietal3 only,2 MI others,ShallowConvNet,0,64.16666666666667
+5,parietal3 only,2 MI others,EEGNet,1,61.66666666666667
+5,parietal3 only,2 MI others,ShallowConvNet,1,55.833333333333336
+5,parietal3 only,4 ME others,EEGNet,0,60.0
+5,parietal3 only,4 ME others,ShallowConvNet,0,69.16666666666667
+5,parietal3 only,4 ME others,EEGNet,1,63.33333333333333
+5,parietal3 only,4 ME others,ShallowConvNet,1,64.99999999999999
+5,shuffled training labels,2 MI others,EEGNet,0,45.833333333333336
+5,shuffled training labels,2 MI others,ShallowConvNet,0,45.833333333333336
+5,shuffled training labels,2 MI others,EEGNet,1,41.66666666666667
+5,shuffled training labels,2 MI others,ShallowConvNet,1,47.5
+5,shuffled training labels,4 ME others,EEGNet,0,53.333333333333336
+5,shuffled training labels,4 ME others,ShallowConvNet,0,52.5
+5,shuffled training labels,4 ME others,EEGNet,1,47.5
+5,shuffled training labels,4 ME others,ShallowConvNet,1,57.49999999999999
+6,without first 0.5 s,2 MI others,EEGNet,0,64.16666666666666
+6,without first 0.5 s,2 MI others,ShallowConvNet,0,61.66666666666667
+6,without first 0.5 s,2 MI others,EEGNet,1,65.83333333333334
+6,without first 0.5 s,2 MI others,ShallowConvNet,1,70.0
+6,without first 0.5 s,4 ME others,EEGNet,0,74.16666666666667
+6,without first 0.5 s,4 ME others,ShallowConvNet,0,80.0
+6,without first 0.5 s,4 ME others,EEGNet,1,70.0
+6,without first 0.5 s,4 ME others,ShallowConvNet,1,76.66666666666666
+6,pre-cue (-2 to 0 s),2 MI others,EEGNet,0,50.0
+6,pre-cue (-2 to 0 s),2 MI others,ShallowConvNet,0,49.16666666666667
+6,pre-cue (-2 to 0 s),2 MI others,EEGNet,1,47.5
+6,pre-cue (-2 to 0 s),2 MI others,ShallowConvNet,1,55.00000000000001
+6,pre-cue (-2 to 0 s),4 ME others,EEGNet,0,55.833333333333336
+6,pre-cue (-2 to 0 s),4 ME others,ShallowConvNet,0,44.16666666666666
+6,pre-cue (-2 to 0 s),4 ME others,EEGNet,1,46.66666666666666
+6,pre-cue (-2 to 0 s),4 ME others,ShallowConvNet,1,41.66666666666666
+6,central5 only,2 MI others,EEGNet,0,77.49999999999999
+6,central5 only,2 MI others,ShallowConvNet,0,72.50000000000001
+6,central5 only,2 MI others,EEGNet,1,68.33333333333333
+6,central5 only,2 MI others,ShallowConvNet,1,62.5
+6,central5 only,4 ME others,EEGNet,0,82.5
+6,central5 only,4 ME others,ShallowConvNet,0,73.33333333333334
+6,central5 only,4 ME others,EEGNet,1,72.50000000000001
+6,central5 only,4 ME others,ShallowConvNet,1,76.66666666666666
+6,parietal3 only,2 MI others,EEGNet,0,56.66666666666666
+6,parietal3 only,2 MI others,ShallowConvNet,0,69.16666666666667
+6,parietal3 only,2 MI others,EEGNet,1,56.66666666666666
+6,parietal3 only,2 MI others,ShallowConvNet,1,66.66666666666667
+6,parietal3 only,4 ME others,EEGNet,0,63.33333333333333
+6,parietal3 only,4 ME others,ShallowConvNet,0,70.83333333333334
+6,parietal3 only,4 ME others,EEGNet,1,67.5
+6,parietal3 only,4 ME others,ShallowConvNet,1,75.0
+6,shuffled training labels,2 MI others,EEGNet,0,60.0
+6,shuffled training labels,2 MI others,ShallowConvNet,0,54.16666666666666
+6,shuffled training labels,2 MI others,EEGNet,1,45.833333333333336
+6,shuffled training labels,2 MI others,ShallowConvNet,1,60.0
+6,shuffled training labels,4 ME others,EEGNet,0,50.0
+6,shuffled training labels,4 ME others,ShallowConvNet,0,44.16666666666666
+6,shuffled training labels,4 ME others,EEGNet,1,36.66666666666667
+6,shuffled training labels,4 ME others,ShallowConvNet,1,39.16666666666667
+7,without first 0.5 s,2 MI others,EEGNet,0,55.833333333333336
+7,without first 0.5 s,2 MI others,ShallowConvNet,0,76.66666666666666
+7,without first 0.5 s,2 MI others,EEGNet,1,57.49999999999999
+7,without first 0.5 s,2 MI others,ShallowConvNet,1,67.5
+7,without first 0.5 s,4 ME others,EEGNet,0,52.5
+7,without first 0.5 s,4 ME others,ShallowConvNet,0,67.5
+7,without first 0.5 s,4 ME others,EEGNet,1,55.833333333333336
+7,without first 0.5 s,4 ME others,ShallowConvNet,1,69.16666666666667
+7,pre-cue (-2 to 0 s),2 MI others,EEGNet,0,50.0
+7,pre-cue (-2 to 0 s),2 MI others,ShallowConvNet,0,49.16666666666667
+7,pre-cue (-2 to 0 s),2 MI others,EEGNet,1,49.16666666666667
+7,pre-cue (-2 to 0 s),2 MI others,ShallowConvNet,1,50.0
+7,pre-cue (-2 to 0 s),4 ME others,EEGNet,0,53.333333333333336
+7,pre-cue (-2 to 0 s),4 ME others,ShallowConvNet,0,56.66666666666666
+7,pre-cue (-2 to 0 s),4 ME others,EEGNet,1,49.16666666666667
+7,pre-cue (-2 to 0 s),4 ME others,ShallowConvNet,1,56.66666666666666
+7,central5 only,2 MI others,EEGNet,0,59.16666666666666
+7,central5 only,2 MI others,ShallowConvNet,0,60.83333333333333
+7,central5 only,2 MI others,EEGNet,1,50.0
+7,central5 only,2 MI others,ShallowConvNet,1,59.16666666666666
+7,central5 only,4 ME others,EEGNet,0,64.99999999999999
+7,central5 only,4 ME others,ShallowConvNet,0,75.0
+7,central5 only,4 ME others,EEGNet,1,57.49999999999999
+7,central5 only,4 ME others,ShallowConvNet,1,69.16666666666667
+7,parietal3 only,2 MI others,EEGNet,0,57.49999999999999
+7,parietal3 only,2 MI others,ShallowConvNet,0,61.66666666666667
+7,parietal3 only,2 MI others,EEGNet,1,47.5
+7,parietal3 only,2 MI others,ShallowConvNet,1,65.0
+7,parietal3 only,4 ME others,EEGNet,0,49.16666666666667
+7,parietal3 only,4 ME others,ShallowConvNet,0,57.49999999999999
+7,parietal3 only,4 ME others,EEGNet,1,47.5
+7,parietal3 only,4 ME others,ShallowConvNet,1,56.66666666666666
+7,shuffled training labels,2 MI others,EEGNet,0,44.99999999999999
+7,shuffled training labels,2 MI others,ShallowConvNet,0,47.5
+7,shuffled training labels,2 MI others,EEGNet,1,48.333333333333336
+7,shuffled training labels,2 MI others,ShallowConvNet,1,50.0
+7,shuffled training labels,4 ME others,EEGNet,0,37.5
+7,shuffled training labels,4 ME others,ShallowConvNet,0,47.5
+7,shuffled training labels,4 ME others,EEGNet,1,52.5
+7,shuffled training labels,4 ME others,ShallowConvNet,1,51.66666666666667
+8,without first 0.5 s,2 MI others,EEGNet,0,70.0
+8,without first 0.5 s,2 MI others,ShallowConvNet,0,61.66666666666667
+8,without first 0.5 s,2 MI others,EEGNet,1,66.66666666666667
+8,without first 0.5 s,2 MI others,ShallowConvNet,1,68.33333333333333
+8,without first 0.5 s,4 ME others,EEGNet,0,57.49999999999999
+8,without first 0.5 s,4 ME others,ShallowConvNet,0,57.49999999999999
+8,without first 0.5 s,4 ME others,EEGNet,1,60.0
+8,without first 0.5 s,4 ME others,ShallowConvNet,1,60.00000000000001
+8,pre-cue (-2 to 0 s),2 MI others,EEGNet,0,50.0
+8,pre-cue (-2 to 0 s),2 MI others,ShallowConvNet,0,43.333333333333336
+8,pre-cue (-2 to 0 s),2 MI others,EEGNet,1,47.5
+8,pre-cue (-2 to 0 s),2 MI others,ShallowConvNet,1,50.0
+8,pre-cue (-2 to 0 s),4 ME others,EEGNet,0,57.49999999999999
+8,pre-cue (-2 to 0 s),4 ME others,ShallowConvNet,0,46.66666666666666
+8,pre-cue (-2 to 0 s),4 ME others,EEGNet,1,55.00000000000001
+8,pre-cue (-2 to 0 s),4 ME others,ShallowConvNet,1,48.333333333333336
+8,central5 only,2 MI others,EEGNet,0,53.333333333333336
+8,central5 only,2 MI others,ShallowConvNet,0,41.66666666666666
+8,central5 only,2 MI others,EEGNet,1,56.66666666666666
+8,central5 only,2 MI others,ShallowConvNet,1,58.333333333333336
+8,central5 only,4 ME others,EEGNet,0,50.83333333333333
+8,central5 only,4 ME others,ShallowConvNet,0,62.5
+8,central5 only,4 ME others,EEGNet,1,48.333333333333336
+8,central5 only,4 ME others,ShallowConvNet,1,47.5
+8,parietal3 only,2 MI others,EEGNet,0,59.16666666666666
+8,parietal3 only,2 MI others,ShallowConvNet,0,60.0
+8,parietal3 only,2 MI others,EEGNet,1,56.66666666666666
+8,parietal3 only,2 MI others,ShallowConvNet,1,55.00000000000001
+8,parietal3 only,4 ME others,EEGNet,0,53.333333333333336
+8,parietal3 only,4 ME others,ShallowConvNet,0,49.16666666666666
+8,parietal3 only,4 ME others,EEGNet,1,48.333333333333336
+8,parietal3 only,4 ME others,ShallowConvNet,1,47.5
+8,shuffled training labels,2 MI others,EEGNet,0,50.0
+8,shuffled training labels,2 MI others,ShallowConvNet,0,53.333333333333336
+8,shuffled training labels,2 MI others,EEGNet,1,53.333333333333336
+8,shuffled training labels,2 MI others,ShallowConvNet,1,52.5
+8,shuffled training labels,4 ME others,EEGNet,0,57.49999999999999
+8,shuffled training labels,4 ME others,ShallowConvNet,0,60.83333333333333
+8,shuffled training labels,4 ME others,EEGNet,1,52.5
+8,shuffled training labels,4 ME others,ShallowConvNet,1,59.16666666666666
+9,without first 0.5 s,2 MI others,EEGNet,0,53.333333333333336
+9,without first 0.5 s,2 MI others,ShallowConvNet,0,68.33333333333333
+9,without first 0.5 s,2 MI others,EEGNet,1,52.5
+9,without first 0.5 s,2 MI others,ShallowConvNet,1,70.0
+9,without first 0.5 s,4 ME others,EEGNet,0,58.33333333333333
+9,without first 0.5 s,4 ME others,ShallowConvNet,0,55.00000000000001
+9,without first 0.5 s,4 ME others,EEGNet,1,57.49999999999999
+9,without first 0.5 s,4 ME others,ShallowConvNet,1,49.16666666666666
+9,pre-cue (-2 to 0 s),2 MI others,EEGNet,0,54.16666666666667
+9,pre-cue (-2 to 0 s),2 MI others,ShallowConvNet,0,42.50000000000001
+9,pre-cue (-2 to 0 s),2 MI others,EEGNet,1,57.49999999999999
+9,pre-cue (-2 to 0 s),2 MI others,ShallowConvNet,1,52.5
+9,pre-cue (-2 to 0 s),4 ME others,EEGNet,0,49.16666666666667
+9,pre-cue (-2 to 0 s),4 ME others,ShallowConvNet,0,53.333333333333336
+9,pre-cue (-2 to 0 s),4 ME others,EEGNet,1,55.00000000000001
+9,pre-cue (-2 to 0 s),4 ME others,ShallowConvNet,1,44.16666666666667
+9,central5 only,2 MI others,EEGNet,0,64.16666666666666
+9,central5 only,2 MI others,ShallowConvNet,0,55.833333333333336
+9,central5 only,2 MI others,EEGNet,1,55.833333333333336
+9,central5 only,2 MI others,ShallowConvNet,1,63.33333333333333
+9,central5 only,4 ME others,EEGNet,0,60.83333333333334
+9,central5 only,4 ME others,ShallowConvNet,0,65.83333333333333
+9,central5 only,4 ME others,EEGNet,1,60.83333333333334
+9,central5 only,4 ME others,ShallowConvNet,1,57.49999999999999
+9,parietal3 only,2 MI others,EEGNet,0,62.5
+9,parietal3 only,2 MI others,ShallowConvNet,0,63.33333333333333
+9,parietal3 only,2 MI others,EEGNet,1,60.0
+9,parietal3 only,2 MI others,ShallowConvNet,1,63.33333333333333
+9,parietal3 only,4 ME others,EEGNet,0,61.66666666666667
+9,parietal3 only,4 ME others,ShallowConvNet,0,70.0
+9,parietal3 only,4 ME others,EEGNet,1,63.33333333333333
+9,parietal3 only,4 ME others,ShallowConvNet,1,70.83333333333333
+9,shuffled training labels,2 MI others,EEGNet,0,54.16666666666667
+9,shuffled training labels,2 MI others,ShallowConvNet,0,47.5
+9,shuffled training labels,2 MI others,EEGNet,1,56.66666666666666
+9,shuffled training labels,2 MI others,ShallowConvNet,1,47.5
+9,shuffled training labels,4 ME others,EEGNet,0,56.66666666666666
+9,shuffled training labels,4 ME others,ShallowConvNet,0,43.333333333333336
+9,shuffled training labels,4 ME others,EEGNet,1,53.333333333333336
+9,shuffled training labels,4 ME others,ShallowConvNet,1,57.49999999999999
+10,without first 0.5 s,2 MI others,EEGNet,0,58.33333333333333
+10,without first 0.5 s,2 MI others,ShallowConvNet,0,57.49999999999999
+10,without first 0.5 s,2 MI others,EEGNet,1,57.49999999999999
+10,without first 0.5 s,2 MI others,ShallowConvNet,1,60.0
+10,without first 0.5 s,4 ME others,EEGNet,0,52.5
+10,without first 0.5 s,4 ME others,ShallowConvNet,0,52.5
+10,without first 0.5 s,4 ME others,EEGNet,1,61.66666666666667
+10,without first 0.5 s,4 ME others,ShallowConvNet,1,45.83333333333333
+10,pre-cue (-2 to 0 s),2 MI others,EEGNet,0,55.833333333333336
+10,pre-cue (-2 to 0 s),2 MI others,ShallowConvNet,0,44.99999999999999
+10,pre-cue (-2 to 0 s),2 MI others,EEGNet,1,47.5
+10,pre-cue (-2 to 0 s),2 MI others,ShallowConvNet,1,52.5
+10,pre-cue (-2 to 0 s),4 ME others,EEGNet,0,50.83333333333333
+10,pre-cue (-2 to 0 s),4 ME others,ShallowConvNet,0,55.00000000000001
+10,pre-cue (-2 to 0 s),4 ME others,EEGNet,1,50.83333333333333
+10,pre-cue (-2 to 0 s),4 ME others,ShallowConvNet,1,48.333333333333336
+10,central5 only,2 MI others,EEGNet,0,50.83333333333333
+10,central5 only,2 MI others,ShallowConvNet,0,58.333333333333336
+10,central5 only,2 MI others,EEGNet,1,57.49999999999999
+10,central5 only,2 MI others,ShallowConvNet,1,58.333333333333336
+10,central5 only,4 ME others,EEGNet,0,54.16666666666667
+10,central5 only,4 ME others,ShallowConvNet,0,55.00000000000001
+10,central5 only,4 ME others,EEGNet,1,55.833333333333336
+10,central5 only,4 ME others,ShallowConvNet,1,57.49999999999999
+10,parietal3 only,2 MI others,EEGNet,0,57.49999999999999
+10,parietal3 only,2 MI others,ShallowConvNet,0,51.66666666666667
+10,parietal3 only,2 MI others,EEGNet,1,54.16666666666667
+10,parietal3 only,2 MI others,ShallowConvNet,1,58.33333333333333
+10,parietal3 only,4 ME others,EEGNet,0,58.33333333333333
+10,parietal3 only,4 ME others,ShallowConvNet,0,56.66666666666666
+10,parietal3 only,4 ME others,EEGNet,1,53.333333333333336
+10,parietal3 only,4 ME others,ShallowConvNet,1,62.5
+10,shuffled training labels,2 MI others,EEGNet,0,57.49999999999999
+10,shuffled training labels,2 MI others,ShallowConvNet,0,51.66666666666666
+10,shuffled training labels,2 MI others,EEGNet,1,55.00000000000001
+10,shuffled training labels,2 MI others,ShallowConvNet,1,54.16666666666666
+10,shuffled training labels,4 ME others,EEGNet,0,50.0
+10,shuffled training labels,4 ME others,ShallowConvNet,0,37.5
+10,shuffled training labels,4 ME others,EEGNet,1,55.00000000000001
+10,shuffled training labels,4 ME others,ShallowConvNet,1,40.833333333333336
+11,without first 0.5 s,2 MI others,EEGNet,0,62.5
+11,without first 0.5 s,2 MI others,ShallowConvNet,0,80.0
+11,without first 0.5 s,2 MI others,EEGNet,1,80.83333333333333
+11,without first 0.5 s,2 MI others,ShallowConvNet,1,79.16666666666667
+11,without first 0.5 s,4 ME others,EEGNet,0,71.66666666666667
+11,without first 0.5 s,4 ME others,ShallowConvNet,0,73.33333333333334
+11,without first 0.5 s,4 ME others,EEGNet,1,75.83333333333333
+11,without first 0.5 s,4 ME others,ShallowConvNet,1,76.66666666666666
+11,pre-cue (-2 to 0 s),2 MI others,EEGNet,0,57.49999999999999
+11,pre-cue (-2 to 0 s),2 MI others,ShallowConvNet,0,62.5
+11,pre-cue (-2 to 0 s),2 MI others,EEGNet,1,45.0
+11,pre-cue (-2 to 0 s),2 MI others,ShallowConvNet,1,47.5
+11,pre-cue (-2 to 0 s),4 ME others,EEGNet,0,56.66666666666666
+11,pre-cue (-2 to 0 s),4 ME others,ShallowConvNet,0,61.66666666666667
+11,pre-cue (-2 to 0 s),4 ME others,EEGNet,1,37.5
+11,pre-cue (-2 to 0 s),4 ME others,ShallowConvNet,1,53.333333333333336
+11,central5 only,2 MI others,EEGNet,0,65.0
+11,central5 only,2 MI others,ShallowConvNet,0,65.83333333333333
+11,central5 only,2 MI others,EEGNet,1,61.66666666666667
+11,central5 only,2 MI others,ShallowConvNet,1,66.66666666666667
+11,central5 only,4 ME others,EEGNet,0,61.66666666666667
+11,central5 only,4 ME others,ShallowConvNet,0,70.83333333333334
+11,central5 only,4 ME others,EEGNet,1,74.16666666666667
+11,central5 only,4 ME others,ShallowConvNet,1,70.0
+11,parietal3 only,2 MI others,EEGNet,0,59.16666666666666
+11,parietal3 only,2 MI others,ShallowConvNet,0,66.66666666666666
+11,parietal3 only,2 MI others,EEGNet,1,48.33333333333333
+11,parietal3 only,2 MI others,ShallowConvNet,1,60.83333333333334
+11,parietal3 only,4 ME others,EEGNet,0,69.16666666666667
+11,parietal3 only,4 ME others,ShallowConvNet,0,73.33333333333334
+11,parietal3 only,4 ME others,EEGNet,1,69.16666666666667
+11,parietal3 only,4 ME others,ShallowConvNet,1,73.33333333333334
+11,shuffled training labels,2 MI others,EEGNet,0,59.16666666666666
+11,shuffled training labels,2 MI others,ShallowConvNet,0,65.83333333333333
+11,shuffled training labels,2 MI others,EEGNet,1,51.66666666666666
+11,shuffled training labels,2 MI others,ShallowConvNet,1,62.5
+11,shuffled training labels,4 ME others,EEGNet,0,40.833333333333336
+11,shuffled training labels,4 ME others,ShallowConvNet,0,47.5
+11,shuffled training labels,4 ME others,EEGNet,1,54.16666666666666
+11,shuffled training labels,4 ME others,ShallowConvNet,1,63.33333333333333
+12,without first 0.5 s,2 MI others,EEGNet,0,63.33333333333333
+12,without first 0.5 s,2 MI others,ShallowConvNet,0,65.83333333333333
+12,without first 0.5 s,2 MI others,EEGNet,1,65.0
+12,without first 0.5 s,2 MI others,ShallowConvNet,1,64.16666666666666
+12,without first 0.5 s,4 ME others,EEGNet,0,65.83333333333333
+12,without first 0.5 s,4 ME others,ShallowConvNet,0,65.83333333333333
+12,without first 0.5 s,4 ME others,EEGNet,1,67.5
+12,without first 0.5 s,4 ME others,ShallowConvNet,1,70.0
+12,pre-cue (-2 to 0 s),2 MI others,EEGNet,0,48.333333333333336
+12,pre-cue (-2 to 0 s),2 MI others,ShallowConvNet,0,34.166666666666664
+12,pre-cue (-2 to 0 s),2 MI others,EEGNet,1,55.00000000000001
+12,pre-cue (-2 to 0 s),2 MI others,ShallowConvNet,1,54.16666666666666
+12,pre-cue (-2 to 0 s),4 ME others,EEGNet,0,54.16666666666666
+12,pre-cue (-2 to 0 s),4 ME others,ShallowConvNet,0,48.33333333333333
+12,pre-cue (-2 to 0 s),4 ME others,EEGNet,1,54.16666666666667
+12,pre-cue (-2 to 0 s),4 ME others,ShallowConvNet,1,56.66666666666666
+12,central5 only,2 MI others,EEGNet,0,50.0
+12,central5 only,2 MI others,ShallowConvNet,0,64.99999999999999
+12,central5 only,2 MI others,EEGNet,1,57.49999999999999
+12,central5 only,2 MI others,ShallowConvNet,1,58.33333333333333
+12,central5 only,4 ME others,EEGNet,0,52.5
+12,central5 only,4 ME others,ShallowConvNet,0,68.33333333333333
+12,central5 only,4 ME others,EEGNet,1,55.00000000000001
+12,central5 only,4 ME others,ShallowConvNet,1,58.33333333333333
+12,parietal3 only,2 MI others,EEGNet,0,60.83333333333334
+12,parietal3 only,2 MI others,ShallowConvNet,0,65.83333333333333
+12,parietal3 only,2 MI others,EEGNet,1,59.16666666666666
+12,parietal3 only,2 MI others,ShallowConvNet,1,65.83333333333333
+12,parietal3 only,4 ME others,EEGNet,0,53.333333333333336
+12,parietal3 only,4 ME others,ShallowConvNet,0,49.16666666666667
+12,parietal3 only,4 ME others,EEGNet,1,57.49999999999999
+12,parietal3 only,4 ME others,ShallowConvNet,1,49.16666666666667
+12,shuffled training labels,2 MI others,EEGNet,0,50.0
+12,shuffled training labels,2 MI others,ShallowConvNet,0,53.333333333333336
+12,shuffled training labels,2 MI others,EEGNet,1,43.333333333333336
+12,shuffled training labels,2 MI others,ShallowConvNet,1,59.16666666666666
+12,shuffled training labels,4 ME others,EEGNet,0,54.16666666666666
+12,shuffled training labels,4 ME others,ShallowConvNet,0,47.5
+12,shuffled training labels,4 ME others,EEGNet,1,51.66666666666666
+12,shuffled training labels,4 ME others,ShallowConvNet,1,55.833333333333336
+13,without first 0.5 s,2 MI others,EEGNet,0,60.83333333333334
+13,without first 0.5 s,2 MI others,ShallowConvNet,0,47.5
+13,without first 0.5 s,2 MI others,EEGNet,1,54.16666666666666
+13,without first 0.5 s,2 MI others,ShallowConvNet,1,52.5
+13,without first 0.5 s,4 ME others,EEGNet,0,62.5
+13,without first 0.5 s,4 ME others,ShallowConvNet,0,55.00000000000001
+13,without first 0.5 s,4 ME others,EEGNet,1,59.16666666666666
+13,without first 0.5 s,4 ME others,ShallowConvNet,1,50.0
+13,pre-cue (-2 to 0 s),2 MI others,EEGNet,0,54.16666666666666
+13,pre-cue (-2 to 0 s),2 MI others,ShallowConvNet,0,45.83333333333333
+13,pre-cue (-2 to 0 s),2 MI others,EEGNet,1,47.5
+13,pre-cue (-2 to 0 s),2 MI others,ShallowConvNet,1,53.333333333333336
+13,pre-cue (-2 to 0 s),4 ME others,EEGNet,0,45.0
+13,pre-cue (-2 to 0 s),4 ME others,ShallowConvNet,0,43.333333333333336
+13,pre-cue (-2 to 0 s),4 ME others,EEGNet,1,55.00000000000001
+13,pre-cue (-2 to 0 s),4 ME others,ShallowConvNet,1,45.833333333333336
+13,central5 only,2 MI others,EEGNet,0,59.16666666666666
+13,central5 only,2 MI others,ShallowConvNet,0,50.0
+13,central5 only,2 MI others,EEGNet,1,60.00000000000001
+13,central5 only,2 MI others,ShallowConvNet,1,49.16666666666667
+13,central5 only,4 ME others,EEGNet,0,59.16666666666666
+13,central5 only,4 ME others,ShallowConvNet,0,53.333333333333336
+13,central5 only,4 ME others,EEGNet,1,60.0
+13,central5 only,4 ME others,ShallowConvNet,1,50.83333333333333
+13,parietal3 only,2 MI others,EEGNet,0,51.66666666666666
+13,parietal3 only,2 MI others,ShallowConvNet,0,53.333333333333336
+13,parietal3 only,2 MI others,EEGNet,1,47.5
+13,parietal3 only,2 MI others,ShallowConvNet,1,53.333333333333336
+13,parietal3 only,4 ME others,EEGNet,0,62.5
+13,parietal3 only,4 ME others,ShallowConvNet,0,54.16666666666667
+13,parietal3 only,4 ME others,EEGNet,1,65.0
+13,parietal3 only,4 ME others,ShallowConvNet,1,61.66666666666667
+13,shuffled training labels,2 MI others,EEGNet,0,46.66666666666666
+13,shuffled training labels,2 MI others,ShallowConvNet,0,48.333333333333336
+13,shuffled training labels,2 MI others,EEGNet,1,43.333333333333336
+13,shuffled training labels,2 MI others,ShallowConvNet,1,58.33333333333333
+13,shuffled training labels,4 ME others,EEGNet,0,44.99999999999999
+13,shuffled training labels,4 ME others,ShallowConvNet,0,49.16666666666666
+13,shuffled training labels,4 ME others,EEGNet,1,40.0
+13,shuffled training labels,4 ME others,ShallowConvNet,1,45.833333333333336
+14,without first 0.5 s,2 MI others,EEGNet,0,68.33333333333333
+14,without first 0.5 s,2 MI others,ShallowConvNet,0,71.66666666666667
+14,without first 0.5 s,2 MI others,EEGNet,1,71.66666666666667
+14,without first 0.5 s,2 MI others,ShallowConvNet,1,71.66666666666667
+14,without first 0.5 s,4 ME others,EEGNet,0,60.83333333333334
+14,without first 0.5 s,4 ME others,ShallowConvNet,0,64.16666666666667
+14,without first 0.5 s,4 ME others,EEGNet,1,66.66666666666667
+14,without first 0.5 s,4 ME others,ShallowConvNet,1,68.33333333333333
+14,pre-cue (-2 to 0 s),2 MI others,EEGNet,0,51.66666666666666
+14,pre-cue (-2 to 0 s),2 MI others,ShallowConvNet,0,57.49999999999999
+14,pre-cue (-2 to 0 s),2 MI others,EEGNet,1,46.66666666666666
+14,pre-cue (-2 to 0 s),2 MI others,ShallowConvNet,1,51.66666666666666
+14,pre-cue (-2 to 0 s),4 ME others,EEGNet,0,47.5
+14,pre-cue (-2 to 0 s),4 ME others,ShallowConvNet,0,46.66666666666666
+14,pre-cue (-2 to 0 s),4 ME others,EEGNet,1,46.66666666666666
+14,pre-cue (-2 to 0 s),4 ME others,ShallowConvNet,1,43.33333333333333
+14,central5 only,2 MI others,EEGNet,0,65.83333333333334
+14,central5 only,2 MI others,ShallowConvNet,0,67.5
+14,central5 only,2 MI others,EEGNet,1,69.16666666666667
+14,central5 only,2 MI others,ShallowConvNet,1,73.33333333333334
+14,central5 only,4 ME others,EEGNet,0,50.83333333333333
+14,central5 only,4 ME others,ShallowConvNet,0,50.0
+14,central5 only,4 ME others,EEGNet,1,57.49999999999999
+14,central5 only,4 ME others,ShallowConvNet,1,54.16666666666667
+14,parietal3 only,2 MI others,EEGNet,0,58.33333333333333
+14,parietal3 only,2 MI others,ShallowConvNet,0,61.66666666666667
+14,parietal3 only,2 MI others,EEGNet,1,61.66666666666667
+14,parietal3 only,2 MI others,ShallowConvNet,1,56.66666666666666
+14,parietal3 only,4 ME others,EEGNet,0,52.5
+14,parietal3 only,4 ME others,ShallowConvNet,0,56.66666666666666
+14,parietal3 only,4 ME others,EEGNet,1,54.16666666666666
+14,parietal3 only,4 ME others,ShallowConvNet,1,54.16666666666666
+14,shuffled training labels,2 MI others,EEGNet,0,47.5
+14,shuffled training labels,2 MI others,ShallowConvNet,0,44.16666666666666
+14,shuffled training labels,2 MI others,EEGNet,1,50.83333333333333
+14,shuffled training labels,2 MI others,ShallowConvNet,1,55.833333333333336
+14,shuffled training labels,4 ME others,EEGNet,0,58.33333333333333
+14,shuffled training labels,4 ME others,ShallowConvNet,0,44.16666666666666
+14,shuffled training labels,4 ME others,EEGNet,1,50.83333333333333
+14,shuffled training labels,4 ME others,ShallowConvNet,1,53.333333333333336
+15,without first 0.5 s,2 MI others,EEGNet,0,69.16666666666667
+15,without first 0.5 s,2 MI others,ShallowConvNet,0,82.5
+15,without first 0.5 s,2 MI others,EEGNet,1,82.5
+15,without first 0.5 s,2 MI others,ShallowConvNet,1,85.00000000000001
+15,without first 0.5 s,4 ME others,EEGNet,0,81.66666666666667
+15,without first 0.5 s,4 ME others,ShallowConvNet,0,85.00000000000001
+15,without first 0.5 s,4 ME others,EEGNet,1,77.49999999999999
+15,without first 0.5 s,4 ME others,ShallowConvNet,1,85.83333333333334
+15,pre-cue (-2 to 0 s),2 MI others,EEGNet,0,46.666666666666664
+15,pre-cue (-2 to 0 s),2 MI others,ShallowConvNet,0,39.166666666666664
+15,pre-cue (-2 to 0 s),2 MI others,EEGNet,1,49.16666666666667
+15,pre-cue (-2 to 0 s),2 MI others,ShallowConvNet,1,55.00000000000001
+15,pre-cue (-2 to 0 s),4 ME others,EEGNet,0,58.33333333333333
+15,pre-cue (-2 to 0 s),4 ME others,ShallowConvNet,0,48.333333333333336
+15,pre-cue (-2 to 0 s),4 ME others,EEGNet,1,44.166666666666664
+15,pre-cue (-2 to 0 s),4 ME others,ShallowConvNet,1,54.166666666666664
+15,central5 only,2 MI others,EEGNet,0,64.16666666666666
+15,central5 only,2 MI others,ShallowConvNet,0,79.16666666666667
+15,central5 only,2 MI others,EEGNet,1,70.0
+15,central5 only,2 MI others,ShallowConvNet,1,69.16666666666667
+15,central5 only,4 ME others,EEGNet,0,64.16666666666666
+15,central5 only,4 ME others,ShallowConvNet,0,72.50000000000001
+15,central5 only,4 ME others,EEGNet,1,67.5
+15,central5 only,4 ME others,ShallowConvNet,1,68.33333333333333
+15,parietal3 only,2 MI others,EEGNet,0,56.666666666666664
+15,parietal3 only,2 MI others,ShallowConvNet,0,53.333333333333336
+15,parietal3 only,2 MI others,EEGNet,1,67.5
+15,parietal3 only,2 MI others,ShallowConvNet,1,64.99999999999999
+15,parietal3 only,4 ME others,EEGNet,0,66.66666666666666
+15,parietal3 only,4 ME others,ShallowConvNet,0,62.5
+15,parietal3 only,4 ME others,EEGNet,1,61.66666666666667
+15,parietal3 only,4 ME others,ShallowConvNet,1,56.666666666666664
+15,shuffled training labels,2 MI others,EEGNet,0,40.833333333333336
+15,shuffled training labels,2 MI others,ShallowConvNet,0,57.49999999999999
+15,shuffled training labels,2 MI others,EEGNet,1,54.166666666666664
+15,shuffled training labels,2 MI others,ShallowConvNet,1,44.166666666666664
+15,shuffled training labels,4 ME others,EEGNet,0,40.833333333333336
+15,shuffled training labels,4 ME others,ShallowConvNet,0,46.666666666666664
+15,shuffled training labels,4 ME others,EEGNet,1,40.833333333333336
+15,shuffled training labels,4 ME others,ShallowConvNet,1,42.50000000000001

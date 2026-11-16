@@ -1,0 +1,79 @@
+
+===== A.2b-2 started 17:10:48 =====
+cache: /content/drive/MyDrive/classification_MI-ME/30_v06_pipeline/03_A2b_electrodes/cache
+cache loaded (0.4 min)
+fast LDA vs sklearn: same decisions in 100.0% of trials
+pairs 93/465 (3.0 min)
+pairs 186/465 (3.6 min)
+pairs 279/465 (4.2 min)
+pairs 372/465 (4.7 min)
+pairs 465/465 (5.4 min)
+size  2 done (5.4 min)
+size  3 done: 112 distinct candidate sets (6.2 min)
+size  4 done: 244 distinct candidate sets (9.1 min)
+size  5 done: 340 distinct candidate sets (15.2 min)
+size  6 done: 357 distinct candidate sets (23.4 min)
+size  7 done: 345 distinct candidate sets (33.3 min)
+size  8 done: 357 distinct candidate sets (46.1 min)
+size  9 done: 344 distinct candidate sets (60.7 min)
+size 10 done: 329 distinct candidate sets (77.4 min)
+size 11 done: 314 distinct candidate sets (96.2 min)
+size 12 done: 300 distinct candidate sets (117.9 min)
+size 13 done: 285 distinct candidate sets (141.6 min)
+size 14 done: 270 distinct candidate sets (167.4 min)
+size 15 done: 255 distinct candidate sets (195.5 min)
+size 16 done: 240 distinct candidate sets (225.5 min)
+outer fold  1 evaluated (226.4 min)
+outer fold  2 evaluated (227.3 min)
+outer fold  3 evaluated (228.2 min)
+outer fold  4 evaluated (229.1 min)
+outer fold  5 evaluated (229.9 min)
+outer fold  6 evaluated (230.8 min)
+outer fold  7 evaluated (231.7 min)
+outer fold  8 evaluated (232.6 min)
+outer fold  9 evaluated (233.6 min)
+outer fold 10 evaluated (236.1 min)
+outer fold 11 evaluated (237.0 min)
+outer fold 12 evaluated (237.9 min)
+outer fold 13 evaluated (238.8 min)
+outer fold 14 evaluated (239.7 min)
+outer fold 15 evaluated (240.6 min)
+
+=== A.2b-2: selection curve (ME others -> new person MI, T1, strict, balanced accuracy %) ===
+ sites  inner_mean  outer_mean  outer_median  n_above_50  p_vs_50  near_C3_mean  p_selected_vs_near_C3
+     2        56.6        53.7          51.7           9   0.0213           NaN                    NaN
+     3        57.7        54.2          55.0           9   0.0140           NaN                    NaN
+     4        59.8        56.4          56.7           9   0.0071          54.3                 0.5508
+     5        62.3        59.7          61.7          11   0.0038           NaN                    NaN
+     6        63.7        61.8          60.8          14   0.0004          55.5                 0.0238
+     7        65.0        61.9          60.0          13   0.0006           NaN                    NaN
+     8        65.8        61.0          60.0          13   0.0003          55.4                 0.0500
+     9        66.5        62.6          62.5          13   0.0008           NaN                    NaN
+    10        66.9        61.7          61.7          14   0.0004           NaN                    NaN
+    11        66.9        62.2          60.8          12   0.0010           NaN                    NaN
+    12        67.1        62.6          60.8          13   0.0006          58.9                 0.0532
+    13        67.0        62.8          62.5          15   0.0003           NaN                    NaN
+    14        66.8        61.3          60.0          14   0.0005           NaN                    NaN
+    15        66.8        61.1          60.8          14   0.0005           NaN                    NaN
+    16        66.6        60.1          60.8          14   0.0004          59.9                 0.8504
+references (A.2b-1): all61 58.3%, standard31 60.8%, frontal5 52.0%, eog3 50.7%
+
+=== one-SE rule ===
+chosen count per outer fold: {1: 8, 2: 12, 3: 8, 4: 8, 5: 6, 6: 8, 7: 8, 8: 6, 9: 8, 10: 12, 11: 8, 12: 8, 13: 8, 14: 12, 15: 12}
+honest estimate (each fold at its own count): mean 60.9%, median 60.0%, sd 9.2, min 48.3, max 77.5, above 50: 12/15, p = 0.0009
+
+=== consensus montage: 8 sites (most frequent count) ===
+Cz (13/15), P4 (13/15), CP3 (12/15), C1 (11/15), P3 (11/15), C2 (7/15), Pz (5/15), C6 (5/15)
+other sites at this count: P1 (5), CPz (4), CP6 (4), CP1 (3), CP2 (3), FC4 (3), C3 (2), CP5 (2), C4 (2), FCz (2), F3 (2), CP4 (2), FC6 (2), FC5 (2), F2 (1), C5 (1), F4 (1), FC2 (1), P2 (1)
+near-C3 montages: {4: ['FC3', 'C5', 'C3', 'CP3'], 6: ['FC3', 'C5', 'C3', 'C1', 'CP5', 'CP3'], 8: ['FC5', 'FC3', 'FC1', 'C5', 'C3', 'C1', 'CP5', 'CP3'], 12: ['F3', 'FC5', 'FC3', 'FC1', 'C5', 'C3', 'C1', 'Cz', 'CP5', 'CP3', 'CP1', 'P3'], 16: ['F3', 'F1', 'FC5', 'FC3', 'FC1', 'FCz', 'C5', 'C3', 'C1', 'Cz', 'CP5', 'CP3', 'CP1', 'CPz', 'P3', 'P1']}
+
+=== descriptive (fold-specific selections, mean %) ===
+size                    4     6     8     12    16
+analysis                                          
+ME->MI T1 recentered  60.4  64.6  65.3  66.2  66.6
+ME->MI T1 strict      56.4  61.8  61.0  62.6  60.1
+ME->MI T2 strict      51.9  53.1  50.8  51.3  53.1
+MI->MI T1 strict      59.8  63.8  62.0  62.4  64.1
+
+total time 240.9 min
+===== A.2b-2 FINISHED =====

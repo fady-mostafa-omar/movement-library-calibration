@@ -1,0 +1,43 @@
+===== A.10b started 21:04:29 =====
+GPU: NVIDIA L4
+data ready (0.0 min)
+person  1 done: strict 51.8, aligned all 53.5 (0.5 min)
+person  2 done: strict 67.7, aligned all 74.5 (0.9 min)
+person  3 done: strict 61.3, aligned all 69.0 (1.4 min)
+person  4 done: strict 81.8, aligned all 78.0 (1.7 min)
+person  5 done: strict 67.7, aligned all 71.7 (2.2 min)
+person  6 done: strict 74.2, aligned all 76.5 (2.6 min)
+person  7 done: strict 72.5, aligned all 65.7 (3.0 min)
+person  8 done: strict 57.7, aligned all 58.3 (3.5 min)
+person  9 done: strict 62.5, aligned all 56.7 (3.9 min)
+person 10 done: strict 52.8, aligned all 54.3 (4.5 min)
+person 11 done: strict 74.3, aligned all 72.5 (4.9 min)
+person 12 done: strict 68.2, aligned all 70.5 (5.3 min)
+person 13 done: strict 51.5, aligned all 62.0 (5.8 min)
+person 14 done: strict 66.3, aligned all 67.5 (6.3 min)
+person 15 done: strict 84.2, aligned all 81.8 (6.8 min)
+
+=== reproduction of A.4b-1 (ShallowConvNet, cell 4, seeds 0-1) ===
+  strict  : mean of seeds 0-1 now 66.6 vs A.4b-1 66.5; per subject-seed: identical in 28/30, max abs difference 5.0
+  aligned : mean of seeds 0-1 now 68.0 vs A.4b-1 67.9; per subject-seed: identical in 23/30, max abs difference 1.7
+
+=== A.10b: ShallowConvNet, others ME -> new person MI runs 6-10, fold-specific 8, mean of 15 people x 5 seeds ===
+method         mean  seed SD  median  >50    p>50 | TS+LDA  deep-TS      p
+strict         66.3      0.7    67.7   15  0.0000 |   61.0     +5.3  0.006
+aligned 10     67.4      0.4    67.0   15  0.0003 |   63.9     +3.4  0.055
+aligned 20     68.5      0.7    67.8   15  0.0000 |   64.4     +4.1  0.008
+aligned 30     68.3      0.3    68.0   15  0.0000 |   64.9     +3.4  0.048
+aligned 45     68.2      0.2    67.8   15  0.0000 |   63.7     +4.5  0.004
+aligned 60     68.1      0.5    68.5   15  0.0000 |   65.4     +2.7  0.064
+aligned all    67.5      0.6    69.0   15  0.0000 |   65.3     +2.2  0.229
+seed SD = SD across the 5 seeds of the group mean; TS+LDA = same budget (A.8 recentering; strict from A.9)
+
+=== equivalence with the TS+LDA full labelled calibration (67.1%), margin +/-5 points (TOST, 5-seed means) ===
+  ShallowConvNet strict       - own calibration:  -0.8 [90% CI  -5.1,  +3.5], p TOST = 0.055 -> not shown (within 5.1 points)
+  ShallowConvNet aligned 10   - own calibration:  +0.3 [90% CI  -3.5,  +4.0], p TOST = 0.022 -> EQUIVALENT (within 4.0 points)
+  ShallowConvNet aligned 30   - own calibration:  +1.2 [90% CI  -2.4,  +4.8], p TOST = 0.042 -> EQUIVALENT (within 4.8 points)
+  ShallowConvNet aligned 60   - own calibration:  +1.0 [90% CI  -2.7,  +4.7], p TOST = 0.038 -> EQUIVALENT (within 4.7 points)
+  ShallowConvNet aligned all  - own calibration:  +0.4 [90% CI  -3.6,  +4.4], p TOST = 0.030 -> EQUIVALENT (within 4.4 points)
+
+total time 6.8 min
+===== A.10b FINISHED =====

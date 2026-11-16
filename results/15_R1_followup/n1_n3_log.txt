@@ -1,0 +1,128 @@
+===== R.1 follow-up N1-N3 started 21:33:40 =====
+A.2b cache loaded (0.0 min)
+T1 classes: ['hand_close', 'hand_open'] vs rest; movement label = 1
+fold-specific montages from A2b2_state.json/paths
+subject 1 done (cache check max difference 4.5e-05; nested choice P4) (0.4 min)
+subject 2 done (cache check max difference 1.9e-04; nested choice P1) (0.9 min)
+subject 3 done (cache check max difference 3.3e-05; nested choice P1) (1.3 min)
+subject 4 done (cache check max difference 9.2e-05; nested choice P1) (1.7 min)
+subject 5 done (cache check max difference 5.8e-05; nested choice P3) (2.2 min)
+subject 6 done (cache check max difference 9.5e-05; nested choice P3) (2.6 min)
+subject 7 done (cache check max difference 1.4e-04; nested choice P1) (3.1 min)
+subject 8 done (cache check max difference 6.2e-05; nested choice P7) (3.6 min)
+subject 9 done (cache check max difference 1.1e-04; nested choice P7) (4.1 min)
+subject 10 done (cache check max difference 3.3e-04; nested choice P5) (4.6 min)
+subject 11 done (cache check max difference 2.8e-04; nested choice P1) (5.1 min)
+subject 12 done (cache check max difference 1.5e-04; nested choice P1) (5.5 min)
+subject 13 done (cache check max difference 3.9e-03; nested choice P5) (6.0 min)
+subject 14 done (cache check max difference 1.6e-05; nested choice P3) (6.4 min)
+subject 15 done (cache check max difference 3.3e-05; nested choice P1) (6.9 min)
+
+=== anchors (must match earlier steps within 0.3 points) ===
+  strict            61.0  (earlier 61.0)  OK
+  rec10             63.9  (earlier 63.9)  OK
+  rec60             65.4  (earlier 65.4)  OK
+  recall            65.3  (earlier 65.3)  OK
+  hyb60             66.3  (earlier 66.3)  OK
+  cell2             62.0  (earlier 62.0)  OK
+  cell3             62.7  (earlier 62.7)  OK
+  own_P0            67.1  (earlier 67.1)  OK
+  own_P2            65.6  (earlier 65.6)  OK
+  1020_6_strict     61.2  (earlier 61.2)  OK
+  1020_6_rec60      63.7  (earlier 63.7)  OK
+  1020_6_own        66.3  (earlier 66.3)  OK
+  1020_9_strict     60.0  (earlier 60.0)  OK
+  1020_9_rec60      62.9  (earlier 62.9)  OK
+  1020_9_own        68.2  (earlier 68.2)  OK
+  deep_strict       66.3  (earlier 66.3)  OK
+  deep_al10         67.4  (earlier 67.4)  OK
+  deep_al60         68.1  (earlier 68.1)  OK
+ALL ANCHORS OK
+
+=== N1: own labelled calibration (MI runs 1-5 -> runs 6-10), balanced accuracy %, mean of 15 ===
+candidate                                              description  mean         ci95  minus_P0  p_vs_P0  loro_mean
+       P0 TS+LDA, fold-specific 8 sites, 0-3 s (current reference)  67.1 [61.9, 72.3]       0.0      NaN       65.1
+       P1        TS+LDA, fold-specific 8 sites, windows from 1.0 s  75.8 [70.4, 81.2]       8.7    0.001       71.0
+       P2                                  TS+LDA, 31 sites, 0-3 s  65.6 [60.7, 70.4]      -1.6    0.334       62.4
+       P3                     TS+LDA, 31 sites, windows from 1.0 s  70.1 [65.1, 75.2]       3.0    0.111       67.9
+       P4      low-frequency amplitudes (Ofner-style), 61 channels  62.9 [59.8, 66.1]      -4.2    0.084       63.3
+       P5         low-frequency amplitudes (Ofner-style), 31 sites  63.0 [59.5, 66.5]      -4.1    0.084       62.4
+       P6       FBCSP (7 bands x 4 filters) + LDA, 31 sites, 0-3 s  59.3 [56.0, 62.7]      -7.8    0.003       58.5
+       P7       FBCSP (7 bands x 4 filters) + LDA, 31 sites, 1-3 s  68.4 [64.7, 72.2]       1.3    0.449       67.3
+   nested       per-person choice by leave-one-run-out in runs 1-5  73.1 [68.0, 78.1]       5.9    0.010        NaN
+nested choice per person: {'P4': 1, 'P1': 7, 'P3': 3, 'P7': 2, 'P5': 2}
+upper bound (best candidate chosen on the test runs, optimistic): P1, 75.8%
+pre-specified rule: nested reference - P0 = +5.9 points -> the nested reference becomes the primary reference (gap >= 2)
+
+=== N3: equivalence families ===
+
+--- A: TS+LDA (A.9) (TOST ±5 points, t-based; Holm within this family) ---
+comparison                                     diff           90% CI       p  Holm p  within verdict
+recentered 60 - own (P0)                       -1.7     [-5.0, +1.6]   0.051   0.254     5.0 not shown
+recentered all - own (P0)                      -1.8     [-5.3, +1.6]   0.064   0.257     5.3 not shown
+recentered 10 - own (P0)                       -3.2     [-6.2, -0.1]   0.153   0.305     6.2 not shown
+hybrid 60 - own (P0)                           -0.8     [-3.2, +1.6]   0.004   0.028     3.2 equivalent
+zero calibration - own (P0)                    -6.1     [-9.7, -2.5]   0.703   0.703     9.7 not shown
+cell 4 - cell 2                                -1.0     [-4.7, +2.7]   0.038   0.231     4.7 not shown
+cell 4 - cell 3                                -1.7     [-6.0, +2.5]   0.098   0.295     6.0 not shown
+
+--- B: ShallowConvNet (A.10) (TOST ±5 points, t-based; Holm within this family) ---
+comparison                                     diff           90% CI       p  Holm p  within verdict
+ShallowConvNet zero calibration - own (P0)     -0.8     [-5.1, +3.5]   0.055   0.120     5.1 not shown
+ShallowConvNet aligned 30 - own (P0)           +1.2     [-2.4, +4.8]   0.042   0.120     4.8 not shown
+ShallowConvNet aligned 60 - own (P0)           +1.0     [-2.7, +4.7]   0.038   0.120     4.7 not shown
+ShallowConvNet aligned all - own (P0)          +0.4     [-3.6, +4.4]   0.030   0.120     4.4 not shown
+ShallowConvNet aligned 10 - own (P0)           +0.3     [-3.5, +4.0]   0.022   0.108     4.0 not shown
+
+--- C: 10-20 sets vs selected 8 (Table 3) (TOST ±5 points, t-based; Holm within this family) ---
+comparison                                     diff           90% CI       p  Holm p  within verdict
+1020_6 strict - selected 8                     +0.2     [-2.6, +3.1]   0.005   0.030     3.1 equivalent
+1020_6 rec60 - selected 8                      -1.7     [-4.9, +1.4]   0.043   0.106     4.9 not shown
+1020_6 own - selected 8                        -0.8     [-4.0, +2.3]   0.018   0.070     4.0 not shown
+1020_9 strict - selected 8                     -1.0     [-4.6, +2.6]   0.035   0.106     4.6 not shown
+1020_9 rec60 - selected 8                      -2.4     [-5.5, +0.6]   0.083   0.106     5.5 not shown
+1020_9 own - selected 8                        +1.1     [-1.6, +3.8]   0.012   0.059     3.8 not shown
+Table 3 Wilcoxon p (tie-robust): 1020_6 strict 0.900, 1020_6 rec60 0.166, 1020_6 own 0.649, 1020_9 strict 0.950, 1020_9 rec60 0.211, 1020_9 own 0.469
+
+--- D: vs the nested reference (TOST ±5 points, t-based; Holm within this family) ---
+comparison                                     diff           90% CI       p  Holm p  within verdict
+TS+LDA zero calibration - nested ref          -12.1    [-14.5, -9.6]   1.000   1.000    14.5 not shown
+TS+LDA recentered 10 - nested ref              -9.1    [-11.9, -6.3]   0.989   1.000    11.9 not shown
+TS+LDA recentered 60 - nested ref              -7.7    [-10.7, -4.6]   0.926   1.000    10.7 not shown
+TS+LDA recentered all - nested ref             -7.8    [-11.1, -4.5]   0.919   1.000    11.1 not shown
+TS+LDA hybrid 60 - nested ref                  -6.7     [-9.8, -3.7]   0.831   1.000     9.8 not shown
+ShallowConvNet zero calibration - nested ref   -6.8    [-10.2, -3.3]   0.809   1.000    10.2 not shown
+ShallowConvNet aligned 10 - nested ref         -5.7     [-8.6, -2.7]   0.651   1.000     8.6 not shown
+ShallowConvNet aligned 30 - nested ref         -4.8     [-7.6, -1.9]   0.444   1.000     7.6 not shown
+ShallowConvNet aligned 60 - nested ref         -5.0     [-8.0, -1.9]   0.495   1.000     8.0 not shown
+ShallowConvNet aligned all - nested ref        -5.6     [-8.8, -2.4]   0.618   1.000     8.8 not shown
+
+--- E: vs the upper bound (P1, optimistic) (TOST ±5 points, t-based; Holm within this family) ---
+comparison                                     diff           90% CI       p  Holm p  within verdict
+TS+LDA zero calibration - P1                  -14.8   [-18.3, -11.3]   1.000   1.000    18.3 not shown
+TS+LDA recentered 10 - P1                     -11.8    [-15.1, -8.5]   0.999   1.000    15.1 not shown
+TS+LDA recentered 60 - P1                     -10.4    [-13.6, -7.1]   0.994   1.000    13.6 not shown
+TS+LDA recentered all - P1                    -10.5    [-14.2, -6.8]   0.990   1.000    14.2 not shown
+TS+LDA hybrid 60 - P1                          -9.4    [-12.6, -6.3]   0.987   1.000    12.6 not shown
+ShallowConvNet zero calibration - P1           -9.5    [-13.8, -5.1]   0.954   1.000    13.8 not shown
+ShallowConvNet aligned 10 - P1                 -8.4    [-12.2, -4.6]   0.930   1.000    12.2 not shown
+ShallowConvNet aligned 30 - P1                 -7.5    [-11.5, -3.5]   0.853   1.000    11.5 not shown
+ShallowConvNet aligned 60 - P1                 -7.7    [-11.8, -3.6]   0.865   1.000    11.8 not shown
+ShallowConvNet aligned all - P1                -8.3    [-12.4, -4.2]   0.908   1.000    12.4 not shown
+
+=== N2: specificity of the zero-calibration detector (new person's MI runs 6-10; % of trials detected as movement) ===
+
+strict: hand 64.2 | rest 42.2 | other arm movements 61.3 (elbow_extension 56.2, elbow_flexion 62.7, pronation 63.8, supination 62.7); about 120 trials per person
+  other arm - hand: -2.9 (p = 0.046); other arm - rest: +19.1 (p = 0.001)
+  pre-specified verdict: partly specific (below hand, but closer to hand than to rest)
+
+rec60: hand 75.7 | rest 44.9 | other arm movements 70.0 (elbow_extension 69.1, elbow_flexion 68.0, pronation 73.6, supination 69.3); about 120 trials per person
+  other arm - hand: -5.7 (p = 0.009); other arm - rest: +25.1 (p = 0.001)
+  pre-specified verdict: partly specific (below hand, but closer to hand than to rest)
+
+=== check: A.11 ShallowConvNet at K = 12 vs the repeat run and A.10b (seeds/repeats 0-2) ===
+  library columns: ['subject', 'K', 'rep', 'mode', 'bal_acc', 'best_epoch']
+  strict     : A.11 K=12 66.33 | repeat run seeds 0-2 66.33 | A.10b seeds 0-2 66.44 | A.10b 5 seeds 66.30
+  aligned 60 : A.11 K=12 68.09 | repeat run seeds 0-2 68.09 | A.10b seeds 0-2 68.33 | A.10b 5 seeds 68.08
+total time (6.9 min)
+===== R.1 follow-up N1-N3 FINISHED =====

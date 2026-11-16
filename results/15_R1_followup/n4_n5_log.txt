@@ -1,0 +1,68 @@
+===== R.1 follow-up N5 + N4 started 22:05:21 =====
+A.2b cache loaded (1.0 min)
+T1 classes: ['hand_close', 'hand_open'] vs rest; movement label = 1
+fold-specific montages from A2b2_state.json/paths
+N5 curves done (1.5 min)
+
+=== N5 anchors (0-3 s must reproduce A.8; from 1.0 s must reproduce N1 P1 and A.13a) ===
+  0-3 s own labelled              56.5  59.7  61.3  63.4  64.4  67.1   (A.8 56.5/59.7/61.3/63.4/64.4/67.1)  OK
+  0-3 s others ME + recentering   63.9  64.4  64.9  63.7  65.4  65.3   (A.8 63.9/64.4/64.9/63.7/65.4/65.3)  OK
+  0-3 s hybrid                    65.5  64.9  65.2  63.6  66.3  66.0   (A.8 65.5/64.9/65.2/63.6/66.3/66.0)  OK
+  0-3 s strict                      61.0  (earlier 61.0)  OK
+  from 1.0 s own labelled, all      75.8  (earlier 75.8)  OK
+  from 1.0 s recentered 60          68.6  (earlier 68.6)  OK
+ALL N5 ANCHORS OK
+
+=== N5: balanced accuracy vs labelled budget (windows from 1.0 s; mean of the people with both classes; n in brackets) ===
+budget |     own labelled | others + recentering |   hybrid
+    10 |      58.2 (n=13) |                 68.6 |     70.1
+    20 |      65.6 (n=15) |                 68.9 |     71.6
+    30 |      68.3 (n=15) |                 68.6 |     73.1
+    45 |      72.9 (n=15) |                 68.9 |     73.4
+    60 |      73.8 (n=15) |                 68.6 |     74.2
+   all |      75.8 (n=15) |                 69.4 |     75.2
+others ME strict, from 1.0 s: 64.6
+
+=== N5 outcome: labelled budget at which the strong own calibration (from 1.0 s) first matches each mode (group means) ===
+  TS+LDA zero calibration, 0-3 s (primary pipeline)     61.0%  -> matched at 20 labelled trials
+      own (from 1.0 s) - mode, 95% CI: 10: -3.7 [-9.8, +2.4] | 20: +4.6 [-0.2, +9.4] | 30: +7.3 [+3.5, +11.1] | 45: +11.9 [+8.4, +15.4] | 60: +12.8 [+8.9, +16.7] | all: +14.8 [+10.5, +19.1]
+  TS+LDA zero calibration, from 1.0 s                   64.6%  -> matched at 20 labelled trials
+      own (from 1.0 s) - mode, 95% CI: 10: -7.8 [-13.7, -1.9] | 20: +1.1 [-3.5, +5.6] | 30: +3.8 [+0.2, +7.3] | 45: +8.3 [+4.9, +11.7] | 60: +9.2 [+5.5, +12.9] | all: +11.2 [+7.1, +15.3]
+  TS+LDA recentered 60, from 1.0 s                      68.6%  -> matched at 45 labelled trials
+      own (from 1.0 s) - mode, 95% CI: 10: -11.8 [-18.0, -5.6] | 20: -2.9 [-7.1, +1.2] | 30: -0.2 [-4.3, +3.9] | 45: +4.3 [+0.3, +8.3] | 60: +5.2 [+1.0, +9.4] | all: +7.2 [+2.3, +12.2]
+  TS+LDA hybrid 60, from 1.0 s                          74.2%  -> matched at all labelled trials
+      own (from 1.0 s) - mode, 95% CI: 10: -17.5 [-23.4, -11.6] | 20: -8.6 [-12.8, -4.3] | 30: -5.8 [-8.7, -2.9] | 45: -1.3 [-4.7, +2.1] | 60: -0.4 [-3.1, +2.3] | all: +1.6 [-2.4, +5.6]
+  ShallowConvNet zero calibration                       66.3%  -> matched at 30 labelled trials
+      own (from 1.0 s) - mode, 95% CI: 10: -9.6 [-16.7, -2.5] | 20: -0.7 [-6.4, +5.0] | 30: +2.0 [-2.9, +7.0] | 45: +6.6 [+2.1, +11.0] | 60: +7.5 [+2.5, +12.4] | all: +9.5 [+4.2, +14.8]
+  ShallowConvNet aligned 10                             67.4%  -> matched at 30 labelled trials
+      own (from 1.0 s) - mode, 95% CI: 10: -10.3 [-15.9, -4.6] | 20: -1.8 [-7.3, +3.8] | 30: +0.9 [-4.0, +5.9] | 45: +5.5 [+0.6, +10.4] | 60: +6.4 [+1.6, +11.2] | all: +8.4 [+3.7, +13.0]
+  ShallowConvNet aligned 60                             68.1%  -> matched at 30 labelled trials
+      own (from 1.0 s) - mode, 95% CI: 10: -10.3 [-16.3, -4.4] | 20: -2.5 [-8.2, +3.3] | 30: +0.3 [-4.6, +5.1] | 45: +4.8 [-0.1, +9.8] | 60: +5.7 [+0.8, +10.6] | all: +7.7 [+2.7, +12.7]
+
+GPU: NVIDIA L4
+cache_ts keys: ['X31', 'r4m', 'run', 'y'] | X31 shape (MI, person 1): (180, 31, 384)
+EOG channels: ['eog-l', 'eog-m', 'eog-r']
+  filter variant zi=True: largest relative difference to cache_ts 3.08e-08
+  filter variant zi=False: largest relative difference to cache_ts 3.51e-04
+EOG epochs built for 30 sessions (filter variant zi=True)
+N4 person 1 done (4.6 min)
+N4 person 2 done (4.8 min)
+N4 person 3 done (4.9 min)
+N4 person 4 done (5.1 min)
+N4 person 5 done (5.3 min)
+N4 person 6 done (5.5 min)
+N4 person 7 done (5.7 min)
+N4 person 8 done (5.9 min)
+N4 person 9 done (6.0 min)
+N4 person 10 done (6.2 min)
+N4 person 11 done (6.4 min)
+N4 person 12 done (6.5 min)
+N4 person 13 done (6.7 min)
+N4 person 14 done (6.9 min)
+N4 person 15 done (7.0 min)
+
+=== N4: ShallowConvNet controls (cell 4, strict, seeds 0-1; mean of 15 people) ===
+  frontal 5 only    51.9 [49.1, 54.6]  above 50%: one-sided p = 0.053  -> PASSES (rule: mean < 55% and p >= 0.05)
+  EOG 3 only        51.0 [49.4, 52.5]  above 50%: one-sided p = 0.051  -> PASSES (rule: mean < 55% and p >= 0.05)
+total time (7.0 min)
+===== R.1 follow-up N5 + N4 FINISHED =====

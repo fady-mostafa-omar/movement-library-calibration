@@ -1,0 +1,8 @@
+mode,mean,matched_at
+"TS+LDA zero calibration, 0-3 s (primary pipeline)",61.0,20
+"TS+LDA zero calibration, from 1.0 s",64.55555555555556,20
+"TS+LDA recentered 60, from 1.0 s",68.55555555555557,45
+"TS+LDA hybrid 60, from 1.0 s",74.16666666666667,all
+ShallowConvNet zero calibration,66.30000000000001,30
+ShallowConvNet aligned 10,67.3888888888889,30
+ShallowConvNet aligned 60,68.07777777777777,30

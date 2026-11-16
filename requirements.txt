@@ -1,0 +1,11 @@
+# Packages imported by the code, with the versions of the Google Colab runtime used for the verification run
+# (Python 3.13.18, 2026-11-16). The final analysis run used Python 3.13, NumPy 2.4,
+# SciPy 1.16, scikit-learn 1.6 and PyTorch 2.14 (paper, Section 2.12).
+matplotlib==3.10.0
+mne==1.13.2
+numpy==2.4.6
+pandas==2.2.3
+pillow==11.3.0
+scikit-learn==1.6.1
+scipy==1.16.3
+torch==2.14.1

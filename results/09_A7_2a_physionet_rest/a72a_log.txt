@@ -1,0 +1,69 @@
+===== A.7-2a started 15:56:25 =====
+GPU: NVIDIA L4
+cache keys: {'bb': ((174, 64, 640), 'float16'), 'kind': ((174,), '<U5'), 'cond': ((174,), '<U2'), 'run': ((174,), 'int64'), 'f_all64_full': ((174, 4032), 'float32'), 'f_noeye39_full': ((174, 1482), 'float32'), 'f_eye25_full': ((174, 600), 'float32'), 'f_motor21_full': ((174, 420), 'float32'), 'f_pool31_full': ((174, 930), 'float32'), 'f_cons8_full': ((174, 56), 'float32'), 'f_nearC3_8_full': ((174, 56), 'float32'), 'f_all64_post': ((174, 4032), 'float32'), 'f_noeye39_post': ((174, 1482), 'float32'), 'f_rand25_0_post': ((174, 1482), 'float32'), 'f_rand25_1_post': ((174, 1482), 'float32'), 'f_rand25_2_post': ((174, 1482), 'float32')}
+kind values: ['left', 'rest', 'right'] | cond values: ['ME', 'MI']
+TS+LDA feature keys: {'cons8': ['f_cons8_full'], 'pool31': ['f_pool31_full'], 'all64': ['f_all64_full'], 'nearC3_8': ['f_nearC3_8_full']}
+subjects ready: 106 (skipped: none); per subject: ME 65 epochs (22 right), MI test (runs 8+12) 43 (15 right) (0.1 min)
+fast LDA vs sklearn: same decisions in 100.0% of trials
+TS+LDA cons8 strict done (0.1 min)
+TS+LDA pool31 strict done (0.3 min)
+TS+LDA all64 strict done (0.8 min)
+TS+LDA nearC3_8 strict done (0.8 min)
+TS+LDA cons8 recentered done (0.8 min)
+TS+LDA pool31 recentered done (0.9 min)
+TS+LDA all64 recentered done (1.3 min)
+TS+LDA nearC3_8 recentered done (1.3 min)
+TS+LDA cons8 strict shuffled done (1.3 min)
+ShallowConvNet cons8 strict done (2.8 min)
+ShallowConvNet cons8 strict post done (3.7 min)
+ShallowConvNet cons8 strict shuffled done (4.8 min)
+ShallowConvNet central5 strict done (5.9 min)
+ShallowConvNet parietal3 strict done (7.1 min)
+ShallowConvNet occ5 strict done (8.2 min)
+ShallowConvNet nearC3_8 strict done (9.4 min)
+ShallowConvNet pool31 strict done (14.0 min)
+ShallowConvNet all64 strict done (23.3 min)
+ShallowConvNet cons8 aligned done (24.2 min)
+ShallowConvNet nearC3_8 aligned done (25.0 min)
+ShallowConvNet pool31 aligned done (28.9 min)
+ShallowConvNet all64 aligned done (37.0 min)
+
+=== A.7-2a: PhysioNet, right fist vs rest, zero-calibration ME->MI, test = MI runs 8+12, balanced accuracy % ===
+         model             condition   n  mean  median  n_above_50  p_vs_50
+        TS+LDA          cons8 strict 106  62.2    60.7          85   0.0000
+        TS+LDA         pool31 strict 106  63.4    62.4          89   0.0000
+        TS+LDA          all64 strict 106  64.9    64.5          96   0.0000
+        TS+LDA       nearC3_8 strict 106  59.3    57.1          81   0.0000
+        TS+LDA      cons8 recentered 106  66.0    66.4          94   0.0000
+        TS+LDA     pool31 recentered 106  69.0    68.6          96   0.0000
+        TS+LDA      all64 recentered 106  70.1    67.9         103   0.0000
+        TS+LDA   nearC3_8 recentered 106  66.7    66.1          91   0.0000
+        TS+LDA cons8 strict shuffled 106  50.9    50.0          52   0.1464
+ShallowConvNet          cons8 strict 106  69.7    69.2         102   0.0000
+ShallowConvNet     cons8 strict post 106  68.3    68.4          96   0.0000
+ShallowConvNet cons8 strict shuffled 106  51.0    50.0          50   0.2522
+ShallowConvNet       central5 strict 106  68.4    67.9          97   0.0000
+ShallowConvNet      parietal3 strict 106  58.3    57.0          83   0.0000
+ShallowConvNet           occ5 strict 106  65.9    66.2          95   0.0000
+ShallowConvNet       nearC3_8 strict 106  65.4    65.4          94   0.0000
+ShallowConvNet         pool31 strict 106  71.0    72.5          98   0.0000
+ShallowConvNet          all64 strict 106  72.5    73.8         101   0.0000
+ShallowConvNet         cons8 aligned 106  67.7    67.7          94   0.0000
+ShallowConvNet      nearC3_8 aligned 106  66.6    66.0          91   0.0000
+ShallowConvNet        pool31 aligned 106  68.3    67.9          96   0.0000
+ShallowConvNet         all64 aligned 106  71.8    71.4         104   0.0000
+
+=== pre-specified verdict (approved 10 Nov 2026): ShallowConvNet, our 8 sites, strict ===
+mean 69.7% (>= 60: yes); above chance p = 0.0000 (yes)
+shuffled labels 51.0%, p = 0.2522 (at chance: yes)
+without first 0.5 s 68.3% (drop 1.4; <= 2: yes)
+central 5 alone 68.4% (p = 0.0000); occipital 5 alone 65.9% (p = 0.0000); central minus occipital +2.5, p = 0.0798 (central higher: NO)
+-> FAILS
+montage: our 8 minus near-C3 8 = +4.3 points -> not Ofner-specific
+ShallowConvNet: cons8 aligned minus cons8 strict = -2.0 points (p = 0.0210)
+TS+LDA: cons8 recentered minus cons8 strict = +3.9 points (p = 0.0006)
+ShallowConvNet: all64 strict minus cons8 strict = +2.8 points (p = 0.0026)
+TS+LDA shuffled labels: 50.9%, p = 0.1464
+reference: A.7-1 left vs right, all 64, ShallowConvNet 81.0%; Ofner T1 cell 4, ShallowConvNet 66.5%
+total time (37.0 min)
+===== A.7-2a FINISHED =====

@@ -1,0 +1,513 @@
+filter,centre,rounding,latency_mean,subject,cond,task,loro,key,match
+ba order 4,1/16 s,absolute,all,1,ME,mov_vs_mov,62.5,62.5,True
+ba order 4,1/16 s,absolute,all,1,ME,mov_vs_rest,89.9,89.9,True
+ba order 4,1/16 s,absolute,clean,1,ME,mov_vs_mov,62.5,62.5,True
+ba order 4,1/16 s,absolute,clean,1,ME,mov_vs_rest,90.1,89.9,False
+ba order 4,1/16 s,relative,all,1,ME,mov_vs_mov,62.8,62.5,False
+ba order 4,1/16 s,relative,all,1,ME,mov_vs_rest,89.9,89.9,True
+ba order 4,1/16 s,relative,clean,1,ME,mov_vs_mov,62.8,62.5,False
+ba order 4,1/16 s,relative,clean,1,ME,mov_vs_rest,89.9,89.9,True
+ba order 4,rounded,absolute,all,1,ME,mov_vs_mov,62.5,62.5,True
+ba order 4,rounded,absolute,all,1,ME,mov_vs_rest,89.8,89.9,False
+ba order 4,rounded,absolute,clean,1,ME,mov_vs_mov,62.5,62.5,True
+ba order 4,rounded,absolute,clean,1,ME,mov_vs_rest,89.9,89.9,True
+ba order 4,rounded,relative,all,1,ME,mov_vs_mov,63.4,62.5,False
+ba order 4,rounded,relative,all,1,ME,mov_vs_rest,90.1,89.9,False
+ba order 4,rounded,relative,clean,1,ME,mov_vs_mov,63.4,62.5,False
+ba order 4,rounded,relative,clean,1,ME,mov_vs_rest,89.9,89.9,True
+ba order 2,1/16 s,absolute,all,1,ME,mov_vs_mov,61.9,62.5,False
+ba order 2,1/16 s,absolute,all,1,ME,mov_vs_rest,89.5,89.9,False
+ba order 2,1/16 s,absolute,clean,1,ME,mov_vs_mov,61.9,62.5,False
+ba order 2,1/16 s,absolute,clean,1,ME,mov_vs_rest,88.6,89.9,False
+ba order 2,1/16 s,relative,all,1,ME,mov_vs_mov,62.1,62.5,False
+ba order 2,1/16 s,relative,all,1,ME,mov_vs_rest,88.5,89.9,False
+ba order 2,1/16 s,relative,clean,1,ME,mov_vs_mov,62.1,62.5,False
+ba order 2,1/16 s,relative,clean,1,ME,mov_vs_rest,88.5,89.9,False
+ba order 2,rounded,absolute,all,1,ME,mov_vs_mov,62.4,62.5,False
+ba order 2,rounded,absolute,all,1,ME,mov_vs_rest,88.6,89.9,False
+ba order 2,rounded,absolute,clean,1,ME,mov_vs_mov,62.4,62.5,False
+ba order 2,rounded,absolute,clean,1,ME,mov_vs_rest,88.4,89.9,False
+ba order 2,rounded,relative,all,1,ME,mov_vs_mov,63.3,62.5,False
+ba order 2,rounded,relative,all,1,ME,mov_vs_rest,88.8,89.9,False
+ba order 2,rounded,relative,clean,1,ME,mov_vs_mov,63.3,62.5,False
+ba order 2,rounded,relative,clean,1,ME,mov_vs_rest,89.2,89.9,False
+sos order 4,1/16 s,absolute,all,1,ME,mov_vs_mov,62.5,62.5,True
+sos order 4,1/16 s,absolute,all,1,ME,mov_vs_rest,89.9,89.9,True
+sos order 4,1/16 s,absolute,clean,1,ME,mov_vs_mov,62.5,62.5,True
+sos order 4,1/16 s,absolute,clean,1,ME,mov_vs_rest,90.1,89.9,False
+sos order 4,1/16 s,relative,all,1,ME,mov_vs_mov,62.8,62.5,False
+sos order 4,1/16 s,relative,all,1,ME,mov_vs_rest,89.9,89.9,True
+sos order 4,1/16 s,relative,clean,1,ME,mov_vs_mov,62.8,62.5,False
+sos order 4,1/16 s,relative,clean,1,ME,mov_vs_rest,89.9,89.9,True
+sos order 4,rounded,absolute,all,1,ME,mov_vs_mov,62.5,62.5,True
+sos order 4,rounded,absolute,all,1,ME,mov_vs_rest,89.8,89.9,False
+sos order 4,rounded,absolute,clean,1,ME,mov_vs_mov,62.5,62.5,True
+sos order 4,rounded,absolute,clean,1,ME,mov_vs_rest,89.9,89.9,True
+sos order 4,rounded,relative,all,1,ME,mov_vs_mov,63.4,62.5,False
+sos order 4,rounded,relative,all,1,ME,mov_vs_rest,90.1,89.9,False
+sos order 4,rounded,relative,clean,1,ME,mov_vs_mov,63.4,62.5,False
+sos order 4,rounded,relative,clean,1,ME,mov_vs_rest,89.9,89.9,True
+sos order 2,1/16 s,absolute,all,1,ME,mov_vs_mov,61.9,62.5,False
+sos order 2,1/16 s,absolute,all,1,ME,mov_vs_rest,89.5,89.9,False
+sos order 2,1/16 s,absolute,clean,1,ME,mov_vs_mov,61.9,62.5,False
+sos order 2,1/16 s,absolute,clean,1,ME,mov_vs_rest,88.6,89.9,False
+sos order 2,1/16 s,relative,all,1,ME,mov_vs_mov,62.1,62.5,False
+sos order 2,1/16 s,relative,all,1,ME,mov_vs_rest,88.5,89.9,False
+sos order 2,1/16 s,relative,clean,1,ME,mov_vs_mov,62.1,62.5,False
+sos order 2,1/16 s,relative,clean,1,ME,mov_vs_rest,88.5,89.9,False
+sos order 2,rounded,absolute,all,1,ME,mov_vs_mov,62.4,62.5,False
+sos order 2,rounded,absolute,all,1,ME,mov_vs_rest,88.6,89.9,False
+sos order 2,rounded,absolute,clean,1,ME,mov_vs_mov,62.4,62.5,False
+sos order 2,rounded,absolute,clean,1,ME,mov_vs_rest,88.4,89.9,False
+sos order 2,rounded,relative,all,1,ME,mov_vs_mov,63.3,62.5,False
+sos order 2,rounded,relative,all,1,ME,mov_vs_rest,88.8,89.9,False
+sos order 2,rounded,relative,clean,1,ME,mov_vs_mov,63.3,62.5,False
+sos order 2,rounded,relative,clean,1,ME,mov_vs_rest,89.2,89.9,False
+ba order 4,1/16 s,absolute,all,1,MI,mov_vs_mov,28.6,27.7,False
+ba order 4,1/16 s,absolute,all,1,MI,mov_vs_rest,71.9,71.8,False
+ba order 4,1/16 s,absolute,clean,1,MI,mov_vs_mov,28.0,27.7,False
+ba order 4,1/16 s,absolute,clean,1,MI,mov_vs_rest,71.8,71.8,True
+ba order 4,1/16 s,relative,all,1,MI,mov_vs_mov,28.6,27.7,False
+ba order 4,1/16 s,relative,all,1,MI,mov_vs_rest,72.8,71.8,False
+ba order 4,1/16 s,relative,clean,1,MI,mov_vs_mov,28.6,27.7,False
+ba order 4,1/16 s,relative,clean,1,MI,mov_vs_rest,71.9,71.8,False
+ba order 4,rounded,absolute,all,1,MI,mov_vs_mov,28.9,27.7,False
+ba order 4,rounded,absolute,all,1,MI,mov_vs_rest,71.9,71.8,False
+ba order 4,rounded,absolute,clean,1,MI,mov_vs_mov,28.0,27.7,False
+ba order 4,rounded,absolute,clean,1,MI,mov_vs_rest,71.8,71.8,True
+ba order 4,rounded,relative,all,1,MI,mov_vs_mov,28.6,27.7,False
+ba order 4,rounded,relative,all,1,MI,mov_vs_rest,72.8,71.8,False
+ba order 4,rounded,relative,clean,1,MI,mov_vs_mov,28.6,27.7,False
+ba order 4,rounded,relative,clean,1,MI,mov_vs_rest,71.9,71.8,False
+ba order 2,1/16 s,absolute,all,1,MI,mov_vs_mov,26.8,27.7,False
+ba order 2,1/16 s,absolute,all,1,MI,mov_vs_rest,71.8,71.8,True
+ba order 2,1/16 s,absolute,clean,1,MI,mov_vs_mov,26.6,27.7,False
+ba order 2,1/16 s,absolute,clean,1,MI,mov_vs_rest,71.8,71.8,True
+ba order 2,1/16 s,relative,all,1,MI,mov_vs_mov,26.5,27.7,False
+ba order 2,1/16 s,relative,all,1,MI,mov_vs_rest,72.5,71.8,False
+ba order 2,1/16 s,relative,clean,1,MI,mov_vs_mov,26.5,27.7,False
+ba order 2,1/16 s,relative,clean,1,MI,mov_vs_rest,71.6,71.8,False
+ba order 2,rounded,absolute,all,1,MI,mov_vs_mov,27.1,27.7,False
+ba order 2,rounded,absolute,all,1,MI,mov_vs_rest,71.8,71.8,True
+ba order 2,rounded,absolute,clean,1,MI,mov_vs_mov,27.1,27.7,False
+ba order 2,rounded,absolute,clean,1,MI,mov_vs_rest,71.8,71.8,True
+ba order 2,rounded,relative,all,1,MI,mov_vs_mov,26.5,27.7,False
+ba order 2,rounded,relative,all,1,MI,mov_vs_rest,72.5,71.8,False
+ba order 2,rounded,relative,clean,1,MI,mov_vs_mov,26.5,27.7,False
+ba order 2,rounded,relative,clean,1,MI,mov_vs_rest,71.6,71.8,False
+sos order 4,1/16 s,absolute,all,1,MI,mov_vs_mov,28.6,27.7,False
+sos order 4,1/16 s,absolute,all,1,MI,mov_vs_rest,71.9,71.8,False
+sos order 4,1/16 s,absolute,clean,1,MI,mov_vs_mov,28.0,27.7,False
+sos order 4,1/16 s,absolute,clean,1,MI,mov_vs_rest,71.8,71.8,True
+sos order 4,1/16 s,relative,all,1,MI,mov_vs_mov,28.3,27.7,False
+sos order 4,1/16 s,relative,all,1,MI,mov_vs_rest,72.8,71.8,False
+sos order 4,1/16 s,relative,clean,1,MI,mov_vs_mov,28.6,27.7,False
+sos order 4,1/16 s,relative,clean,1,MI,mov_vs_rest,71.9,71.8,False
+sos order 4,rounded,absolute,all,1,MI,mov_vs_mov,28.9,27.7,False
+sos order 4,rounded,absolute,all,1,MI,mov_vs_rest,71.9,71.8,False
+sos order 4,rounded,absolute,clean,1,MI,mov_vs_mov,27.7,27.7,True
+sos order 4,rounded,absolute,clean,1,MI,mov_vs_rest,71.8,71.8,True
+sos order 4,rounded,relative,all,1,MI,mov_vs_mov,28.6,27.7,False
+sos order 4,rounded,relative,all,1,MI,mov_vs_rest,72.8,71.8,False
+sos order 4,rounded,relative,clean,1,MI,mov_vs_mov,28.6,27.7,False
+sos order 4,rounded,relative,clean,1,MI,mov_vs_rest,71.9,71.8,False
+sos order 2,1/16 s,absolute,all,1,MI,mov_vs_mov,26.8,27.7,False
+sos order 2,1/16 s,absolute,all,1,MI,mov_vs_rest,71.8,71.8,True
+sos order 2,1/16 s,absolute,clean,1,MI,mov_vs_mov,26.6,27.7,False
+sos order 2,1/16 s,absolute,clean,1,MI,mov_vs_rest,71.8,71.8,True
+sos order 2,1/16 s,relative,all,1,MI,mov_vs_mov,26.5,27.7,False
+sos order 2,1/16 s,relative,all,1,MI,mov_vs_rest,72.5,71.8,False
+sos order 2,1/16 s,relative,clean,1,MI,mov_vs_mov,26.5,27.7,False
+sos order 2,1/16 s,relative,clean,1,MI,mov_vs_rest,71.6,71.8,False
+sos order 2,rounded,absolute,all,1,MI,mov_vs_mov,27.1,27.7,False
+sos order 2,rounded,absolute,all,1,MI,mov_vs_rest,71.8,71.8,True
+sos order 2,rounded,absolute,clean,1,MI,mov_vs_mov,27.1,27.7,False
+sos order 2,rounded,absolute,clean,1,MI,mov_vs_rest,71.8,71.8,True
+sos order 2,rounded,relative,all,1,MI,mov_vs_mov,26.5,27.7,False
+sos order 2,rounded,relative,all,1,MI,mov_vs_rest,72.5,71.8,False
+sos order 2,rounded,relative,clean,1,MI,mov_vs_mov,26.5,27.7,False
+sos order 2,rounded,relative,clean,1,MI,mov_vs_rest,71.6,71.8,False
+ba order 4,1/16 s,absolute,all,4,ME,mov_vs_mov,61.3,62.2,False
+ba order 4,1/16 s,absolute,all,4,ME,mov_vs_rest,89.1,87.9,False
+ba order 4,1/16 s,absolute,clean,4,ME,mov_vs_mov,61.3,62.2,False
+ba order 4,1/16 s,absolute,clean,4,ME,mov_vs_rest,88.1,87.9,False
+ba order 4,1/16 s,relative,all,4,ME,mov_vs_mov,60.6,62.2,False
+ba order 4,1/16 s,relative,all,4,ME,mov_vs_rest,88.2,87.9,False
+ba order 4,1/16 s,relative,clean,4,ME,mov_vs_mov,60.6,62.2,False
+ba order 4,1/16 s,relative,clean,4,ME,mov_vs_rest,88.2,87.9,False
+ba order 4,rounded,absolute,all,4,ME,mov_vs_mov,62.2,62.2,True
+ba order 4,rounded,absolute,all,4,ME,mov_vs_rest,88.1,87.9,False
+ba order 4,rounded,absolute,clean,4,ME,mov_vs_mov,62.2,62.2,True
+ba order 4,rounded,absolute,clean,4,ME,mov_vs_rest,87.9,87.9,True
+ba order 4,rounded,relative,all,4,ME,mov_vs_mov,61.3,62.2,False
+ba order 4,rounded,relative,all,4,ME,mov_vs_rest,87.9,87.9,True
+ba order 4,rounded,relative,clean,4,ME,mov_vs_mov,61.3,62.2,False
+ba order 4,rounded,relative,clean,4,ME,mov_vs_rest,87.9,87.9,True
+ba order 2,1/16 s,absolute,all,4,ME,mov_vs_mov,60.3,62.2,False
+ba order 2,1/16 s,absolute,all,4,ME,mov_vs_rest,87.0,87.9,False
+ba order 2,1/16 s,absolute,clean,4,ME,mov_vs_mov,60.3,62.2,False
+ba order 2,1/16 s,absolute,clean,4,ME,mov_vs_rest,88.1,87.9,False
+ba order 2,1/16 s,relative,all,4,ME,mov_vs_mov,61.0,62.2,False
+ba order 2,1/16 s,relative,all,4,ME,mov_vs_rest,87.2,87.9,False
+ba order 2,1/16 s,relative,clean,4,ME,mov_vs_mov,61.0,62.2,False
+ba order 2,1/16 s,relative,clean,4,ME,mov_vs_rest,87.5,87.9,False
+ba order 2,rounded,absolute,all,4,ME,mov_vs_mov,60.0,62.2,False
+ba order 2,rounded,absolute,all,4,ME,mov_vs_rest,87.4,87.9,False
+ba order 2,rounded,absolute,clean,4,ME,mov_vs_mov,60.0,62.2,False
+ba order 2,rounded,absolute,clean,4,ME,mov_vs_rest,87.4,87.9,False
+ba order 2,rounded,relative,all,4,ME,mov_vs_mov,59.9,62.2,False
+ba order 2,rounded,relative,all,4,ME,mov_vs_rest,87.2,87.9,False
+ba order 2,rounded,relative,clean,4,ME,mov_vs_mov,59.9,62.2,False
+ba order 2,rounded,relative,clean,4,ME,mov_vs_rest,87.4,87.9,False
+sos order 4,1/16 s,absolute,all,4,ME,mov_vs_mov,61.3,62.2,False
+sos order 4,1/16 s,absolute,all,4,ME,mov_vs_rest,89.1,87.9,False
+sos order 4,1/16 s,absolute,clean,4,ME,mov_vs_mov,61.3,62.2,False
+sos order 4,1/16 s,absolute,clean,4,ME,mov_vs_rest,88.1,87.9,False
+sos order 4,1/16 s,relative,all,4,ME,mov_vs_mov,60.6,62.2,False
+sos order 4,1/16 s,relative,all,4,ME,mov_vs_rest,88.2,87.9,False
+sos order 4,1/16 s,relative,clean,4,ME,mov_vs_mov,60.6,62.2,False
+sos order 4,1/16 s,relative,clean,4,ME,mov_vs_rest,88.2,87.9,False
+sos order 4,rounded,absolute,all,4,ME,mov_vs_mov,62.2,62.2,True
+sos order 4,rounded,absolute,all,4,ME,mov_vs_rest,88.1,87.9,False
+sos order 4,rounded,absolute,clean,4,ME,mov_vs_mov,62.2,62.2,True
+sos order 4,rounded,absolute,clean,4,ME,mov_vs_rest,87.9,87.9,True
+sos order 4,rounded,relative,all,4,ME,mov_vs_mov,61.3,62.2,False
+sos order 4,rounded,relative,all,4,ME,mov_vs_rest,87.9,87.9,True
+sos order 4,rounded,relative,clean,4,ME,mov_vs_mov,61.3,62.2,False
+sos order 4,rounded,relative,clean,4,ME,mov_vs_rest,87.9,87.9,True
+sos order 2,1/16 s,absolute,all,4,ME,mov_vs_mov,60.3,62.2,False
+sos order 2,1/16 s,absolute,all,4,ME,mov_vs_rest,87.0,87.9,False
+sos order 2,1/16 s,absolute,clean,4,ME,mov_vs_mov,60.3,62.2,False
+sos order 2,1/16 s,absolute,clean,4,ME,mov_vs_rest,88.1,87.9,False
+sos order 2,1/16 s,relative,all,4,ME,mov_vs_mov,61.0,62.2,False
+sos order 2,1/16 s,relative,all,4,ME,mov_vs_rest,87.2,87.9,False
+sos order 2,1/16 s,relative,clean,4,ME,mov_vs_mov,61.0,62.2,False
+sos order 2,1/16 s,relative,clean,4,ME,mov_vs_rest,87.5,87.9,False
+sos order 2,rounded,absolute,all,4,ME,mov_vs_mov,60.0,62.2,False
+sos order 2,rounded,absolute,all,4,ME,mov_vs_rest,87.4,87.9,False
+sos order 2,rounded,absolute,clean,4,ME,mov_vs_mov,60.0,62.2,False
+sos order 2,rounded,absolute,clean,4,ME,mov_vs_rest,87.4,87.9,False
+sos order 2,rounded,relative,all,4,ME,mov_vs_mov,59.9,62.2,False
+sos order 2,rounded,relative,all,4,ME,mov_vs_rest,87.2,87.9,False
+sos order 2,rounded,relative,clean,4,ME,mov_vs_mov,59.9,62.2,False
+sos order 2,rounded,relative,clean,4,ME,mov_vs_rest,87.4,87.9,False
+ba order 4,1/16 s,absolute,all,4,MI,mov_vs_mov,34.1,31.9,False
+ba order 4,1/16 s,absolute,all,4,MI,mov_vs_rest,74.8,74.6,False
+ba order 4,1/16 s,absolute,clean,4,MI,mov_vs_mov,32.8,31.9,False
+ba order 4,1/16 s,absolute,clean,4,MI,mov_vs_rest,74.6,74.6,True
+ba order 4,1/16 s,relative,all,4,MI,mov_vs_mov,31.5,31.9,False
+ba order 4,1/16 s,relative,all,4,MI,mov_vs_rest,74.6,74.6,True
+ba order 4,1/16 s,relative,clean,4,MI,mov_vs_mov,31.9,31.9,True
+ba order 4,1/16 s,relative,clean,4,MI,mov_vs_rest,74.8,74.6,False
+ba order 4,rounded,absolute,all,4,MI,mov_vs_mov,33.2,31.9,False
+ba order 4,rounded,absolute,all,4,MI,mov_vs_rest,74.8,74.6,False
+ba order 4,rounded,absolute,clean,4,MI,mov_vs_mov,31.9,31.9,True
+ba order 4,rounded,absolute,clean,4,MI,mov_vs_rest,74.6,74.6,True
+ba order 4,rounded,relative,all,4,MI,mov_vs_mov,32.7,31.9,False
+ba order 4,rounded,relative,all,4,MI,mov_vs_rest,74.6,74.6,True
+ba order 4,rounded,relative,clean,4,MI,mov_vs_mov,31.9,31.9,True
+ba order 4,rounded,relative,clean,4,MI,mov_vs_rest,74.8,74.6,False
+ba order 2,1/16 s,absolute,all,4,MI,mov_vs_mov,33.0,31.9,False
+ba order 2,1/16 s,absolute,all,4,MI,mov_vs_rest,78.6,74.6,False
+ba order 2,1/16 s,absolute,clean,4,MI,mov_vs_mov,32.8,31.9,False
+ba order 2,1/16 s,absolute,clean,4,MI,mov_vs_rest,77.7,74.6,False
+ba order 2,1/16 s,relative,all,4,MI,mov_vs_mov,32.7,31.9,False
+ba order 2,1/16 s,relative,all,4,MI,mov_vs_rest,78.6,74.6,False
+ba order 2,1/16 s,relative,clean,4,MI,mov_vs_mov,32.6,31.9,False
+ba order 2,1/16 s,relative,clean,4,MI,mov_vs_rest,78.8,74.6,False
+ba order 2,rounded,absolute,all,4,MI,mov_vs_mov,33.6,31.9,False
+ba order 2,rounded,absolute,all,4,MI,mov_vs_rest,78.6,74.6,False
+ba order 2,rounded,absolute,clean,4,MI,mov_vs_mov,33.1,31.9,False
+ba order 2,rounded,absolute,clean,4,MI,mov_vs_rest,77.7,74.6,False
+ba order 2,rounded,relative,all,4,MI,mov_vs_mov,33.5,31.9,False
+ba order 2,rounded,relative,all,4,MI,mov_vs_rest,78.6,74.6,False
+ba order 2,rounded,relative,clean,4,MI,mov_vs_mov,32.2,31.9,False
+ba order 2,rounded,relative,clean,4,MI,mov_vs_rest,78.8,74.6,False
+sos order 4,1/16 s,absolute,all,4,MI,mov_vs_mov,34.1,31.9,False
+sos order 4,1/16 s,absolute,all,4,MI,mov_vs_rest,74.8,74.6,False
+sos order 4,1/16 s,absolute,clean,4,MI,mov_vs_mov,32.8,31.9,False
+sos order 4,1/16 s,absolute,clean,4,MI,mov_vs_rest,74.6,74.6,True
+sos order 4,1/16 s,relative,all,4,MI,mov_vs_mov,31.5,31.9,False
+sos order 4,1/16 s,relative,all,4,MI,mov_vs_rest,74.6,74.6,True
+sos order 4,1/16 s,relative,clean,4,MI,mov_vs_mov,31.9,31.9,True
+sos order 4,1/16 s,relative,clean,4,MI,mov_vs_rest,74.8,74.6,False
+sos order 4,rounded,absolute,all,4,MI,mov_vs_mov,33.2,31.9,False
+sos order 4,rounded,absolute,all,4,MI,mov_vs_rest,74.8,74.6,False
+sos order 4,rounded,absolute,clean,4,MI,mov_vs_mov,31.9,31.9,True
+sos order 4,rounded,absolute,clean,4,MI,mov_vs_rest,74.6,74.6,True
+sos order 4,rounded,relative,all,4,MI,mov_vs_mov,32.7,31.9,False
+sos order 4,rounded,relative,all,4,MI,mov_vs_rest,74.6,74.6,True
+sos order 4,rounded,relative,clean,4,MI,mov_vs_mov,31.9,31.9,True
+sos order 4,rounded,relative,clean,4,MI,mov_vs_rest,74.8,74.6,False
+sos order 2,1/16 s,absolute,all,4,MI,mov_vs_mov,33.0,31.9,False
+sos order 2,1/16 s,absolute,all,4,MI,mov_vs_rest,78.6,74.6,False
+sos order 2,1/16 s,absolute,clean,4,MI,mov_vs_mov,32.8,31.9,False
+sos order 2,1/16 s,absolute,clean,4,MI,mov_vs_rest,77.7,74.6,False
+sos order 2,1/16 s,relative,all,4,MI,mov_vs_mov,32.7,31.9,False
+sos order 2,1/16 s,relative,all,4,MI,mov_vs_rest,78.6,74.6,False
+sos order 2,1/16 s,relative,clean,4,MI,mov_vs_mov,32.6,31.9,False
+sos order 2,1/16 s,relative,clean,4,MI,mov_vs_rest,78.8,74.6,False
+sos order 2,rounded,absolute,all,4,MI,mov_vs_mov,33.6,31.9,False
+sos order 2,rounded,absolute,all,4,MI,mov_vs_rest,78.6,74.6,False
+sos order 2,rounded,absolute,clean,4,MI,mov_vs_mov,33.1,31.9,False
+sos order 2,rounded,absolute,clean,4,MI,mov_vs_rest,77.7,74.6,False
+sos order 2,rounded,relative,all,4,MI,mov_vs_mov,33.5,31.9,False
+sos order 2,rounded,relative,all,4,MI,mov_vs_rest,78.6,74.6,False
+sos order 2,rounded,relative,clean,4,MI,mov_vs_mov,32.2,31.9,False
+sos order 2,rounded,relative,clean,4,MI,mov_vs_rest,78.8,74.6,False
+ba order 4,1/16 s,absolute,all,8,ME,mov_vs_mov,53.5,53.5,True
+ba order 4,1/16 s,absolute,all,8,ME,mov_vs_rest,86.6,86.6,True
+ba order 4,1/16 s,absolute,clean,8,ME,mov_vs_mov,53.5,53.5,True
+ba order 4,1/16 s,absolute,clean,8,ME,mov_vs_rest,85.4,86.6,False
+ba order 4,1/16 s,relative,all,8,ME,mov_vs_mov,53.9,53.5,False
+ba order 4,1/16 s,relative,all,8,ME,mov_vs_rest,85.6,86.6,False
+ba order 4,1/16 s,relative,clean,8,ME,mov_vs_mov,53.9,53.5,False
+ba order 4,1/16 s,relative,clean,8,ME,mov_vs_rest,86.3,86.6,False
+ba order 4,rounded,absolute,all,8,ME,mov_vs_mov,53.5,53.5,True
+ba order 4,rounded,absolute,all,8,ME,mov_vs_rest,86.6,86.6,True
+ba order 4,rounded,absolute,clean,8,ME,mov_vs_mov,53.5,53.5,True
+ba order 4,rounded,absolute,clean,8,ME,mov_vs_rest,86.6,86.6,True
+ba order 4,rounded,relative,all,8,ME,mov_vs_mov,53.5,53.5,True
+ba order 4,rounded,relative,all,8,ME,mov_vs_rest,84.3,86.6,False
+ba order 4,rounded,relative,clean,8,ME,mov_vs_mov,53.5,53.5,True
+ba order 4,rounded,relative,clean,8,ME,mov_vs_rest,85.4,86.6,False
+ba order 2,1/16 s,absolute,all,8,ME,mov_vs_mov,53.5,53.5,True
+ba order 2,1/16 s,absolute,all,8,ME,mov_vs_rest,85.2,86.6,False
+ba order 2,1/16 s,absolute,clean,8,ME,mov_vs_mov,53.5,53.5,True
+ba order 2,1/16 s,absolute,clean,8,ME,mov_vs_rest,85.2,86.6,False
+ba order 2,1/16 s,relative,all,8,ME,mov_vs_mov,53.5,53.5,True
+ba order 2,1/16 s,relative,all,8,ME,mov_vs_rest,86.2,86.6,False
+ba order 2,1/16 s,relative,clean,8,ME,mov_vs_mov,53.5,53.5,True
+ba order 2,1/16 s,relative,clean,8,ME,mov_vs_rest,86.2,86.6,False
+ba order 2,rounded,absolute,all,8,ME,mov_vs_mov,53.8,53.5,False
+ba order 2,rounded,absolute,all,8,ME,mov_vs_rest,85.2,86.6,False
+ba order 2,rounded,absolute,clean,8,ME,mov_vs_mov,53.8,53.5,False
+ba order 2,rounded,absolute,clean,8,ME,mov_vs_rest,87.1,86.6,False
+ba order 2,rounded,relative,all,8,ME,mov_vs_mov,53.8,53.5,False
+ba order 2,rounded,relative,all,8,ME,mov_vs_rest,85.1,86.6,False
+ba order 2,rounded,relative,clean,8,ME,mov_vs_mov,53.8,53.5,False
+ba order 2,rounded,relative,clean,8,ME,mov_vs_rest,85.2,86.6,False
+sos order 4,1/16 s,absolute,all,8,ME,mov_vs_mov,53.5,53.5,True
+sos order 4,1/16 s,absolute,all,8,ME,mov_vs_rest,86.6,86.6,True
+sos order 4,1/16 s,absolute,clean,8,ME,mov_vs_mov,53.5,53.5,True
+sos order 4,1/16 s,absolute,clean,8,ME,mov_vs_rest,85.4,86.6,False
+sos order 4,1/16 s,relative,all,8,ME,mov_vs_mov,53.9,53.5,False
+sos order 4,1/16 s,relative,all,8,ME,mov_vs_rest,85.6,86.6,False
+sos order 4,1/16 s,relative,clean,8,ME,mov_vs_mov,53.9,53.5,False
+sos order 4,1/16 s,relative,clean,8,ME,mov_vs_rest,86.3,86.6,False
+sos order 4,rounded,absolute,all,8,ME,mov_vs_mov,53.5,53.5,True
+sos order 4,rounded,absolute,all,8,ME,mov_vs_rest,86.6,86.6,True
+sos order 4,rounded,absolute,clean,8,ME,mov_vs_mov,53.5,53.5,True
+sos order 4,rounded,absolute,clean,8,ME,mov_vs_rest,86.6,86.6,True
+sos order 4,rounded,relative,all,8,ME,mov_vs_mov,53.5,53.5,True
+sos order 4,rounded,relative,all,8,ME,mov_vs_rest,84.3,86.6,False
+sos order 4,rounded,relative,clean,8,ME,mov_vs_mov,53.5,53.5,True
+sos order 4,rounded,relative,clean,8,ME,mov_vs_rest,85.4,86.6,False
+sos order 2,1/16 s,absolute,all,8,ME,mov_vs_mov,53.5,53.5,True
+sos order 2,1/16 s,absolute,all,8,ME,mov_vs_rest,85.2,86.6,False
+sos order 2,1/16 s,absolute,clean,8,ME,mov_vs_mov,53.5,53.5,True
+sos order 2,1/16 s,absolute,clean,8,ME,mov_vs_rest,85.2,86.6,False
+sos order 2,1/16 s,relative,all,8,ME,mov_vs_mov,53.5,53.5,True
+sos order 2,1/16 s,relative,all,8,ME,mov_vs_rest,86.2,86.6,False
+sos order 2,1/16 s,relative,clean,8,ME,mov_vs_mov,53.5,53.5,True
+sos order 2,1/16 s,relative,clean,8,ME,mov_vs_rest,86.2,86.6,False
+sos order 2,rounded,absolute,all,8,ME,mov_vs_mov,53.8,53.5,False
+sos order 2,rounded,absolute,all,8,ME,mov_vs_rest,85.2,86.6,False
+sos order 2,rounded,absolute,clean,8,ME,mov_vs_mov,53.8,53.5,False
+sos order 2,rounded,absolute,clean,8,ME,mov_vs_rest,87.1,86.6,False
+sos order 2,rounded,relative,all,8,ME,mov_vs_mov,53.8,53.5,False
+sos order 2,rounded,relative,all,8,ME,mov_vs_rest,85.1,86.6,False
+sos order 2,rounded,relative,clean,8,ME,mov_vs_mov,53.8,53.5,False
+sos order 2,rounded,relative,clean,8,ME,mov_vs_rest,85.2,86.6,False
+ba order 4,1/16 s,absolute,all,8,MI,mov_vs_mov,25.4,24.8,False
+ba order 4,1/16 s,absolute,all,8,MI,mov_vs_rest,87.1,87.1,True
+ba order 4,1/16 s,absolute,clean,8,MI,mov_vs_mov,24.9,24.8,False
+ba order 4,1/16 s,absolute,clean,8,MI,mov_vs_rest,87.1,87.1,True
+ba order 4,1/16 s,relative,all,8,MI,mov_vs_mov,25.1,24.8,False
+ba order 4,1/16 s,relative,all,8,MI,mov_vs_rest,87.1,87.1,True
+ba order 4,1/16 s,relative,clean,8,MI,mov_vs_mov,25.1,24.8,False
+ba order 4,1/16 s,relative,clean,8,MI,mov_vs_rest,87.1,87.1,True
+ba order 4,rounded,absolute,all,8,MI,mov_vs_mov,24.8,24.8,True
+ba order 4,rounded,absolute,all,8,MI,mov_vs_rest,87.1,87.1,True
+ba order 4,rounded,absolute,clean,8,MI,mov_vs_mov,24.8,24.8,True
+ba order 4,rounded,absolute,clean,8,MI,mov_vs_rest,87.1,87.1,True
+ba order 4,rounded,relative,all,8,MI,mov_vs_mov,24.8,24.8,True
+ba order 4,rounded,relative,all,8,MI,mov_vs_rest,87.1,87.1,True
+ba order 4,rounded,relative,clean,8,MI,mov_vs_mov,24.5,24.8,False
+ba order 4,rounded,relative,clean,8,MI,mov_vs_rest,87.1,87.1,True
+ba order 2,1/16 s,absolute,all,8,MI,mov_vs_mov,28.3,24.8,False
+ba order 2,1/16 s,absolute,all,8,MI,mov_vs_rest,86.4,87.1,False
+ba order 2,1/16 s,absolute,clean,8,MI,mov_vs_mov,28.9,24.8,False
+ba order 2,1/16 s,absolute,clean,8,MI,mov_vs_rest,87.6,87.1,False
+ba order 2,1/16 s,relative,all,8,MI,mov_vs_mov,27.7,24.8,False
+ba order 2,1/16 s,relative,all,8,MI,mov_vs_rest,86.2,87.1,False
+ba order 2,1/16 s,relative,clean,8,MI,mov_vs_mov,27.4,24.8,False
+ba order 2,1/16 s,relative,clean,8,MI,mov_vs_rest,86.2,87.1,False
+ba order 2,rounded,absolute,all,8,MI,mov_vs_mov,27.5,24.8,False
+ba order 2,rounded,absolute,all,8,MI,mov_vs_rest,86.4,87.1,False
+ba order 2,rounded,absolute,clean,8,MI,mov_vs_mov,28.0,24.8,False
+ba order 2,rounded,absolute,clean,8,MI,mov_vs_rest,87.6,87.1,False
+ba order 2,rounded,relative,all,8,MI,mov_vs_mov,27.4,24.8,False
+ba order 2,rounded,relative,all,8,MI,mov_vs_rest,86.2,87.1,False
+ba order 2,rounded,relative,clean,8,MI,mov_vs_mov,28.0,24.8,False
+ba order 2,rounded,relative,clean,8,MI,mov_vs_rest,86.2,87.1,False
+sos order 4,1/16 s,absolute,all,8,MI,mov_vs_mov,25.4,24.8,False
+sos order 4,1/16 s,absolute,all,8,MI,mov_vs_rest,87.1,87.1,True
+sos order 4,1/16 s,absolute,clean,8,MI,mov_vs_mov,24.9,24.8,False
+sos order 4,1/16 s,absolute,clean,8,MI,mov_vs_rest,87.1,87.1,True
+sos order 4,1/16 s,relative,all,8,MI,mov_vs_mov,25.1,24.8,False
+sos order 4,1/16 s,relative,all,8,MI,mov_vs_rest,87.1,87.1,True
+sos order 4,1/16 s,relative,clean,8,MI,mov_vs_mov,25.1,24.8,False
+sos order 4,1/16 s,relative,clean,8,MI,mov_vs_rest,87.1,87.1,True
+sos order 4,rounded,absolute,all,8,MI,mov_vs_mov,24.8,24.8,True
+sos order 4,rounded,absolute,all,8,MI,mov_vs_rest,87.1,87.1,True
+sos order 4,rounded,absolute,clean,8,MI,mov_vs_mov,24.8,24.8,True
+sos order 4,rounded,absolute,clean,8,MI,mov_vs_rest,87.1,87.1,True
+sos order 4,rounded,relative,all,8,MI,mov_vs_mov,24.8,24.8,True
+sos order 4,rounded,relative,all,8,MI,mov_vs_rest,87.1,87.1,True
+sos order 4,rounded,relative,clean,8,MI,mov_vs_mov,24.5,24.8,False
+sos order 4,rounded,relative,clean,8,MI,mov_vs_rest,87.1,87.1,True
+sos order 2,1/16 s,absolute,all,8,MI,mov_vs_mov,28.3,24.8,False
+sos order 2,1/16 s,absolute,all,8,MI,mov_vs_rest,86.4,87.1,False
+sos order 2,1/16 s,absolute,clean,8,MI,mov_vs_mov,28.9,24.8,False
+sos order 2,1/16 s,absolute,clean,8,MI,mov_vs_rest,87.6,87.1,False
+sos order 2,1/16 s,relative,all,8,MI,mov_vs_mov,27.7,24.8,False
+sos order 2,1/16 s,relative,all,8,MI,mov_vs_rest,86.2,87.1,False
+sos order 2,1/16 s,relative,clean,8,MI,mov_vs_mov,27.4,24.8,False
+sos order 2,1/16 s,relative,clean,8,MI,mov_vs_rest,86.2,87.1,False
+sos order 2,rounded,absolute,all,8,MI,mov_vs_mov,27.5,24.8,False
+sos order 2,rounded,absolute,all,8,MI,mov_vs_rest,86.4,87.1,False
+sos order 2,rounded,absolute,clean,8,MI,mov_vs_mov,28.0,24.8,False
+sos order 2,rounded,absolute,clean,8,MI,mov_vs_rest,87.6,87.1,False
+sos order 2,rounded,relative,all,8,MI,mov_vs_mov,27.4,24.8,False
+sos order 2,rounded,relative,all,8,MI,mov_vs_rest,86.2,87.1,False
+sos order 2,rounded,relative,clean,8,MI,mov_vs_mov,28.0,24.8,False
+sos order 2,rounded,relative,clean,8,MI,mov_vs_rest,86.2,87.1,False
+ba order 4,1/16 s,absolute,all,15,ME,mov_vs_mov,47.8,47.8,True
+ba order 4,1/16 s,absolute,all,15,ME,mov_vs_rest,85.0,86.7,False
+ba order 4,1/16 s,absolute,clean,15,ME,mov_vs_mov,47.8,47.8,True
+ba order 4,1/16 s,absolute,clean,15,ME,mov_vs_rest,86.7,86.7,True
+ba order 4,1/16 s,relative,all,15,ME,mov_vs_mov,48.1,47.8,False
+ba order 4,1/16 s,relative,all,15,ME,mov_vs_rest,85.9,86.7,False
+ba order 4,1/16 s,relative,clean,15,ME,mov_vs_mov,48.1,47.8,False
+ba order 4,1/16 s,relative,clean,15,ME,mov_vs_rest,86.9,86.7,False
+ba order 4,rounded,absolute,all,15,ME,mov_vs_mov,47.8,47.8,True
+ba order 4,rounded,absolute,all,15,ME,mov_vs_rest,86.7,86.7,True
+ba order 4,rounded,absolute,clean,15,ME,mov_vs_mov,47.8,47.8,True
+ba order 4,rounded,absolute,clean,15,ME,mov_vs_rest,86.7,86.7,True
+ba order 4,rounded,relative,all,15,ME,mov_vs_mov,48.4,47.8,False
+ba order 4,rounded,relative,all,15,ME,mov_vs_rest,86.7,86.7,True
+ba order 4,rounded,relative,clean,15,ME,mov_vs_mov,48.4,47.8,False
+ba order 4,rounded,relative,clean,15,ME,mov_vs_rest,86.7,86.7,True
+ba order 2,1/16 s,absolute,all,15,ME,mov_vs_mov,48.7,47.8,False
+ba order 2,1/16 s,absolute,all,15,ME,mov_vs_rest,85.3,86.7,False
+ba order 2,1/16 s,absolute,clean,15,ME,mov_vs_mov,48.7,47.8,False
+ba order 2,1/16 s,absolute,clean,15,ME,mov_vs_rest,84.5,86.7,False
+ba order 2,1/16 s,relative,all,15,ME,mov_vs_mov,48.5,47.8,False
+ba order 2,1/16 s,relative,all,15,ME,mov_vs_rest,85.5,86.7,False
+ba order 2,1/16 s,relative,clean,15,ME,mov_vs_mov,48.5,47.8,False
+ba order 2,1/16 s,relative,clean,15,ME,mov_vs_rest,85.3,86.7,False
+ba order 2,rounded,absolute,all,15,ME,mov_vs_mov,49.3,47.8,False
+ba order 2,rounded,absolute,all,15,ME,mov_vs_rest,84.8,86.7,False
+ba order 2,rounded,absolute,clean,15,ME,mov_vs_mov,49.3,47.8,False
+ba order 2,rounded,absolute,clean,15,ME,mov_vs_rest,84.6,86.7,False
+ba order 2,rounded,relative,all,15,ME,mov_vs_mov,49.9,47.8,False
+ba order 2,rounded,relative,all,15,ME,mov_vs_rest,84.6,86.7,False
+ba order 2,rounded,relative,clean,15,ME,mov_vs_mov,49.9,47.8,False
+ba order 2,rounded,relative,clean,15,ME,mov_vs_rest,84.6,86.7,False
+sos order 4,1/16 s,absolute,all,15,ME,mov_vs_mov,47.8,47.8,True
+sos order 4,1/16 s,absolute,all,15,ME,mov_vs_rest,85.0,86.7,False
+sos order 4,1/16 s,absolute,clean,15,ME,mov_vs_mov,47.8,47.8,True
+sos order 4,1/16 s,absolute,clean,15,ME,mov_vs_rest,86.7,86.7,True
+sos order 4,1/16 s,relative,all,15,ME,mov_vs_mov,48.1,47.8,False
+sos order 4,1/16 s,relative,all,15,ME,mov_vs_rest,85.9,86.7,False
+sos order 4,1/16 s,relative,clean,15,ME,mov_vs_mov,48.1,47.8,False
+sos order 4,1/16 s,relative,clean,15,ME,mov_vs_rest,86.9,86.7,False
+sos order 4,rounded,absolute,all,15,ME,mov_vs_mov,47.8,47.8,True
+sos order 4,rounded,absolute,all,15,ME,mov_vs_rest,86.7,86.7,True
+sos order 4,rounded,absolute,clean,15,ME,mov_vs_mov,47.8,47.8,True
+sos order 4,rounded,absolute,clean,15,ME,mov_vs_rest,86.7,86.7,True
+sos order 4,rounded,relative,all,15,ME,mov_vs_mov,48.4,47.8,False
+sos order 4,rounded,relative,all,15,ME,mov_vs_rest,86.7,86.7,True
+sos order 4,rounded,relative,clean,15,ME,mov_vs_mov,48.4,47.8,False
+sos order 4,rounded,relative,clean,15,ME,mov_vs_rest,86.7,86.7,True
+sos order 2,1/16 s,absolute,all,15,ME,mov_vs_mov,48.7,47.8,False
+sos order 2,1/16 s,absolute,all,15,ME,mov_vs_rest,85.3,86.7,False
+sos order 2,1/16 s,absolute,clean,15,ME,mov_vs_mov,48.7,47.8,False
+sos order 2,1/16 s,absolute,clean,15,ME,mov_vs_rest,84.5,86.7,False
+sos order 2,1/16 s,relative,all,15,ME,mov_vs_mov,48.5,47.8,False
+sos order 2,1/16 s,relative,all,15,ME,mov_vs_rest,85.5,86.7,False
+sos order 2,1/16 s,relative,clean,15,ME,mov_vs_mov,48.5,47.8,False
+sos order 2,1/16 s,relative,clean,15,ME,mov_vs_rest,85.3,86.7,False
+sos order 2,rounded,absolute,all,15,ME,mov_vs_mov,49.3,47.8,False
+sos order 2,rounded,absolute,all,15,ME,mov_vs_rest,84.8,86.7,False
+sos order 2,rounded,absolute,clean,15,ME,mov_vs_mov,49.3,47.8,False
+sos order 2,rounded,absolute,clean,15,ME,mov_vs_rest,84.6,86.7,False
+sos order 2,rounded,relative,all,15,ME,mov_vs_mov,49.9,47.8,False
+sos order 2,rounded,relative,all,15,ME,mov_vs_rest,84.6,86.7,False
+sos order 2,rounded,relative,clean,15,ME,mov_vs_mov,49.9,47.8,False
+sos order 2,rounded,relative,clean,15,ME,mov_vs_rest,84.6,86.7,False
+ba order 4,1/16 s,absolute,all,15,MI,mov_vs_mov,26.5,27.1,False
+ba order 4,1/16 s,absolute,all,15,MI,mov_vs_rest,78.6,78.5,False
+ba order 4,1/16 s,absolute,clean,15,MI,mov_vs_mov,26.5,27.1,False
+ba order 4,1/16 s,absolute,clean,15,MI,mov_vs_rest,78.5,78.5,True
+ba order 4,1/16 s,relative,all,15,MI,mov_vs_mov,25.9,27.1,False
+ba order 4,1/16 s,relative,all,15,MI,mov_vs_rest,79.6,78.5,False
+ba order 4,1/16 s,relative,clean,15,MI,mov_vs_mov,25.9,27.1,False
+ba order 4,1/16 s,relative,clean,15,MI,mov_vs_rest,79.6,78.5,False
+ba order 4,rounded,absolute,all,15,MI,mov_vs_mov,26.8,27.1,False
+ba order 4,rounded,absolute,all,15,MI,mov_vs_rest,78.6,78.5,False
+ba order 4,rounded,absolute,clean,15,MI,mov_vs_mov,27.1,27.1,True
+ba order 4,rounded,absolute,clean,15,MI,mov_vs_rest,78.5,78.5,True
+ba order 4,rounded,relative,all,15,MI,mov_vs_mov,25.9,27.1,False
+ba order 4,rounded,relative,all,15,MI,mov_vs_rest,79.6,78.5,False
+ba order 4,rounded,relative,clean,15,MI,mov_vs_mov,26.5,27.1,False
+ba order 4,rounded,relative,clean,15,MI,mov_vs_rest,79.6,78.5,False
+ba order 2,1/16 s,absolute,all,15,MI,mov_vs_mov,24.7,27.1,False
+ba order 2,1/16 s,absolute,all,15,MI,mov_vs_rest,79.3,78.5,False
+ba order 2,1/16 s,absolute,clean,15,MI,mov_vs_mov,25.3,27.1,False
+ba order 2,1/16 s,absolute,clean,15,MI,mov_vs_rest,79.0,78.5,False
+ba order 2,1/16 s,relative,all,15,MI,mov_vs_mov,23.5,27.1,False
+ba order 2,1/16 s,relative,all,15,MI,mov_vs_rest,79.2,78.5,False
+ba order 2,1/16 s,relative,clean,15,MI,mov_vs_mov,24.4,27.1,False
+ba order 2,1/16 s,relative,clean,15,MI,mov_vs_rest,79.2,78.5,False
+ba order 2,rounded,absolute,all,15,MI,mov_vs_mov,24.4,27.1,False
+ba order 2,rounded,absolute,all,15,MI,mov_vs_rest,79.3,78.5,False
+ba order 2,rounded,absolute,clean,15,MI,mov_vs_mov,24.1,27.1,False
+ba order 2,rounded,absolute,clean,15,MI,mov_vs_rest,79.0,78.5,False
+ba order 2,rounded,relative,all,15,MI,mov_vs_mov,24.4,27.1,False
+ba order 2,rounded,relative,all,15,MI,mov_vs_rest,79.2,78.5,False
+ba order 2,rounded,relative,clean,15,MI,mov_vs_mov,24.1,27.1,False
+ba order 2,rounded,relative,clean,15,MI,mov_vs_rest,79.2,78.5,False
+sos order 4,1/16 s,absolute,all,15,MI,mov_vs_mov,26.5,27.1,False
+sos order 4,1/16 s,absolute,all,15,MI,mov_vs_rest,78.6,78.5,False
+sos order 4,1/16 s,absolute,clean,15,MI,mov_vs_mov,26.5,27.1,False
+sos order 4,1/16 s,absolute,clean,15,MI,mov_vs_rest,78.5,78.5,True
+sos order 4,1/16 s,relative,all,15,MI,mov_vs_mov,25.9,27.1,False
+sos order 4,1/16 s,relative,all,15,MI,mov_vs_rest,79.6,78.5,False
+sos order 4,1/16 s,relative,clean,15,MI,mov_vs_mov,25.9,27.1,False
+sos order 4,1/16 s,relative,clean,15,MI,mov_vs_rest,79.6,78.5,False
+sos order 4,rounded,absolute,all,15,MI,mov_vs_mov,26.8,27.1,False
+sos order 4,rounded,absolute,all,15,MI,mov_vs_rest,78.6,78.5,False
+sos order 4,rounded,absolute,clean,15,MI,mov_vs_mov,27.1,27.1,True
+sos order 4,rounded,absolute,clean,15,MI,mov_vs_rest,78.5,78.5,True
+sos order 4,rounded,relative,all,15,MI,mov_vs_mov,25.9,27.1,False
+sos order 4,rounded,relative,all,15,MI,mov_vs_rest,79.6,78.5,False
+sos order 4,rounded,relative,clean,15,MI,mov_vs_mov,26.5,27.1,False
+sos order 4,rounded,relative,clean,15,MI,mov_vs_rest,79.6,78.5,False
+sos order 2,1/16 s,absolute,all,15,MI,mov_vs_mov,24.7,27.1,False
+sos order 2,1/16 s,absolute,all,15,MI,mov_vs_rest,79.3,78.5,False
+sos order 2,1/16 s,absolute,clean,15,MI,mov_vs_mov,25.3,27.1,False
+sos order 2,1/16 s,absolute,clean,15,MI,mov_vs_rest,79.0,78.5,False
+sos order 2,1/16 s,relative,all,15,MI,mov_vs_mov,23.5,27.1,False
+sos order 2,1/16 s,relative,all,15,MI,mov_vs_rest,79.2,78.5,False
+sos order 2,1/16 s,relative,clean,15,MI,mov_vs_mov,24.4,27.1,False
+sos order 2,1/16 s,relative,clean,15,MI,mov_vs_rest,79.2,78.5,False
+sos order 2,rounded,absolute,all,15,MI,mov_vs_mov,24.4,27.1,False
+sos order 2,rounded,absolute,all,15,MI,mov_vs_rest,79.3,78.5,False
+sos order 2,rounded,absolute,clean,15,MI,mov_vs_mov,24.1,27.1,False
+sos order 2,rounded,absolute,clean,15,MI,mov_vs_rest,79.0,78.5,False
+sos order 2,rounded,relative,all,15,MI,mov_vs_mov,24.4,27.1,False
+sos order 2,rounded,relative,all,15,MI,mov_vs_rest,79.2,78.5,False
+sos order 2,rounded,relative,clean,15,MI,mov_vs_mov,24.1,27.1,False
+sos order 2,rounded,relative,clean,15,MI,mov_vs_rest,79.2,78.5,False

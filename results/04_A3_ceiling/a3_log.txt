@@ -1,0 +1,85 @@
+
+===== A.3 started 21:30:43 =====
+deployed montage: ['Cz', 'P4', 'CP3', 'C1', 'P3', 'C2', 'Pz', 'C6']
+extra classes ME subject  1: 120 trials (0.9 min)
+extra classes ME subject  2: 120 trials (1.7 min)
+extra classes ME subject  3: 120 trials (2.1 min)
+extra classes ME subject  4: 120 trials (2.7 min)
+extra classes ME subject  5: 120 trials (3.1 min)
+extra classes ME subject  6: 120 trials (3.5 min)
+extra classes ME subject  7: 120 trials (3.6 min)
+extra classes ME subject  8: 120 trials (3.8 min)
+extra classes ME subject  9: 120 trials (4.0 min)
+extra classes ME subject 10: 120 trials (4.2 min)
+extra classes ME subject 11: 120 trials (4.4 min)
+extra classes ME subject 12: 120 trials (4.6 min)
+extra classes ME subject 13: 120 trials (4.7 min)
+extra classes ME subject 14: 120 trials (4.9 min)
+extra classes ME subject 15: 120 trials (5.1 min)
+extra classes MI subject  1: 120 trials (5.3 min)
+extra classes MI subject  2: 120 trials (5.5 min)
+extra classes MI subject  3: 120 trials (5.7 min)
+extra classes MI subject  4: 120 trials (5.9 min)
+extra classes MI subject  5: 120 trials (6.0 min)
+extra classes MI subject  6: 120 trials (6.2 min)
+extra classes MI subject  7: 120 trials (6.4 min)
+extra classes MI subject  8: 120 trials (6.6 min)
+extra classes MI subject  9: 120 trials (6.7 min)
+extra classes MI subject 10: 120 trials (6.9 min)
+extra classes MI subject 11: 120 trials (7.1 min)
+extra classes MI subject 12: 120 trials (7.3 min)
+extra classes MI subject 13: 120 trials (7.5 min)
+extra classes MI subject 14: 120 trials (7.6 min)
+extra classes MI subject 15: 120 trials (7.8 min)
+data ready (7.8 min)
+fast LDA vs sklearn (4 classes): same decisions in 100.0% of trials
+ceiling subject  1 done (8.0 min)
+ceiling subject  2 done (8.1 min)
+ceiling subject  3 done (8.2 min)
+ceiling subject  4 done (8.3 min)
+ceiling subject  5 done (8.4 min)
+ceiling subject  6 done (8.5 min)
+ceiling subject  7 done (8.6 min)
+ceiling subject  8 done (8.7 min)
+ceiling subject  9 done (8.8 min)
+ceiling subject 10 done (8.9 min)
+ceiling subject 11 done (9.0 min)
+ceiling subject 12 done (9.1 min)
+ceiling subject 13 done (9.2 min)
+ceiling subject 14 done (9.3 min)
+ceiling subject 15 done (9.4 min)
+Lee row subject  1 done (9.5 min)
+Lee row subject  2 done (9.7 min)
+Lee row subject  3 done (9.9 min)
+Lee row subject  4 done (9.9 min)
+Lee row subject  5 done (10.1 min)
+Lee row subject  6 done (10.2 min)
+Lee row subject  7 done (10.4 min)
+Lee row subject  8 done (10.6 min)
+Lee row subject  9 done (10.7 min)
+Lee row subject 10 done (10.9 min)
+Lee row subject 11 done (11.0 min)
+Lee row subject 12 done (11.1 min)
+Lee row subject 13 done (11.3 min)
+Lee row subject 14 done (11.5 min)
+Lee row subject 15 done (11.6 min)
+
+=== A.3-1: ceiling (own MI runs 1-5 with labels -> own MI runs 6-10), balanced accuracy %, 15 subjects ===
+task    montage  mean  median  sd  min  max  n_above_50  p_vs_50  n_sig_perm_p<0.05
+  T1      cons8  70.0    71.7 8.8 55.0 82.5          15   0.0000               12.0
+  T1 standard31  65.6    63.3 8.7 51.7 79.2          15   0.0003                NaN
+  T1      all61  56.3    53.3 7.4 49.2 73.3          11   0.0023                NaN
+  T2      cons8  53.0    51.7 5.8 43.3 63.3           9   0.0413                NaN
+  T2 standard31  54.0    53.3 5.6 45.0 65.0          10   0.0114                NaN
+  T2      all61  54.3    53.3 6.6 43.3 68.3          11   0.0147                NaN
+zero calibration for comparison (A.2b): honest estimate 60.9% (fold-specific sites), 31 sites 60.8%, 61 channels 58.3%
+
+=== A.3-2: Lee-protocol row (4 classes, own ME + MI training, own MI test), balanced accuracy %, chance 25 ===
+   montage  random_mean  random_sd  runwise_mean  runwise_sd  difference  p_random_vs_runwise
+     all61         29.9        4.4          30.0         4.0        -0.1               0.7197
+standard31         28.6        3.0          31.4         4.4        -2.8               0.0015
+     cons8         32.7        3.9          32.5         3.4         0.2               0.5614
+Lee 2022 reported 69% (their own model, 4-40 Hz, ICA, 0-4 s, random split)
+
+total time 11.6 min
+===== A.3 FINISHED =====

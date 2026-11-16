@@ -1,0 +1,131 @@
+
+===== A.4a started 12:28:32 =====
+consensus montage: ['Cz', 'P4', 'CP3', 'C1', 'P3', 'C2', 'Pz', 'C6']
+pre-cue ME subject  1: 180 trials (0.3 min)
+pre-cue ME subject  2: 180 trials (0.5 min)
+pre-cue ME subject  3: 180 trials (0.7 min)
+pre-cue ME subject  4: 180 trials (0.9 min)
+pre-cue ME subject  5: 180 trials (1.1 min)
+pre-cue ME subject  6: 180 trials (1.3 min)
+pre-cue ME subject  7: 180 trials (1.4 min)
+pre-cue ME subject  8: 180 trials (1.5 min)
+pre-cue ME subject  9: 180 trials (1.6 min)
+pre-cue ME subject 10: 180 trials (1.8 min)
+pre-cue ME subject 11: 180 trials (1.9 min)
+pre-cue ME subject 12: 180 trials (2.0 min)
+pre-cue ME subject 13: 180 trials (2.2 min)
+pre-cue ME subject 14: 180 trials (2.4 min)
+pre-cue ME subject 15: 180 trials (2.5 min)
+pre-cue MI subject  1: 180 trials (2.6 min)
+pre-cue MI subject  2: 180 trials (2.8 min)
+pre-cue MI subject  3: 180 trials (2.9 min)
+pre-cue MI subject  4: 180 trials (3.0 min)
+pre-cue MI subject  5: 180 trials (3.1 min)
+pre-cue MI subject  6: 180 trials (3.3 min)
+pre-cue MI subject  7: 180 trials (3.6 min)
+pre-cue MI subject  8: 180 trials (3.8 min)
+pre-cue MI subject  9: 180 trials (3.9 min)
+pre-cue MI subject 10: 180 trials (4.1 min)
+pre-cue MI subject 11: 180 trials (4.2 min)
+pre-cue MI subject 12: 180 trials (4.4 min)
+pre-cue MI subject 13: 180 trials (4.5 min)
+pre-cue MI subject 14: 180 trials (4.6 min)
+pre-cue MI subject 15: 180 trials (4.7 min)
+data ready (4.7 min)
+fast LDA vs sklearn: same decisions in 100.0% of trials
+person  1 done (5.4 min)
+person  2 done (5.9 min)
+person  3 done (6.5 min)
+person  4 done (7.2 min)
+person  5 done (7.7 min)
+person  6 done (8.4 min)
+person  7 done (9.0 min)
+person  8 done (9.5 min)
+person  9 done (10.1 min)
+person 10 done (10.8 min)
+person 11 done (11.3 min)
+person 12 done (11.9 min)
+person 13 done (12.6 min)
+person 14 done (13.1 min)
+person 15 done (13.7 min)
+
+=== A.4a-1: four cells, T1 hand vs rest, fold-specific 8 sites (PRIMARY), new person MI runs 6-10, % ===
+       cell  mean  median median_95CI  sd  min  max  n_above_50  p_vs_50  n_sig_perm  perm_null_mean
+  1 MI self  67.1    69.2   60.0-73.3 9.3 45.0 80.0          14   0.0004          12            50.0
+2 MI others  62.0    61.7   54.2-70.0 8.2 50.0 77.5          14   0.0005           9            50.0
+  3 ME self  62.7    64.2   52.5-69.2 9.6 51.7 83.3          15   0.0003           8            50.0
+4 ME others  61.0    60.0   51.7-66.7 9.2 48.3 77.5          13   0.0003           8            50.0
+
+per person (* = permutation p < 0.05):
+   1 MI self 2 MI others 3 ME self 4 ME others
+1       45.0        56.7      56.7        48.3
+2      77.5*       77.5*     75.0*       74.2*
+3      67.5*       64.2*      57.5       60.8*
+4      73.3*       62.5*     64.2*       77.5*
+5       60.0        59.2     70.0*        58.3
+6      78.3*       61.7*     68.3*       68.3*
+7      63.3*       62.5*     69.2*       66.7*
+8      80.0*       74.2*     83.3*        59.2
+9      66.7*       70.8*      52.5        55.8
+10     59.2*        54.2      52.5        51.7
+11     69.2*       60.8*     66.7*       62.5*
+12     70.0*        51.7     65.0*       60.0*
+13      55.8        54.2      51.7        49.2
+14     71.7*        50.0      51.7        50.8
+15     69.2*       70.0*      56.7       71.7*
+
+=== A.4a-2: cell comparisons (Wilcoxon, two-sided, Holm-corrected) ===
+                comparison  mean_difference  p_raw  p_holm
+  1 MI self vs 2 MI others              5.1 0.0331  0.1657
+    1 MI self vs 3 ME self              4.4 0.0938  0.3751
+  1 MI self vs 4 ME others              6.1 0.0146  0.0873
+2 MI others vs 4 ME others              1.0 0.6089  1.0000
+  3 ME self vs 4 ME others              1.7 0.3626  1.0000
+  2 MI others vs 3 ME self             -0.7 0.7535  1.0000
+
+=== A.4a-3: where the accuracy is lost (mean points) ===
+changing the person:   with MI training +5.1 | with ME training +1.7
+changing ME for MI:    own data +4.4 | other people +1.0
+interaction (person x condition): +3.4
+
+=== A.4a-4: same table, consensus 8 sites (optimistic: chosen with all 15) ===
+       cell  mean  median  n_above_50  p_vs_50
+  1 MI self  69.3    70.0          15   0.0003
+2 MI others  62.7    64.2          14   0.0005
+  3 ME self  62.1    61.7          14   0.0005
+4 ME others  66.9    66.7          14   0.0005
+
+=== A.4a-5: same table, R4M-clean test trials (secondary) ===
+       cell  mean  median  n_above_50  p_vs_50
+  1 MI self  66.3    69.4          13   0.0002
+2 MI others  62.2    61.7          14   0.0005
+  3 ME self  62.5    63.9          15   0.0000
+4 ME others  61.1    60.9          13   0.0006
+
+=== A.4a-6: T2 open vs close, fold-specific 8 sites ===
+       cell  mean  median median_95CI  n_above_50  p_vs_50
+  1 MI self  51.1    51.7   45.0-55.0           8   0.3246
+2 MI others  49.8    50.0   46.7-53.3           6   0.5701
+  3 ME self  52.3    51.7   46.7-53.3           8   0.1814
+4 ME others  50.8    51.7   48.3-53.3           8   0.1882
+
+=== A.4a-7: controls (T1, strict), mean %, p vs 50 ===
+                  control        cell  mean  n_above_50  p_vs_50
+                     eog3 2 MI others  50.4           7   0.4306
+                     eog3 4 ME others  50.7           9   0.2252
+                 frontal5 2 MI others  49.2           4   0.8556
+                 frontal5 4 ME others  52.1           6   0.1498
+                 central5 2 MI others  57.4          12   0.0022
+                 central5 4 ME others  55.6          13   0.0009
+                parietal3 2 MI others  52.1           8   0.2349
+                parietal3 4 ME others  51.6           9   0.1356
+                 nearC3_8 2 MI others  57.0          12   0.0017
+                 nearC3_8 4 ME others  55.4          10   0.0044
+fold8 without first 0.5 s 2 MI others  64.8          13   0.0007
+fold8 without first 0.5 s 4 ME others  62.6          14   0.0005
+fold8 pre-cue (-2 to 0 s) 2 MI others  49.2           6   0.6233
+fold8 pre-cue (-2 to 0 s) 4 ME others  50.2           7   0.4169
+near-C3 8 sites: ['FC5', 'FC3', 'FC1', 'C5', 'C3', 'C1', 'CP5', 'CP3']
+
+total time 13.7 min
+===== A.4a FINISHED =====

@@ -1,0 +1,271 @@
+subject,mode,task,chans,acc_10x10,acc_loro
+1,class_specific (first run),mov_vs_mov,eeg,32.9,31.5
+1,class_specific (first run),mov_vs_mov,eog,23.4,
+1,class_specific (first run),mov_vs_mov,frontal,19.2,
+1,class_specific (first run),mov_vs_rest,eeg,69.1,72.7
+1,class_specific (first run),mov_vs_rest,eog,57.5,
+1,class_specific (first run),mov_vs_rest,frontal,56.9,
+2,class_specific (first run),mov_vs_mov,eeg,34.9,35.5
+2,class_specific (first run),mov_vs_mov,eog,18.8,
+2,class_specific (first run),mov_vs_mov,frontal,30.0,
+2,class_specific (first run),mov_vs_rest,eeg,68.5,70.9
+2,class_specific (first run),mov_vs_rest,eog,53.6,
+2,class_specific (first run),mov_vs_rest,frontal,59.3,
+3,class_specific (first run),mov_vs_mov,eeg,31.5,31.4
+3,class_specific (first run),mov_vs_mov,eog,22.0,
+3,class_specific (first run),mov_vs_mov,frontal,19.5,
+3,class_specific (first run),mov_vs_rest,eeg,68.0,72.8
+3,class_specific (first run),mov_vs_rest,eog,48.0,
+3,class_specific (first run),mov_vs_rest,frontal,54.1,
+4,class_specific (first run),mov_vs_mov,eeg,46.9,51.4
+4,class_specific (first run),mov_vs_mov,eog,30.0,
+4,class_specific (first run),mov_vs_mov,frontal,32.8,
+4,class_specific (first run),mov_vs_rest,eeg,74.0,76.0
+4,class_specific (first run),mov_vs_rest,eog,54.5,
+4,class_specific (first run),mov_vs_rest,frontal,66.1,
+5,class_specific (first run),mov_vs_mov,eeg,34.6,32.1
+5,class_specific (first run),mov_vs_mov,eog,22.5,
+5,class_specific (first run),mov_vs_mov,frontal,30.6,
+5,class_specific (first run),mov_vs_rest,eeg,63.1,67.1
+5,class_specific (first run),mov_vs_rest,eog,50.4,
+5,class_specific (first run),mov_vs_rest,frontal,53.3,
+6,class_specific (first run),mov_vs_mov,eeg,38.4,41.3
+6,class_specific (first run),mov_vs_mov,eog,27.3,
+6,class_specific (first run),mov_vs_mov,frontal,30.1,
+6,class_specific (first run),mov_vs_rest,eeg,75.9,81.0
+6,class_specific (first run),mov_vs_rest,eog,56.0,
+6,class_specific (first run),mov_vs_rest,frontal,62.2,
+7,class_specific (first run),mov_vs_mov,eeg,38.7,37.0
+7,class_specific (first run),mov_vs_mov,eog,21.4,
+7,class_specific (first run),mov_vs_mov,frontal,28.3,
+7,class_specific (first run),mov_vs_rest,eeg,65.6,63.1
+7,class_specific (first run),mov_vs_rest,eog,47.7,
+7,class_specific (first run),mov_vs_rest,frontal,63.7,
+8,class_specific (first run),mov_vs_mov,eeg,38.2,37.2
+8,class_specific (first run),mov_vs_mov,eog,26.2,
+8,class_specific (first run),mov_vs_mov,frontal,26.3,
+8,class_specific (first run),mov_vs_rest,eeg,80.2,85.0
+8,class_specific (first run),mov_vs_rest,eog,64.2,
+8,class_specific (first run),mov_vs_rest,frontal,63.6,
+9,class_specific (first run),mov_vs_mov,eeg,31.9,30.9
+9,class_specific (first run),mov_vs_mov,eog,24.1,
+9,class_specific (first run),mov_vs_mov,frontal,19.8,
+9,class_specific (first run),mov_vs_rest,eeg,66.4,62.4
+9,class_specific (first run),mov_vs_rest,eog,52.3,
+9,class_specific (first run),mov_vs_rest,frontal,56.1,
+10,class_specific (first run),mov_vs_mov,eeg,36.7,34.6
+10,class_specific (first run),mov_vs_mov,eog,19.5,
+10,class_specific (first run),mov_vs_mov,frontal,21.8,
+10,class_specific (first run),mov_vs_rest,eeg,64.5,68.7
+10,class_specific (first run),mov_vs_rest,eog,48.9,
+10,class_specific (first run),mov_vs_rest,frontal,46.5,
+11,class_specific (first run),mov_vs_mov,eeg,31.7,32.7
+11,class_specific (first run),mov_vs_mov,eog,18.1,
+11,class_specific (first run),mov_vs_mov,frontal,24.2,
+11,class_specific (first run),mov_vs_rest,eeg,68.0,70.0
+11,class_specific (first run),mov_vs_rest,eog,61.1,
+11,class_specific (first run),mov_vs_rest,frontal,48.9,
+12,class_specific (first run),mov_vs_mov,eeg,35.5,34.6
+12,class_specific (first run),mov_vs_mov,eog,18.7,
+12,class_specific (first run),mov_vs_mov,frontal,23.6,
+12,class_specific (first run),mov_vs_rest,eeg,74.7,80.0
+12,class_specific (first run),mov_vs_rest,eog,55.2,
+12,class_specific (first run),mov_vs_rest,frontal,58.5,
+13,class_specific (first run),mov_vs_mov,eeg,38.6,40.4
+13,class_specific (first run),mov_vs_mov,eog,21.4,
+13,class_specific (first run),mov_vs_mov,frontal,28.2,
+13,class_specific (first run),mov_vs_rest,eeg,69.9,78.6
+13,class_specific (first run),mov_vs_rest,eog,58.2,
+13,class_specific (first run),mov_vs_rest,frontal,52.2,
+14,class_specific (first run),mov_vs_mov,eeg,31.6,32.8
+14,class_specific (first run),mov_vs_mov,eog,22.8,
+14,class_specific (first run),mov_vs_mov,frontal,25.7,
+14,class_specific (first run),mov_vs_rest,eeg,73.8,78.4
+14,class_specific (first run),mov_vs_rest,eog,56.2,
+14,class_specific (first run),mov_vs_rest,frontal,59.5,
+15,class_specific (first run),mov_vs_mov,eeg,46.1,45.6
+15,class_specific (first run),mov_vs_mov,eog,24.5,
+15,class_specific (first run),mov_vs_mov,frontal,30.9,
+15,class_specific (first run),mov_vs_rest,eeg,73.6,78.1
+15,class_specific (first run),mov_vs_rest,eog,62.6,
+15,class_specific (first run),mov_vs_rest,frontal,71.7,
+1,subject_mean,mov_vs_mov,eeg,29.5,27.7
+1,subject_mean,mov_vs_mov,eog,22.2,
+1,subject_mean,mov_vs_mov,frontal,17.1,
+1,subject_mean,mov_vs_rest,eeg,69.1,71.8
+1,subject_mean,mov_vs_rest,eog,58.4,
+1,subject_mean,mov_vs_rest,frontal,57.4,
+1,class_shuffled,mov_vs_mov,eeg,32.0,28.9
+1,class_shuffled,mov_vs_mov,eog,20.8,
+1,class_shuffled,mov_vs_mov,frontal,19.3,
+1,class_shuffled,mov_vs_rest,eeg,67.7,71.2
+1,class_shuffled,mov_vs_rest,eog,56.7,
+1,class_shuffled,mov_vs_rest,frontal,56.8,
+2,subject_mean,mov_vs_mov,eeg,24.1,22.9
+2,subject_mean,mov_vs_mov,eog,14.4,
+2,subject_mean,mov_vs_mov,frontal,20.2,
+2,subject_mean,mov_vs_rest,eeg,70.0,71.8
+2,subject_mean,mov_vs_rest,eog,52.3,
+2,subject_mean,mov_vs_rest,frontal,59.3,
+2,class_shuffled,mov_vs_mov,eeg,32.8,31.5
+2,class_shuffled,mov_vs_mov,eog,17.6,
+2,class_shuffled,mov_vs_mov,frontal,31.1,
+2,class_shuffled,mov_vs_rest,eeg,71.9,71.6
+2,class_shuffled,mov_vs_rest,eog,51.3,
+2,class_shuffled,mov_vs_rest,frontal,55.7,
+3,subject_mean,mov_vs_mov,eeg,24.0,23.8
+3,subject_mean,mov_vs_mov,eog,18.6,
+3,subject_mean,mov_vs_mov,frontal,14.5,
+3,subject_mean,mov_vs_rest,eeg,68.7,71.7
+3,subject_mean,mov_vs_rest,eog,50.1,
+3,subject_mean,mov_vs_rest,frontal,55.8,
+3,class_shuffled,mov_vs_mov,eeg,28.9,29.5
+3,class_shuffled,mov_vs_mov,eog,22.5,
+3,class_shuffled,mov_vs_mov,frontal,22.3,
+3,class_shuffled,mov_vs_rest,eeg,67.8,71.5
+3,class_shuffled,mov_vs_rest,eog,51.0,
+3,class_shuffled,mov_vs_rest,frontal,56.1,
+4,subject_mean,mov_vs_mov,eeg,30.4,31.9
+4,subject_mean,mov_vs_mov,eog,20.1,
+4,subject_mean,mov_vs_mov,frontal,22.4,
+4,subject_mean,mov_vs_rest,eeg,80.2,74.6
+4,subject_mean,mov_vs_rest,eog,53.4,
+4,subject_mean,mov_vs_rest,frontal,69.7,
+4,class_shuffled,mov_vs_mov,eeg,46.0,47.6
+4,class_shuffled,mov_vs_mov,eog,26.8,
+4,class_shuffled,mov_vs_mov,frontal,34.0,
+4,class_shuffled,mov_vs_rest,eeg,72.3,75.5
+4,class_shuffled,mov_vs_rest,eog,55.2,
+4,class_shuffled,mov_vs_rest,frontal,64.9,
+5,subject_mean,mov_vs_mov,eeg,27.0,26.6
+5,subject_mean,mov_vs_mov,eog,20.1,
+5,subject_mean,mov_vs_mov,frontal,20.3,
+5,subject_mean,mov_vs_rest,eeg,66.3,69.7
+5,subject_mean,mov_vs_rest,eog,52.4,
+5,subject_mean,mov_vs_rest,frontal,54.5,
+5,class_shuffled,mov_vs_mov,eeg,35.8,34.9
+5,class_shuffled,mov_vs_mov,eog,22.9,
+5,class_shuffled,mov_vs_mov,frontal,24.0,
+5,class_shuffled,mov_vs_rest,eeg,62.6,68.4
+5,class_shuffled,mov_vs_rest,eog,50.9,
+5,class_shuffled,mov_vs_rest,frontal,56.3,
+6,subject_mean,mov_vs_mov,eeg,28.0,28.5
+6,subject_mean,mov_vs_mov,eog,21.1,
+6,subject_mean,mov_vs_mov,frontal,17.6,
+6,subject_mean,mov_vs_rest,eeg,77.6,79.6
+6,subject_mean,mov_vs_rest,eog,51.5,
+6,subject_mean,mov_vs_rest,frontal,58.9,
+6,class_shuffled,mov_vs_mov,eeg,43.5,42.1
+6,class_shuffled,mov_vs_mov,eog,27.1,
+6,class_shuffled,mov_vs_mov,frontal,29.1,
+6,class_shuffled,mov_vs_rest,eeg,70.5,79.6
+6,class_shuffled,mov_vs_rest,eog,57.2,
+6,class_shuffled,mov_vs_rest,frontal,57.9,
+7,subject_mean,mov_vs_mov,eeg,25.3,26.4
+7,subject_mean,mov_vs_mov,eog,16.5,
+7,subject_mean,mov_vs_mov,frontal,20.9,
+7,subject_mean,mov_vs_rest,eeg,62.8,60.6
+7,subject_mean,mov_vs_rest,eog,45.9,
+7,subject_mean,mov_vs_rest,frontal,54.4,
+7,class_shuffled,mov_vs_mov,eeg,36.2,36.3
+7,class_shuffled,mov_vs_mov,eog,19.1,
+7,class_shuffled,mov_vs_mov,frontal,30.0,
+7,class_shuffled,mov_vs_rest,eeg,66.4,63.8
+7,class_shuffled,mov_vs_rest,eog,44.3,
+7,class_shuffled,mov_vs_rest,frontal,57.4,
+8,subject_mean,mov_vs_mov,eeg,25.8,24.8
+8,subject_mean,mov_vs_mov,eog,21.0,
+8,subject_mean,mov_vs_mov,frontal,21.0,
+8,subject_mean,mov_vs_rest,eeg,81.7,87.1
+8,subject_mean,mov_vs_rest,eog,64.6,
+8,subject_mean,mov_vs_rest,frontal,63.2,
+8,class_shuffled,mov_vs_mov,eeg,32.0,33.0
+8,class_shuffled,mov_vs_mov,eog,21.0,
+8,class_shuffled,mov_vs_mov,frontal,26.0,
+8,class_shuffled,mov_vs_rest,eeg,83.4,87.6
+8,class_shuffled,mov_vs_rest,eog,64.6,
+8,class_shuffled,mov_vs_rest,frontal,63.2,
+9,subject_mean,mov_vs_mov,eeg,27.2,26.0
+9,subject_mean,mov_vs_mov,eog,21.6,
+9,subject_mean,mov_vs_mov,frontal,14.5,
+9,subject_mean,mov_vs_rest,eeg,66.8,65.7
+9,subject_mean,mov_vs_rest,eog,51.1,
+9,subject_mean,mov_vs_rest,frontal,54.5,
+9,class_shuffled,mov_vs_mov,eeg,33.5,33.0
+9,class_shuffled,mov_vs_mov,eog,22.1,
+9,class_shuffled,mov_vs_mov,frontal,17.4,
+9,class_shuffled,mov_vs_rest,eeg,64.7,68.3
+9,class_shuffled,mov_vs_rest,eog,51.4,
+9,class_shuffled,mov_vs_rest,frontal,52.6,
+10,subject_mean,mov_vs_mov,eeg,20.4,21.2
+10,subject_mean,mov_vs_mov,eog,16.1,
+10,subject_mean,mov_vs_mov,frontal,18.7,
+10,subject_mean,mov_vs_rest,eeg,63.5,61.9
+10,subject_mean,mov_vs_rest,eog,45.0,
+10,subject_mean,mov_vs_rest,frontal,46.9,
+10,class_shuffled,mov_vs_mov,eeg,40.3,43.0
+10,class_shuffled,mov_vs_mov,eog,19.3,
+10,class_shuffled,mov_vs_mov,frontal,26.2,
+10,class_shuffled,mov_vs_rest,eeg,68.1,69.0
+10,class_shuffled,mov_vs_rest,eog,47.5,
+10,class_shuffled,mov_vs_rest,frontal,46.6,
+11,subject_mean,mov_vs_mov,eeg,19.4,20.9
+11,subject_mean,mov_vs_mov,eog,15.2,
+11,subject_mean,mov_vs_mov,frontal,16.5,
+11,subject_mean,mov_vs_rest,eeg,68.5,69.5
+11,subject_mean,mov_vs_rest,eog,61.3,
+11,subject_mean,mov_vs_rest,frontal,49.9,
+11,class_shuffled,mov_vs_mov,eeg,29.6,30.3
+11,class_shuffled,mov_vs_mov,eog,17.1,
+11,class_shuffled,mov_vs_mov,frontal,22.6,
+11,class_shuffled,mov_vs_rest,eeg,65.1,69.7
+11,class_shuffled,mov_vs_rest,eog,60.9,
+11,class_shuffled,mov_vs_rest,frontal,50.7,
+12,subject_mean,mov_vs_mov,eeg,29.2,30.4
+12,subject_mean,mov_vs_mov,eog,16.0,
+12,subject_mean,mov_vs_mov,frontal,17.0,
+12,subject_mean,mov_vs_rest,eeg,79.7,78.3
+12,subject_mean,mov_vs_rest,eog,56.1,
+12,subject_mean,mov_vs_rest,frontal,61.8,
+12,class_shuffled,mov_vs_mov,eeg,38.3,39.9
+12,class_shuffled,mov_vs_mov,eog,20.9,
+12,class_shuffled,mov_vs_mov,frontal,28.9,
+12,class_shuffled,mov_vs_rest,eeg,75.6,75.6
+12,class_shuffled,mov_vs_rest,eog,56.4,
+12,class_shuffled,mov_vs_rest,frontal,61.8,
+13,subject_mean,mov_vs_mov,eeg,25.9,27.6
+13,subject_mean,mov_vs_mov,eog,16.5,
+13,subject_mean,mov_vs_mov,frontal,19.3,
+13,subject_mean,mov_vs_rest,eeg,68.3,75.4
+13,subject_mean,mov_vs_rest,eog,61.7,
+13,subject_mean,mov_vs_rest,frontal,56.0,
+13,class_shuffled,mov_vs_mov,eeg,34.6,33.8
+13,class_shuffled,mov_vs_mov,eog,22.0,
+13,class_shuffled,mov_vs_mov,frontal,24.5,
+13,class_shuffled,mov_vs_rest,eeg,66.0,72.1
+13,class_shuffled,mov_vs_rest,eog,60.0,
+13,class_shuffled,mov_vs_rest,frontal,56.3,
+14,subject_mean,mov_vs_mov,eeg,28.3,26.1
+14,subject_mean,mov_vs_mov,eog,22.3,
+14,subject_mean,mov_vs_mov,frontal,21.4,
+14,subject_mean,mov_vs_rest,eeg,73.9,77.9
+14,subject_mean,mov_vs_rest,eog,56.5,
+14,subject_mean,mov_vs_rest,frontal,56.1,
+14,class_shuffled,mov_vs_mov,eeg,28.3,26.0
+14,class_shuffled,mov_vs_mov,eog,23.6,
+14,class_shuffled,mov_vs_mov,frontal,24.7,
+14,class_shuffled,mov_vs_rest,eeg,74.4,75.8
+14,class_shuffled,mov_vs_rest,eog,56.8,
+14,class_shuffled,mov_vs_rest,frontal,58.7,
+15,subject_mean,mov_vs_mov,eeg,26.6,27.1
+15,subject_mean,mov_vs_mov,eog,17.8,
+15,subject_mean,mov_vs_mov,frontal,19.0,
+15,subject_mean,mov_vs_rest,eeg,78.4,78.5
+15,subject_mean,mov_vs_rest,eog,59.7,
+15,subject_mean,mov_vs_rest,frontal,65.5,
+15,class_shuffled,mov_vs_mov,eeg,52.7,53.3
+15,class_shuffled,mov_vs_mov,eog,23.4,
+15,class_shuffled,mov_vs_mov,frontal,28.9,
+15,class_shuffled,mov_vs_rest,eeg,73.6,76.1
+15,class_shuffled,mov_vs_rest,eog,59.6,
+15,class_shuffled,mov_vs_rest,frontal,71.6,

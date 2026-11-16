@@ -1,0 +1,2333 @@
+model,condition,subject,bal_acc
+TS+LDA,cons8 strict,66,47.38
+TS+LDA,cons8 strict,38,60.36
+TS+LDA,cons8 strict,6,58.93
+TS+LDA,cons8 strict,103,68.21
+TS+LDA,cons8 strict,40,50.45
+TS+LDA,cons8 strict,104,63.46
+TS+LDA,cons8 strict,76,50.0
+TS+LDA,cons8 strict,17,71.43
+TS+LDA,cons8 strict,21,71.43
+TS+LDA,cons8 strict,89,67.86
+TS+LDA,cons8 strict,90,55.48
+TS+LDA,cons8 strict,35,53.12
+TS+LDA,cons8 strict,68,61.61
+TS+LDA,cons8 strict,37,47.98
+TS+LDA,cons8 strict,9,62.5
+TS+LDA,cons8 strict,10,46.43
+TS+LDA,cons8 strict,11,55.36
+TS+LDA,cons8 strict,12,51.79
+TS+LDA,cons8 strict,107,41.07
+TS+LDA,cons8 strict,14,68.33
+TS+LDA,cons8 strict,24,50.0
+TS+LDA,cons8 strict,28,60.71
+TS+LDA,cons8 strict,5,51.34
+TS+LDA,cons8 strict,43,60.0
+TS+LDA,cons8 strict,45,53.33
+TS+LDA,cons8 strict,81,61.31
+TS+LDA,cons8 strict,51,67.86
+TS+LDA,cons8 strict,20,60.71
+TS+LDA,cons8 strict,85,56.43
+TS+LDA,cons8 strict,53,62.14
+TS+LDA,cons8 strict,23,77.68
+TS+LDA,cons8 strict,56,79.05
+TS+LDA,cons8 strict,26,71.43
+TS+LDA,cons8 strict,65,66.07
+TS+LDA,cons8 strict,3,43.57
+TS+LDA,cons8 strict,36,56.67
+TS+LDA,cons8 strict,71,54.46
+TS+LDA,cons8 strict,16,73.1
+TS+LDA,cons8 strict,82,72.14
+TS+LDA,cons8 strict,83,51.34
+TS+LDA,cons8 strict,87,59.38
+TS+LDA,cons8 strict,31,51.34
+TS+LDA,cons8 strict,94,70.83
+TS+LDA,cons8 strict,95,51.79
+TS+LDA,cons8 strict,2,71.43
+TS+LDA,cons8 strict,4,88.21
+TS+LDA,cons8 strict,101,72.77
+TS+LDA,cons8 strict,69,62.5
+TS+LDA,cons8 strict,7,80.0
+TS+LDA,cons8 strict,72,70.0
+TS+LDA,cons8 strict,44,74.4
+TS+LDA,cons8 strict,18,50.0
+TS+LDA,cons8 strict,29,64.52
+TS+LDA,cons8 strict,19,53.1
+TS+LDA,cons8 strict,93,65.0
+TS+LDA,cons8 strict,1,80.36
+TS+LDA,cons8 strict,99,50.0
+TS+LDA,cons8 strict,67,43.75
+TS+LDA,cons8 strict,73,79.52
+TS+LDA,cons8 strict,75,65.48
+TS+LDA,cons8 strict,48,65.62
+TS+LDA,cons8 strict,54,60.0
+TS+LDA,cons8 strict,22,72.62
+TS+LDA,cons8 strict,86,73.21
+TS+LDA,cons8 strict,25,79.76
+TS+LDA,cons8 strict,58,80.36
+TS+LDA,cons8 strict,102,93.1
+TS+LDA,cons8 strict,105,67.98
+TS+LDA,cons8 strict,91,56.7
+TS+LDA,cons8 strict,46,58.93
+TS+LDA,cons8 strict,50,53.57
+TS+LDA,cons8 strict,52,80.36
+TS+LDA,cons8 strict,84,69.05
+TS+LDA,cons8 strict,27,58.57
+TS+LDA,cons8 strict,61,50.0
+TS+LDA,cons8 strict,63,45.71
+TS+LDA,cons8 strict,33,50.0
+TS+LDA,cons8 strict,41,62.5
+TS+LDA,cons8 strict,106,66.07
+TS+LDA,cons8 strict,74,50.0
+TS+LDA,cons8 strict,108,51.55
+TS+LDA,cons8 strict,13,56.67
+TS+LDA,cons8 strict,47,60.71
+TS+LDA,cons8 strict,15,87.5
+TS+LDA,cons8 strict,59,55.36
+TS+LDA,cons8 strict,62,50.0
+TS+LDA,cons8 strict,96,48.21
+TS+LDA,cons8 strict,97,50.36
+TS+LDA,cons8 strict,32,96.88
+TS+LDA,cons8 strict,64,75.95
+TS+LDA,cons8 strict,39,54.17
+TS+LDA,cons8 strict,8,63.21
+TS+LDA,cons8 strict,77,48.21
+TS+LDA,cons8 strict,78,42.74
+TS+LDA,cons8 strict,109,48.21
+TS+LDA,cons8 strict,49,60.71
+TS+LDA,cons8 strict,34,83.48
+TS+LDA,cons8 strict,98,50.71
+TS+LDA,cons8 strict,70,63.69
+TS+LDA,cons8 strict,42,80.36
+TS+LDA,cons8 strict,79,44.2
+TS+LDA,cons8 strict,80,78.57
+TS+LDA,cons8 strict,55,77.98
+TS+LDA,cons8 strict,57,48.21
+TS+LDA,cons8 strict,60,73.21
+TS+LDA,cons8 strict,30,58.93
+TS+LDA,pool31 strict,66,50.36
+TS+LDA,pool31 strict,38,64.29
+TS+LDA,pool31 strict,6,51.79
+TS+LDA,pool31 strict,103,59.76
+TS+LDA,pool31 strict,40,53.57
+TS+LDA,pool31 strict,104,75.0
+TS+LDA,pool31 strict,76,50.0
+TS+LDA,pool31 strict,17,53.57
+TS+LDA,pool31 strict,21,53.57
+TS+LDA,pool31 strict,89,71.43
+TS+LDA,pool31 strict,90,51.79
+TS+LDA,pool31 strict,35,78.57
+TS+LDA,pool31 strict,68,78.12
+TS+LDA,pool31 strict,37,57.14
+TS+LDA,pool31 strict,9,62.5
+TS+LDA,pool31 strict,10,67.86
+TS+LDA,pool31 strict,11,60.83
+TS+LDA,pool31 strict,12,71.88
+TS+LDA,pool31 strict,107,53.57
+TS+LDA,pool31 strict,14,84.17
+TS+LDA,pool31 strict,24,51.55
+TS+LDA,pool31 strict,28,60.71
+TS+LDA,pool31 strict,5,56.25
+TS+LDA,pool31 strict,43,73.33
+TS+LDA,pool31 strict,45,64.88
+TS+LDA,pool31 strict,81,75.48
+TS+LDA,pool31 strict,51,48.21
+TS+LDA,pool31 strict,20,82.14
+TS+LDA,pool31 strict,85,64.64
+TS+LDA,pool31 strict,53,70.36
+TS+LDA,pool31 strict,23,83.04
+TS+LDA,pool31 strict,56,75.24
+TS+LDA,pool31 strict,26,58.93
+TS+LDA,pool31 strict,65,60.71
+TS+LDA,pool31 strict,3,50.0
+TS+LDA,pool31 strict,36,56.67
+TS+LDA,pool31 strict,71,62.95
+TS+LDA,pool31 strict,16,70.83
+TS+LDA,pool31 strict,82,72.38
+TS+LDA,pool31 strict,83,61.61
+TS+LDA,pool31 strict,87,53.12
+TS+LDA,pool31 strict,31,62.95
+TS+LDA,pool31 strict,94,62.38
+TS+LDA,pool31 strict,95,60.71
+TS+LDA,pool31 strict,2,82.14
+TS+LDA,pool31 strict,4,69.76
+TS+LDA,pool31 strict,101,63.39
+TS+LDA,pool31 strict,69,76.79
+TS+LDA,pool31 strict,7,50.0
+TS+LDA,pool31 strict,72,66.43
+TS+LDA,pool31 strict,44,63.1
+TS+LDA,pool31 strict,18,43.21
+TS+LDA,pool31 strict,29,71.31
+TS+LDA,pool31 strict,19,57.98
+TS+LDA,pool31 strict,93,46.79
+TS+LDA,pool31 strict,1,68.21
+TS+LDA,pool31 strict,99,57.98
+TS+LDA,pool31 strict,67,44.64
+TS+LDA,pool31 strict,73,69.76
+TS+LDA,pool31 strict,75,56.19
+TS+LDA,pool31 strict,48,59.38
+TS+LDA,pool31 strict,54,50.0
+TS+LDA,pool31 strict,22,84.64
+TS+LDA,pool31 strict,86,75.0
+TS+LDA,pool31 strict,25,50.0
+TS+LDA,pool31 strict,58,62.5
+TS+LDA,pool31 strict,102,88.21
+TS+LDA,pool31 strict,105,53.33
+TS+LDA,pool31 strict,91,50.0
+TS+LDA,pool31 strict,46,70.12
+TS+LDA,pool31 strict,50,69.64
+TS+LDA,pool31 strict,52,75.0
+TS+LDA,pool31 strict,84,58.21
+TS+LDA,pool31 strict,27,56.31
+TS+LDA,pool31 strict,61,50.0
+TS+LDA,pool31 strict,63,51.79
+TS+LDA,pool31 strict,33,58.21
+TS+LDA,pool31 strict,41,53.57
+TS+LDA,pool31 strict,106,69.64
+TS+LDA,pool31 strict,74,50.0
+TS+LDA,pool31 strict,108,61.55
+TS+LDA,pool31 strict,13,72.62
+TS+LDA,pool31 strict,47,44.64
+TS+LDA,pool31 strict,15,91.07
+TS+LDA,pool31 strict,59,60.71
+TS+LDA,pool31 strict,62,82.14
+TS+LDA,pool31 strict,96,41.07
+TS+LDA,pool31 strict,97,53.93
+TS+LDA,pool31 strict,32,87.5
+TS+LDA,pool31 strict,64,76.79
+TS+LDA,pool31 strict,39,47.74
+TS+LDA,pool31 strict,8,70.83
+TS+LDA,pool31 strict,77,71.88
+TS+LDA,pool31 strict,78,51.43
+TS+LDA,pool31 strict,109,48.21
+TS+LDA,pool31 strict,49,62.5
+TS+LDA,pool31 strict,34,90.18
+TS+LDA,pool31 strict,98,57.74
+TS+LDA,pool31 strict,70,78.57
+TS+LDA,pool31 strict,42,63.33
+TS+LDA,pool31 strict,79,44.64
+TS+LDA,pool31 strict,80,67.86
+TS+LDA,pool31 strict,55,73.1
+TS+LDA,pool31 strict,57,57.14
+TS+LDA,pool31 strict,60,85.71
+TS+LDA,pool31 strict,30,69.64
+TS+LDA,all64 strict,66,54.17
+TS+LDA,all64 strict,38,62.74
+TS+LDA,all64 strict,6,53.57
+TS+LDA,all64 strict,103,52.86
+TS+LDA,all64 strict,40,49.11
+TS+LDA,all64 strict,104,78.85
+TS+LDA,all64 strict,76,50.0
+TS+LDA,all64 strict,17,67.86
+TS+LDA,all64 strict,21,64.29
+TS+LDA,all64 strict,89,67.86
+TS+LDA,all64 strict,90,60.95
+TS+LDA,all64 strict,35,77.68
+TS+LDA,all64 strict,68,82.14
+TS+LDA,all64 strict,37,59.88
+TS+LDA,all64 strict,9,50.0
+TS+LDA,all64 strict,10,62.5
+TS+LDA,all64 strict,11,51.79
+TS+LDA,all64 strict,12,69.64
+TS+LDA,all64 strict,107,53.57
+TS+LDA,all64 strict,14,73.69
+TS+LDA,all64 strict,24,69.88
+TS+LDA,all64 strict,28,68.75
+TS+LDA,all64 strict,5,67.86
+TS+LDA,all64 strict,43,66.31
+TS+LDA,all64 strict,45,74.88
+TS+LDA,all64 strict,81,64.76
+TS+LDA,all64 strict,51,67.86
+TS+LDA,all64 strict,20,82.14
+TS+LDA,all64 strict,85,66.43
+TS+LDA,all64 strict,53,61.07
+TS+LDA,all64 strict,23,66.52
+TS+LDA,all64 strict,56,87.98
+TS+LDA,all64 strict,26,66.07
+TS+LDA,all64 strict,65,71.43
+TS+LDA,all64 strict,3,52.02
+TS+LDA,all64 strict,36,50.0
+TS+LDA,all64 strict,71,60.71
+TS+LDA,all64 strict,16,74.4
+TS+LDA,all64 strict,82,80.83
+TS+LDA,all64 strict,83,60.27
+TS+LDA,all64 strict,87,53.12
+TS+LDA,all64 strict,31,62.05
+TS+LDA,all64 strict,94,57.98
+TS+LDA,all64 strict,95,58.93
+TS+LDA,all64 strict,2,75.0
+TS+LDA,all64 strict,4,84.64
+TS+LDA,all64 strict,101,59.82
+TS+LDA,all64 strict,69,71.43
+TS+LDA,all64 strict,7,78.21
+TS+LDA,all64 strict,72,64.88
+TS+LDA,all64 strict,44,63.1
+TS+LDA,all64 strict,18,51.55
+TS+LDA,all64 strict,29,83.1
+TS+LDA,all64 strict,19,63.1
+TS+LDA,all64 strict,93,47.26
+TS+LDA,all64 strict,1,66.19
+TS+LDA,all64 strict,99,49.88
+TS+LDA,all64 strict,67,47.77
+TS+LDA,all64 strict,73,84.4
+TS+LDA,all64 strict,75,49.76
+TS+LDA,all64 strict,48,68.75
+TS+LDA,all64 strict,54,53.33
+TS+LDA,all64 strict,22,68.21
+TS+LDA,all64 strict,86,79.91
+TS+LDA,all64 strict,25,60.0
+TS+LDA,all64 strict,58,69.64
+TS+LDA,all64 strict,102,78.21
+TS+LDA,all64 strict,105,56.67
+TS+LDA,all64 strict,91,54.02
+TS+LDA,all64 strict,46,56.07
+TS+LDA,all64 strict,50,85.71
+TS+LDA,all64 strict,52,80.36
+TS+LDA,all64 strict,84,54.64
+TS+LDA,all64 strict,27,52.74
+TS+LDA,all64 strict,61,53.33
+TS+LDA,all64 strict,63,69.64
+TS+LDA,all64 strict,33,61.55
+TS+LDA,all64 strict,41,75.0
+TS+LDA,all64 strict,106,62.5
+TS+LDA,all64 strict,74,62.5
+TS+LDA,all64 strict,108,53.33
+TS+LDA,all64 strict,13,73.1
+TS+LDA,all64 strict,47,58.93
+TS+LDA,all64 strict,15,83.93
+TS+LDA,all64 strict,59,57.14
+TS+LDA,all64 strict,62,92.86
+TS+LDA,all64 strict,96,51.79
+TS+LDA,all64 strict,97,59.88
+TS+LDA,all64 strict,32,65.62
+TS+LDA,all64 strict,64,84.17
+TS+LDA,all64 strict,39,57.26
+TS+LDA,all64 strict,8,53.81
+TS+LDA,all64 strict,77,70.09
+TS+LDA,all64 strict,78,52.5
+TS+LDA,all64 strict,109,37.5
+TS+LDA,all64 strict,49,67.86
+TS+LDA,all64 strict,34,76.34
+TS+LDA,all64 strict,98,59.52
+TS+LDA,all64 strict,70,71.43
+TS+LDA,all64 strict,42,80.0
+TS+LDA,all64 strict,79,42.41
+TS+LDA,all64 strict,80,80.36
+TS+LDA,all64 strict,55,78.21
+TS+LDA,all64 strict,57,53.57
+TS+LDA,all64 strict,60,76.79
+TS+LDA,all64 strict,30,66.07
+TS+LDA,nearC3_8 strict,66,36.31
+TS+LDA,nearC3_8 strict,38,49.88
+TS+LDA,nearC3_8 strict,6,57.14
+TS+LDA,nearC3_8 strict,103,51.07
+TS+LDA,nearC3_8 strict,40,55.36
+TS+LDA,nearC3_8 strict,104,53.85
+TS+LDA,nearC3_8 strict,76,50.0
+TS+LDA,nearC3_8 strict,17,50.0
+TS+LDA,nearC3_8 strict,21,48.21
+TS+LDA,nearC3_8 strict,89,62.5
+TS+LDA,nearC3_8 strict,90,58.93
+TS+LDA,nearC3_8 strict,35,69.64
+TS+LDA,nearC3_8 strict,68,62.95
+TS+LDA,nearC3_8 strict,37,50.0
+TS+LDA,nearC3_8 strict,9,58.93
+TS+LDA,nearC3_8 strict,10,48.21
+TS+LDA,nearC3_8 strict,11,64.29
+TS+LDA,nearC3_8 strict,12,57.14
+TS+LDA,nearC3_8 strict,107,48.21
+TS+LDA,nearC3_8 strict,14,57.38
+TS+LDA,nearC3_8 strict,24,50.0
+TS+LDA,nearC3_8 strict,28,63.84
+TS+LDA,nearC3_8 strict,5,49.11
+TS+LDA,nearC3_8 strict,43,56.67
+TS+LDA,nearC3_8 strict,45,88.21
+TS+LDA,nearC3_8 strict,81,60.0
+TS+LDA,nearC3_8 strict,51,35.71
+TS+LDA,nearC3_8 strict,20,51.79
+TS+LDA,nearC3_8 strict,85,74.64
+TS+LDA,nearC3_8 strict,53,60.71
+TS+LDA,nearC3_8 strict,23,75.0
+TS+LDA,nearC3_8 strict,56,70.6
+TS+LDA,nearC3_8 strict,26,75.0
+TS+LDA,nearC3_8 strict,65,55.36
+TS+LDA,nearC3_8 strict,3,38.93
+TS+LDA,nearC3_8 strict,36,53.33
+TS+LDA,nearC3_8 strict,71,62.5
+TS+LDA,nearC3_8 strict,16,72.38
+TS+LDA,nearC3_8 strict,82,59.05
+TS+LDA,nearC3_8 strict,83,62.05
+TS+LDA,nearC3_8 strict,87,53.12
+TS+LDA,nearC3_8 strict,31,58.93
+TS+LDA,nearC3_8 strict,94,60.36
+TS+LDA,nearC3_8 strict,95,55.36
+TS+LDA,nearC3_8 strict,2,62.5
+TS+LDA,nearC3_8 strict,4,64.88
+TS+LDA,nearC3_8 strict,101,48.66
+TS+LDA,nearC3_8 strict,69,53.57
+TS+LDA,nearC3_8 strict,7,84.64
+TS+LDA,nearC3_8 strict,72,68.21
+TS+LDA,nearC3_8 strict,44,56.43
+TS+LDA,nearC3_8 strict,18,41.79
+TS+LDA,nearC3_8 strict,29,81.55
+TS+LDA,nearC3_8 strict,19,53.1
+TS+LDA,nearC3_8 strict,93,60.95
+TS+LDA,nearC3_8 strict,1,61.31
+TS+LDA,nearC3_8 strict,99,55.36
+TS+LDA,nearC3_8 strict,67,43.75
+TS+LDA,nearC3_8 strict,73,82.38
+TS+LDA,nearC3_8 strict,75,56.43
+TS+LDA,nearC3_8 strict,48,74.11
+TS+LDA,nearC3_8 strict,54,50.0
+TS+LDA,nearC3_8 strict,22,71.43
+TS+LDA,nearC3_8 strict,86,67.86
+TS+LDA,nearC3_8 strict,25,50.0
+TS+LDA,nearC3_8 strict,58,53.57
+TS+LDA,nearC3_8 strict,102,82.14
+TS+LDA,nearC3_8 strict,105,50.0
+TS+LDA,nearC3_8 strict,91,54.91
+TS+LDA,nearC3_8 strict,46,55.36
+TS+LDA,nearC3_8 strict,50,57.14
+TS+LDA,nearC3_8 strict,52,78.57
+TS+LDA,nearC3_8 strict,84,58.33
+TS+LDA,nearC3_8 strict,27,56.31
+TS+LDA,nearC3_8 strict,61,53.33
+TS+LDA,nearC3_8 strict,63,39.29
+TS+LDA,nearC3_8 strict,33,61.55
+TS+LDA,nearC3_8 strict,41,48.21
+TS+LDA,nearC3_8 strict,106,75.0
+TS+LDA,nearC3_8 strict,74,57.14
+TS+LDA,nearC3_8 strict,108,58.21
+TS+LDA,nearC3_8 strict,13,72.38
+TS+LDA,nearC3_8 strict,47,55.36
+TS+LDA,nearC3_8 strict,15,73.21
+TS+LDA,nearC3_8 strict,59,69.64
+TS+LDA,nearC3_8 strict,62,50.0
+TS+LDA,nearC3_8 strict,96,46.43
+TS+LDA,nearC3_8 strict,97,51.31
+TS+LDA,nearC3_8 strict,32,96.88
+TS+LDA,nearC3_8 strict,64,79.52
+TS+LDA,nearC3_8 strict,39,59.29
+TS+LDA,nearC3_8 strict,8,60.95
+TS+LDA,nearC3_8 strict,77,54.46
+TS+LDA,nearC3_8 strict,78,46.07
+TS+LDA,nearC3_8 strict,109,51.79
+TS+LDA,nearC3_8 strict,49,53.57
+TS+LDA,nearC3_8 strict,34,86.61
+TS+LDA,nearC3_8 strict,98,63.93
+TS+LDA,nearC3_8 strict,70,64.64
+TS+LDA,nearC3_8 strict,42,56.67
+TS+LDA,nearC3_8 strict,79,39.29
+TS+LDA,nearC3_8 strict,80,62.5
+TS+LDA,nearC3_8 strict,55,67.86
+TS+LDA,nearC3_8 strict,57,46.43
+TS+LDA,nearC3_8 strict,60,53.57
+TS+LDA,nearC3_8 strict,30,66.07
+TS+LDA,cons8 recentered,66,43.69
+TS+LDA,cons8 recentered,38,53.21
+TS+LDA,cons8 recentered,6,57.14
+TS+LDA,cons8 recentered,103,70.36
+TS+LDA,cons8 recentered,40,59.82
+TS+LDA,cons8 recentered,104,69.23
+TS+LDA,cons8 recentered,76,36.07
+TS+LDA,cons8 recentered,17,50.0
+TS+LDA,cons8 recentered,21,71.43
+TS+LDA,cons8 recentered,89,64.29
+TS+LDA,cons8 recentered,90,71.07
+TS+LDA,cons8 recentered,35,82.14
+TS+LDA,cons8 recentered,68,56.25
+TS+LDA,cons8 recentered,37,49.17
+TS+LDA,cons8 recentered,9,60.71
+TS+LDA,cons8 recentered,10,57.14
+TS+LDA,cons8 recentered,11,60.12
+TS+LDA,cons8 recentered,12,70.98
+TS+LDA,cons8 recentered,107,50.0
+TS+LDA,cons8 recentered,14,57.5
+TS+LDA,cons8 recentered,24,61.07
+TS+LDA,cons8 recentered,28,70.09
+TS+LDA,cons8 recentered,5,63.84
+TS+LDA,cons8 recentered,43,63.33
+TS+LDA,cons8 recentered,45,85.71
+TS+LDA,cons8 recentered,81,62.86
+TS+LDA,cons8 recentered,51,80.36
+TS+LDA,cons8 recentered,20,67.86
+TS+LDA,cons8 recentered,85,84.4
+TS+LDA,cons8 recentered,53,58.81
+TS+LDA,cons8 recentered,23,78.12
+TS+LDA,cons8 recentered,56,81.07
+TS+LDA,cons8 recentered,26,82.14
+TS+LDA,cons8 recentered,65,67.86
+TS+LDA,cons8 recentered,3,39.88
+TS+LDA,cons8 recentered,36,81.55
+TS+LDA,cons8 recentered,71,71.43
+TS+LDA,cons8 recentered,16,71.07
+TS+LDA,cons8 recentered,82,57.98
+TS+LDA,cons8 recentered,83,76.79
+TS+LDA,cons8 recentered,87,58.48
+TS+LDA,cons8 recentered,31,65.18
+TS+LDA,cons8 recentered,94,65.48
+TS+LDA,cons8 recentered,95,42.86
+TS+LDA,cons8 recentered,2,76.79
+TS+LDA,cons8 recentered,4,93.1
+TS+LDA,cons8 recentered,101,64.73
+TS+LDA,cons8 recentered,69,76.79
+TS+LDA,cons8 recentered,7,77.74
+TS+LDA,cons8 recentered,72,68.21
+TS+LDA,cons8 recentered,44,70.83
+TS+LDA,cons8 recentered,18,40.83
+TS+LDA,cons8 recentered,29,87.98
+TS+LDA,cons8 recentered,19,66.19
+TS+LDA,cons8 recentered,93,68.33
+TS+LDA,cons8 recentered,1,83.1
+TS+LDA,cons8 recentered,99,55.48
+TS+LDA,cons8 recentered,67,39.73
+TS+LDA,cons8 recentered,73,83.93
+TS+LDA,cons8 recentered,75,71.9
+TS+LDA,cons8 recentered,48,73.21
+TS+LDA,cons8 recentered,54,72.38
+TS+LDA,cons8 recentered,22,68.21
+TS+LDA,cons8 recentered,86,87.5
+TS+LDA,cons8 recentered,25,87.98
+TS+LDA,cons8 recentered,58,69.64
+TS+LDA,cons8 recentered,102,80.0
+TS+LDA,cons8 recentered,105,70.0
+TS+LDA,cons8 recentered,91,50.89
+TS+LDA,cons8 recentered,46,60.0
+TS+LDA,cons8 recentered,50,60.71
+TS+LDA,cons8 recentered,52,82.14
+TS+LDA,cons8 recentered,84,52.62
+TS+LDA,cons8 recentered,27,63.69
+TS+LDA,cons8 recentered,61,60.0
+TS+LDA,cons8 recentered,63,52.26
+TS+LDA,cons8 recentered,33,72.62
+TS+LDA,cons8 recentered,41,64.29
+TS+LDA,cons8 recentered,106,78.57
+TS+LDA,cons8 recentered,74,57.14
+TS+LDA,cons8 recentered,108,55.48
+TS+LDA,cons8 recentered,13,66.67
+TS+LDA,cons8 recentered,47,57.14
+TS+LDA,cons8 recentered,15,78.57
+TS+LDA,cons8 recentered,59,69.64
+TS+LDA,cons8 recentered,62,71.43
+TS+LDA,cons8 recentered,96,57.14
+TS+LDA,cons8 recentered,97,49.76
+TS+LDA,cons8 recentered,32,88.84
+TS+LDA,cons8 recentered,64,71.31
+TS+LDA,cons8 recentered,39,61.07
+TS+LDA,cons8 recentered,8,61.31
+TS+LDA,cons8 recentered,77,58.48
+TS+LDA,cons8 recentered,78,49.05
+TS+LDA,cons8 recentered,109,53.57
+TS+LDA,cons8 recentered,49,82.14
+TS+LDA,cons8 recentered,34,83.04
+TS+LDA,cons8 recentered,98,54.17
+TS+LDA,cons8 recentered,70,59.52
+TS+LDA,cons8 recentered,42,71.43
+TS+LDA,cons8 recentered,79,41.96
+TS+LDA,cons8 recentered,80,66.07
+TS+LDA,cons8 recentered,55,69.76
+TS+LDA,cons8 recentered,57,53.57
+TS+LDA,cons8 recentered,60,78.57
+TS+LDA,cons8 recentered,30,71.43
+TS+LDA,pool31 recentered,66,51.9
+TS+LDA,pool31 recentered,38,60.6
+TS+LDA,pool31 recentered,6,55.36
+TS+LDA,pool31 recentered,103,67.86
+TS+LDA,pool31 recentered,40,67.86
+TS+LDA,pool31 recentered,104,90.38
+TS+LDA,pool31 recentered,76,45.71
+TS+LDA,pool31 recentered,17,50.0
+TS+LDA,pool31 recentered,21,64.29
+TS+LDA,pool31 recentered,89,60.71
+TS+LDA,pool31 recentered,90,77.74
+TS+LDA,pool31 recentered,35,60.71
+TS+LDA,pool31 recentered,68,75.0
+TS+LDA,pool31 recentered,37,49.05
+TS+LDA,pool31 recentered,9,50.0
+TS+LDA,pool31 recentered,10,75.0
+TS+LDA,pool31 recentered,11,66.67
+TS+LDA,pool31 recentered,12,53.12
+TS+LDA,pool31 recentered,107,53.57
+TS+LDA,pool31 recentered,14,81.31
+TS+LDA,pool31 recentered,24,49.52
+TS+LDA,pool31 recentered,28,77.68
+TS+LDA,pool31 recentered,5,68.3
+TS+LDA,pool31 recentered,43,80.0
+TS+LDA,pool31 recentered,45,87.5
+TS+LDA,pool31 recentered,81,69.52
+TS+LDA,pool31 recentered,51,83.93
+TS+LDA,pool31 recentered,20,80.36
+TS+LDA,pool31 recentered,85,84.4
+TS+LDA,pool31 recentered,53,72.38
+TS+LDA,pool31 recentered,23,72.77
+TS+LDA,pool31 recentered,56,81.07
+TS+LDA,pool31 recentered,26,76.79
+TS+LDA,pool31 recentered,65,64.29
+TS+LDA,pool31 recentered,3,47.02
+TS+LDA,pool31 recentered,36,80.0
+TS+LDA,pool31 recentered,71,61.16
+TS+LDA,pool31 recentered,16,79.29
+TS+LDA,pool31 recentered,82,64.17
+TS+LDA,pool31 recentered,83,77.68
+TS+LDA,pool31 recentered,87,55.8
+TS+LDA,pool31 recentered,31,67.41
+TS+LDA,pool31 recentered,94,75.71
+TS+LDA,pool31 recentered,95,58.93
+TS+LDA,pool31 recentered,2,80.36
+TS+LDA,pool31 recentered,4,81.31
+TS+LDA,pool31 recentered,101,78.57
+TS+LDA,pool31 recentered,69,94.64
+TS+LDA,pool31 recentered,7,79.29
+TS+LDA,pool31 recentered,72,58.21
+TS+LDA,pool31 recentered,44,69.05
+TS+LDA,pool31 recentered,18,49.76
+TS+LDA,pool31 recentered,29,89.52
+TS+LDA,pool31 recentered,19,57.74
+TS+LDA,pool31 recentered,93,60.95
+TS+LDA,pool31 recentered,1,67.5
+TS+LDA,pool31 recentered,99,61.9
+TS+LDA,pool31 recentered,67,48.66
+TS+LDA,pool31 recentered,73,50.0
+TS+LDA,pool31 recentered,75,68.81
+TS+LDA,pool31 recentered,48,75.89
+TS+LDA,pool31 recentered,54,72.38
+TS+LDA,pool31 recentered,22,86.67
+TS+LDA,pool31 recentered,86,79.46
+TS+LDA,pool31 recentered,25,93.1
+TS+LDA,pool31 recentered,58,75.0
+TS+LDA,pool31 recentered,102,93.33
+TS+LDA,pool31 recentered,105,66.67
+TS+LDA,pool31 recentered,91,60.27
+TS+LDA,pool31 recentered,46,58.21
+TS+LDA,pool31 recentered,50,71.43
+TS+LDA,pool31 recentered,52,78.57
+TS+LDA,pool31 recentered,84,61.55
+TS+LDA,pool31 recentered,27,60.6
+TS+LDA,pool31 recentered,61,61.55
+TS+LDA,pool31 recentered,63,77.5
+TS+LDA,pool31 recentered,33,71.31
+TS+LDA,pool31 recentered,41,85.71
+TS+LDA,pool31 recentered,106,78.57
+TS+LDA,pool31 recentered,74,69.64
+TS+LDA,pool31 recentered,108,54.4
+TS+LDA,pool31 recentered,13,71.9
+TS+LDA,pool31 recentered,47,51.79
+TS+LDA,pool31 recentered,15,85.71
+TS+LDA,pool31 recentered,59,58.93
+TS+LDA,pool31 recentered,62,87.5
+TS+LDA,pool31 recentered,96,57.14
+TS+LDA,pool31 recentered,97,56.67
+TS+LDA,pool31 recentered,32,96.88
+TS+LDA,pool31 recentered,64,89.76
+TS+LDA,pool31 recentered,39,51.31
+TS+LDA,pool31 recentered,8,61.31
+TS+LDA,pool31 recentered,77,60.71
+TS+LDA,pool31 recentered,78,62.38
+TS+LDA,pool31 recentered,109,51.79
+TS+LDA,pool31 recentered,49,94.64
+TS+LDA,pool31 recentered,34,91.07
+TS+LDA,pool31 recentered,98,55.48
+TS+LDA,pool31 recentered,70,61.07
+TS+LDA,pool31 recentered,42,76.79
+TS+LDA,pool31 recentered,79,42.41
+TS+LDA,pool31 recentered,80,85.71
+TS+LDA,pool31 recentered,55,73.1
+TS+LDA,pool31 recentered,57,51.79
+TS+LDA,pool31 recentered,60,80.36
+TS+LDA,pool31 recentered,30,62.5
+TS+LDA,all64 recentered,66,58.57
+TS+LDA,all64 recentered,38,61.07
+TS+LDA,all64 recentered,6,66.07
+TS+LDA,all64 recentered,103,64.17
+TS+LDA,all64 recentered,40,62.05
+TS+LDA,all64 recentered,104,90.38
+TS+LDA,all64 recentered,76,43.45
+TS+LDA,all64 recentered,17,57.14
+TS+LDA,all64 recentered,21,66.07
+TS+LDA,all64 recentered,89,62.5
+TS+LDA,all64 recentered,90,69.52
+TS+LDA,all64 recentered,35,69.64
+TS+LDA,all64 recentered,68,60.71
+TS+LDA,all64 recentered,37,63.1
+TS+LDA,all64 recentered,9,53.57
+TS+LDA,all64 recentered,10,71.43
+TS+LDA,all64 recentered,11,58.21
+TS+LDA,all64 recentered,12,57.59
+TS+LDA,all64 recentered,107,60.71
+TS+LDA,all64 recentered,14,61.31
+TS+LDA,all64 recentered,24,64.17
+TS+LDA,all64 recentered,28,79.46
+TS+LDA,all64 recentered,5,71.88
+TS+LDA,all64 recentered,43,79.76
+TS+LDA,all64 recentered,45,89.76
+TS+LDA,all64 recentered,81,72.86
+TS+LDA,all64 recentered,51,75.0
+TS+LDA,all64 recentered,20,91.07
+TS+LDA,all64 recentered,85,82.86
+TS+LDA,all64 recentered,53,67.5
+TS+LDA,all64 recentered,23,75.89
+TS+LDA,all64 recentered,56,91.55
+TS+LDA,all64 recentered,26,85.71
+TS+LDA,all64 recentered,65,66.07
+TS+LDA,all64 recentered,3,50.83
+TS+LDA,all64 recentered,36,70.0
+TS+LDA,all64 recentered,71,58.04
+TS+LDA,all64 recentered,16,77.74
+TS+LDA,all64 recentered,82,65.95
+TS+LDA,all64 recentered,83,75.89
+TS+LDA,all64 recentered,87,52.68
+TS+LDA,all64 recentered,31,67.86
+TS+LDA,all64 recentered,94,67.98
+TS+LDA,all64 recentered,95,55.36
+TS+LDA,all64 recentered,2,82.14
+TS+LDA,all64 recentered,4,83.33
+TS+LDA,all64 recentered,101,72.32
+TS+LDA,all64 recentered,69,80.36
+TS+LDA,all64 recentered,7,84.17
+TS+LDA,all64 recentered,72,51.55
+TS+LDA,all64 recentered,44,67.5
+TS+LDA,all64 recentered,18,54.88
+TS+LDA,all64 recentered,29,85.95
+TS+LDA,all64 recentered,19,67.74
+TS+LDA,all64 recentered,93,55.0
+TS+LDA,all64 recentered,1,71.07
+TS+LDA,all64 recentered,99,60.12
+TS+LDA,all64 recentered,67,58.04
+TS+LDA,all64 recentered,73,50.0
+TS+LDA,all64 recentered,75,55.71
+TS+LDA,all64 recentered,48,77.23
+TS+LDA,all64 recentered,54,72.62
+TS+LDA,all64 recentered,22,86.67
+TS+LDA,all64 recentered,86,80.8
+TS+LDA,all64 recentered,25,84.88
+TS+LDA,all64 recentered,58,78.57
+TS+LDA,all64 recentered,102,86.67
+TS+LDA,all64 recentered,105,60.0
+TS+LDA,all64 recentered,91,63.84
+TS+LDA,all64 recentered,46,71.55
+TS+LDA,all64 recentered,50,89.29
+TS+LDA,all64 recentered,52,76.79
+TS+LDA,all64 recentered,84,61.55
+TS+LDA,all64 recentered,27,77.98
+TS+LDA,all64 recentered,61,54.88
+TS+LDA,all64 recentered,63,82.86
+TS+LDA,all64 recentered,33,66.43
+TS+LDA,all64 recentered,41,87.5
+TS+LDA,all64 recentered,106,62.5
+TS+LDA,all64 recentered,74,69.64
+TS+LDA,all64 recentered,108,57.5
+TS+LDA,all64 recentered,13,77.5
+TS+LDA,all64 recentered,47,55.36
+TS+LDA,all64 recentered,15,92.86
+TS+LDA,all64 recentered,59,53.57
+TS+LDA,all64 recentered,62,100.0
+TS+LDA,all64 recentered,96,57.14
+TS+LDA,all64 recentered,97,54.88
+TS+LDA,all64 recentered,32,96.88
+TS+LDA,all64 recentered,64,89.76
+TS+LDA,all64 recentered,39,62.62
+TS+LDA,all64 recentered,8,67.5
+TS+LDA,all64 recentered,77,58.93
+TS+LDA,all64 recentered,78,63.93
+TS+LDA,all64 recentered,109,46.43
+TS+LDA,all64 recentered,49,91.07
+TS+LDA,all64 recentered,34,86.61
+TS+LDA,all64 recentered,98,53.93
+TS+LDA,all64 recentered,70,76.43
+TS+LDA,all64 recentered,42,83.93
+TS+LDA,all64 recentered,79,50.45
+TS+LDA,all64 recentered,80,87.5
+TS+LDA,all64 recentered,55,80.0
+TS+LDA,all64 recentered,57,60.71
+TS+LDA,all64 recentered,60,89.29
+TS+LDA,all64 recentered,30,67.86
+TS+LDA,nearC3_8 recentered,66,33.69
+TS+LDA,nearC3_8 recentered,38,47.5
+TS+LDA,nearC3_8 recentered,6,58.93
+TS+LDA,nearC3_8 recentered,103,66.79
+TS+LDA,nearC3_8 recentered,40,64.29
+TS+LDA,nearC3_8 recentered,104,69.23
+TS+LDA,nearC3_8 recentered,76,48.93
+TS+LDA,nearC3_8 recentered,17,50.0
+TS+LDA,nearC3_8 recentered,21,62.5
+TS+LDA,nearC3_8 recentered,89,55.36
+TS+LDA,nearC3_8 recentered,90,69.52
+TS+LDA,nearC3_8 recentered,35,76.79
+TS+LDA,nearC3_8 recentered,68,64.29
+TS+LDA,nearC3_8 recentered,37,50.0
+TS+LDA,nearC3_8 recentered,9,53.57
+TS+LDA,nearC3_8 recentered,10,62.5
+TS+LDA,nearC3_8 recentered,11,47.98
+TS+LDA,nearC3_8 recentered,12,62.05
+TS+LDA,nearC3_8 recentered,107,57.14
+TS+LDA,nearC3_8 recentered,14,58.21
+TS+LDA,nearC3_8 recentered,24,49.76
+TS+LDA,nearC3_8 recentered,28,71.88
+TS+LDA,nearC3_8 recentered,5,59.38
+TS+LDA,nearC3_8 recentered,43,60.0
+TS+LDA,nearC3_8 recentered,45,92.86
+TS+LDA,nearC3_8 recentered,81,72.62
+TS+LDA,nearC3_8 recentered,51,58.93
+TS+LDA,nearC3_8 recentered,20,78.57
+TS+LDA,nearC3_8 recentered,85,84.4
+TS+LDA,nearC3_8 recentered,53,63.21
+TS+LDA,nearC3_8 recentered,23,68.75
+TS+LDA,nearC3_8 recentered,56,78.81
+TS+LDA,nearC3_8 recentered,26,75.0
+TS+LDA,nearC3_8 recentered,65,80.36
+TS+LDA,nearC3_8 recentered,3,32.74
+TS+LDA,nearC3_8 recentered,36,76.67
+TS+LDA,nearC3_8 recentered,71,61.16
+TS+LDA,nearC3_8 recentered,16,70.83
+TS+LDA,nearC3_8 recentered,82,50.83
+TS+LDA,nearC3_8 recentered,83,78.57
+TS+LDA,nearC3_8 recentered,87,50.45
+TS+LDA,nearC3_8 recentered,31,72.32
+TS+LDA,nearC3_8 recentered,94,67.02
+TS+LDA,nearC3_8 recentered,95,53.57
+TS+LDA,nearC3_8 recentered,2,73.21
+TS+LDA,nearC3_8 recentered,4,90.0
+TS+LDA,nearC3_8 recentered,101,74.55
+TS+LDA,nearC3_8 recentered,69,75.0
+TS+LDA,nearC3_8 recentered,7,89.29
+TS+LDA,nearC3_8 recentered,72,64.88
+TS+LDA,nearC3_8 recentered,44,67.74
+TS+LDA,nearC3_8 recentered,18,49.76
+TS+LDA,nearC3_8 recentered,29,86.43
+TS+LDA,nearC3_8 recentered,19,64.64
+TS+LDA,nearC3_8 recentered,93,66.31
+TS+LDA,nearC3_8 recentered,1,74.17
+TS+LDA,nearC3_8 recentered,99,51.9
+TS+LDA,nearC3_8 recentered,67,50.0
+TS+LDA,nearC3_8 recentered,73,74.88
+TS+LDA,nearC3_8 recentered,75,72.14
+TS+LDA,nearC3_8 recentered,48,75.45
+TS+LDA,nearC3_8 recentered,54,53.93
+TS+LDA,nearC3_8 recentered,22,81.31
+TS+LDA,nearC3_8 recentered,86,79.46
+TS+LDA,nearC3_8 recentered,25,86.43
+TS+LDA,nearC3_8 recentered,58,58.93
+TS+LDA,nearC3_8 recentered,102,93.33
+TS+LDA,nearC3_8 recentered,105,64.88
+TS+LDA,nearC3_8 recentered,91,54.46
+TS+LDA,nearC3_8 recentered,46,63.33
+TS+LDA,nearC3_8 recentered,50,78.57
+TS+LDA,nearC3_8 recentered,52,89.29
+TS+LDA,nearC3_8 recentered,84,69.52
+TS+LDA,nearC3_8 recentered,27,62.98
+TS+LDA,nearC3_8 recentered,61,58.21
+TS+LDA,nearC3_8 recentered,63,55.71
+TS+LDA,nearC3_8 recentered,33,67.98
+TS+LDA,nearC3_8 recentered,41,78.57
+TS+LDA,nearC3_8 recentered,106,80.36
+TS+LDA,nearC3_8 recentered,74,62.5
+TS+LDA,nearC3_8 recentered,108,61.55
+TS+LDA,nearC3_8 recentered,13,75.95
+TS+LDA,nearC3_8 recentered,47,55.36
+TS+LDA,nearC3_8 recentered,15,85.71
+TS+LDA,nearC3_8 recentered,59,66.07
+TS+LDA,nearC3_8 recentered,62,53.57
+TS+LDA,nearC3_8 recentered,96,48.21
+TS+LDA,nearC3_8 recentered,97,44.64
+TS+LDA,nearC3_8 recentered,32,100.0
+TS+LDA,nearC3_8 recentered,64,81.31
+TS+LDA,nearC3_8 recentered,39,57.74
+TS+LDA,nearC3_8 recentered,8,72.38
+TS+LDA,nearC3_8 recentered,77,61.61
+TS+LDA,nearC3_8 recentered,78,53.93
+TS+LDA,nearC3_8 recentered,109,42.86
+TS+LDA,nearC3_8 recentered,49,98.21
+TS+LDA,nearC3_8 recentered,34,83.93
+TS+LDA,nearC3_8 recentered,98,63.69
+TS+LDA,nearC3_8 recentered,70,79.76
+TS+LDA,nearC3_8 recentered,42,78.57
+TS+LDA,nearC3_8 recentered,79,43.3
+TS+LDA,nearC3_8 recentered,80,78.57
+TS+LDA,nearC3_8 recentered,55,76.67
+TS+LDA,nearC3_8 recentered,57,48.21
+TS+LDA,nearC3_8 recentered,60,80.36
+TS+LDA,nearC3_8 recentered,30,66.07
+TS+LDA,cons8 strict shuffled,66,48.45
+TS+LDA,cons8 strict shuffled,38,49.4
+TS+LDA,cons8 strict shuffled,6,60.71
+TS+LDA,cons8 strict shuffled,103,58.81
+TS+LDA,cons8 strict shuffled,40,41.07
+TS+LDA,cons8 strict shuffled,104,57.69
+TS+LDA,cons8 strict shuffled,76,50.0
+TS+LDA,cons8 strict shuffled,17,46.43
+TS+LDA,cons8 strict shuffled,21,48.21
+TS+LDA,cons8 strict shuffled,89,53.57
+TS+LDA,cons8 strict shuffled,90,50.95
+TS+LDA,cons8 strict shuffled,35,50.0
+TS+LDA,cons8 strict shuffled,68,46.43
+TS+LDA,cons8 strict shuffled,37,50.83
+TS+LDA,cons8 strict shuffled,9,58.93
+TS+LDA,cons8 strict shuffled,10,33.93
+TS+LDA,cons8 strict shuffled,11,46.55
+TS+LDA,cons8 strict shuffled,12,46.43
+TS+LDA,cons8 strict shuffled,107,58.93
+TS+LDA,cons8 strict shuffled,14,50.6
+TS+LDA,cons8 strict shuffled,24,40.48
+TS+LDA,cons8 strict shuffled,28,29.46
+TS+LDA,cons8 strict shuffled,5,50.45
+TS+LDA,cons8 strict shuffled,43,54.29
+TS+LDA,cons8 strict shuffled,45,52.98
+TS+LDA,cons8 strict shuffled,81,48.69
+TS+LDA,cons8 strict shuffled,51,57.14
+TS+LDA,cons8 strict shuffled,20,51.79
+TS+LDA,cons8 strict shuffled,85,18.45
+TS+LDA,cons8 strict shuffled,53,41.9
+TS+LDA,cons8 strict shuffled,23,48.21
+TS+LDA,cons8 strict shuffled,56,63.45
+TS+LDA,cons8 strict shuffled,26,50.0
+TS+LDA,cons8 strict shuffled,65,60.71
+TS+LDA,cons8 strict shuffled,3,53.93
+TS+LDA,cons8 strict shuffled,36,65.71
+TS+LDA,cons8 strict shuffled,71,43.75
+TS+LDA,cons8 strict shuffled,16,42.62
+TS+LDA,cons8 strict shuffled,82,61.9
+TS+LDA,cons8 strict shuffled,83,50.0
+TS+LDA,cons8 strict shuffled,87,43.75
+TS+LDA,cons8 strict shuffled,31,44.64
+TS+LDA,cons8 strict shuffled,94,58.21
+TS+LDA,cons8 strict shuffled,95,48.21
+TS+LDA,cons8 strict shuffled,2,62.5
+TS+LDA,cons8 strict shuffled,4,57.02
+TS+LDA,cons8 strict shuffled,101,39.73
+TS+LDA,cons8 strict shuffled,69,53.57
+TS+LDA,cons8 strict shuffled,7,56.19
+TS+LDA,cons8 strict shuffled,72,66.19
+TS+LDA,cons8 strict shuffled,44,52.86
+TS+LDA,cons8 strict shuffled,18,45.12
+TS+LDA,cons8 strict shuffled,29,50.71
+TS+LDA,cons8 strict shuffled,19,49.05
+TS+LDA,cons8 strict shuffled,93,53.21
+TS+LDA,cons8 strict shuffled,1,42.14
+TS+LDA,cons8 strict shuffled,99,49.29
+TS+LDA,cons8 strict shuffled,67,43.3
+TS+LDA,cons8 strict shuffled,73,60.12
+TS+LDA,cons8 strict shuffled,75,44.76
+TS+LDA,cons8 strict shuffled,48,43.3
+TS+LDA,cons8 strict shuffled,54,52.14
+TS+LDA,cons8 strict shuffled,22,56.55
+TS+LDA,cons8 strict shuffled,86,58.04
+TS+LDA,cons8 strict shuffled,25,68.57
+TS+LDA,cons8 strict shuffled,58,58.93
+TS+LDA,cons8 strict shuffled,102,56.07
+TS+LDA,cons8 strict shuffled,105,40.95
+TS+LDA,cons8 strict shuffled,91,45.09
+TS+LDA,cons8 strict shuffled,46,77.98
+TS+LDA,cons8 strict shuffled,50,46.43
+TS+LDA,cons8 strict shuffled,52,39.29
+TS+LDA,cons8 strict shuffled,84,50.48
+TS+LDA,cons8 strict shuffled,27,52.74
+TS+LDA,cons8 strict shuffled,61,57.02
+TS+LDA,cons8 strict shuffled,63,45.24
+TS+LDA,cons8 strict shuffled,33,63.21
+TS+LDA,cons8 strict shuffled,41,48.21
+TS+LDA,cons8 strict shuffled,106,60.71
+TS+LDA,cons8 strict shuffled,74,50.0
+TS+LDA,cons8 strict shuffled,108,60.83
+TS+LDA,cons8 strict shuffled,13,57.86
+TS+LDA,cons8 strict shuffled,47,53.57
+TS+LDA,cons8 strict shuffled,15,46.43
+TS+LDA,cons8 strict shuffled,59,41.07
+TS+LDA,cons8 strict shuffled,62,35.71
+TS+LDA,cons8 strict shuffled,96,58.93
+TS+LDA,cons8 strict shuffled,97,43.21
+TS+LDA,cons8 strict shuffled,32,57.14
+TS+LDA,cons8 strict shuffled,64,37.38
+TS+LDA,cons8 strict shuffled,39,49.29
+TS+LDA,cons8 strict shuffled,8,49.29
+TS+LDA,cons8 strict shuffled,77,52.68
+TS+LDA,cons8 strict shuffled,78,61.19
+TS+LDA,cons8 strict shuffled,109,62.5
+TS+LDA,cons8 strict shuffled,49,48.21
+TS+LDA,cons8 strict shuffled,34,61.16
+TS+LDA,cons8 strict shuffled,98,39.17
+TS+LDA,cons8 strict shuffled,70,65.71
+TS+LDA,cons8 strict shuffled,42,35.83
+TS+LDA,cons8 strict shuffled,79,66.07
+TS+LDA,cons8 strict shuffled,80,44.64
+TS+LDA,cons8 strict shuffled,55,40.24
+TS+LDA,cons8 strict shuffled,57,48.21
+TS+LDA,cons8 strict shuffled,60,42.86
+TS+LDA,cons8 strict shuffled,30,48.21
+ShallowConvNet,cons8 strict,66,52.98
+ShallowConvNet,cons8 strict,38,54.17
+ShallowConvNet,cons8 strict,6,69.64
+ShallowConvNet,cons8 strict,103,60.83
+ShallowConvNet,cons8 strict,40,72.32
+ShallowConvNet,cons8 strict,104,84.62
+ShallowConvNet,cons8 strict,76,51.79
+ShallowConvNet,cons8 strict,17,83.93
+ShallowConvNet,cons8 strict,21,53.57
+ShallowConvNet,cons8 strict,89,87.5
+ShallowConvNet,cons8 strict,90,87.98
+ShallowConvNet,cons8 strict,35,80.36
+ShallowConvNet,cons8 strict,68,68.3
+ShallowConvNet,cons8 strict,37,56.19
+ShallowConvNet,cons8 strict,9,57.14
+ShallowConvNet,cons8 strict,10,57.14
+ShallowConvNet,cons8 strict,11,73.45
+ShallowConvNet,cons8 strict,12,62.5
+ShallowConvNet,cons8 strict,107,51.79
+ShallowConvNet,cons8 strict,14,75.95
+ShallowConvNet,cons8 strict,24,54.88
+ShallowConvNet,cons8 strict,28,63.84
+ShallowConvNet,cons8 strict,5,73.21
+ShallowConvNet,cons8 strict,43,63.33
+ShallowConvNet,cons8 strict,45,89.76
+ShallowConvNet,cons8 strict,81,50.0
+ShallowConvNet,cons8 strict,51,71.43
+ShallowConvNet,cons8 strict,20,78.57
+ShallowConvNet,cons8 strict,85,76.67
+ShallowConvNet,cons8 strict,53,67.26
+ShallowConvNet,cons8 strict,23,71.43
+ShallowConvNet,cons8 strict,56,83.93
+ShallowConvNet,cons8 strict,26,64.29
+ShallowConvNet,cons8 strict,65,80.36
+ShallowConvNet,cons8 strict,3,48.69
+ShallowConvNet,cons8 strict,36,71.55
+ShallowConvNet,cons8 strict,71,80.8
+ShallowConvNet,cons8 strict,16,74.64
+ShallowConvNet,cons8 strict,82,75.95
+ShallowConvNet,cons8 strict,83,53.12
+ShallowConvNet,cons8 strict,87,56.7
+ShallowConvNet,cons8 strict,31,76.79
+ShallowConvNet,cons8 strict,94,65.95
+ShallowConvNet,cons8 strict,95,53.57
+ShallowConvNet,cons8 strict,2,67.86
+ShallowConvNet,cons8 strict,4,81.55
+ShallowConvNet,cons8 strict,101,81.25
+ShallowConvNet,cons8 strict,69,83.93
+ShallowConvNet,cons8 strict,7,79.29
+ShallowConvNet,cons8 strict,72,89.76
+ShallowConvNet,cons8 strict,44,82.86
+ShallowConvNet,cons8 strict,18,72.62
+ShallowConvNet,cons8 strict,29,85.71
+ShallowConvNet,cons8 strict,19,62.86
+ShallowConvNet,cons8 strict,93,75.48
+ShallowConvNet,cons8 strict,1,71.43
+ShallowConvNet,cons8 strict,99,53.93
+ShallowConvNet,cons8 strict,67,51.34
+ShallowConvNet,cons8 strict,73,78.57
+ShallowConvNet,cons8 strict,75,68.81
+ShallowConvNet,cons8 strict,48,60.27
+ShallowConvNet,cons8 strict,54,66.19
+ShallowConvNet,cons8 strict,22,72.62
+ShallowConvNet,cons8 strict,86,67.86
+ShallowConvNet,cons8 strict,25,71.67
+ShallowConvNet,cons8 strict,58,67.86
+ShallowConvNet,cons8 strict,102,83.93
+ShallowConvNet,cons8 strict,105,68.81
+ShallowConvNet,cons8 strict,91,56.7
+ShallowConvNet,cons8 strict,46,58.93
+ShallowConvNet,cons8 strict,50,57.14
+ShallowConvNet,cons8 strict,52,80.36
+ShallowConvNet,cons8 strict,84,57.02
+ShallowConvNet,cons8 strict,27,58.57
+ShallowConvNet,cons8 strict,61,63.1
+ShallowConvNet,cons8 strict,63,62.5
+ShallowConvNet,cons8 strict,33,80.0
+ShallowConvNet,cons8 strict,41,82.14
+ShallowConvNet,cons8 strict,106,87.5
+ShallowConvNet,cons8 strict,74,60.71
+ShallowConvNet,cons8 strict,108,51.55
+ShallowConvNet,cons8 strict,13,67.5
+ShallowConvNet,cons8 strict,47,50.0
+ShallowConvNet,cons8 strict,15,94.64
+ShallowConvNet,cons8 strict,59,62.5
+ShallowConvNet,cons8 strict,62,92.86
+ShallowConvNet,cons8 strict,96,51.79
+ShallowConvNet,cons8 strict,97,53.45
+ShallowConvNet,cons8 strict,32,96.88
+ShallowConvNet,cons8 strict,64,74.88
+ShallowConvNet,cons8 strict,39,61.9
+ShallowConvNet,cons8 strict,8,96.67
+ShallowConvNet,cons8 strict,77,53.12
+ShallowConvNet,cons8 strict,78,52.14
+ShallowConvNet,cons8 strict,109,62.5
+ShallowConvNet,cons8 strict,49,78.57
+ShallowConvNet,cons8 strict,34,88.39
+ShallowConvNet,cons8 strict,98,53.45
+ShallowConvNet,cons8 strict,70,87.74
+ShallowConvNet,cons8 strict,42,92.86
+ShallowConvNet,cons8 strict,79,47.32
+ShallowConvNet,cons8 strict,80,87.5
+ShallowConvNet,cons8 strict,55,74.88
+ShallowConvNet,cons8 strict,57,67.86
+ShallowConvNet,cons8 strict,60,69.64
+ShallowConvNet,cons8 strict,30,76.79
+ShallowConvNet,cons8 strict post,66,48.93
+ShallowConvNet,cons8 strict post,38,49.29
+ShallowConvNet,cons8 strict post,6,67.86
+ShallowConvNet,cons8 strict post,103,73.93
+ShallowConvNet,cons8 strict post,40,73.21
+ShallowConvNet,cons8 strict post,104,63.46
+ShallowConvNet,cons8 strict post,76,50.0
+ShallowConvNet,cons8 strict post,17,78.57
+ShallowConvNet,cons8 strict post,21,69.64
+ShallowConvNet,cons8 strict post,89,85.71
+ShallowConvNet,cons8 strict post,90,72.38
+ShallowConvNet,cons8 strict post,35,77.68
+ShallowConvNet,cons8 strict post,68,58.04
+ShallowConvNet,cons8 strict post,37,54.88
+ShallowConvNet,cons8 strict post,9,50.0
+ShallowConvNet,cons8 strict post,10,73.21
+ShallowConvNet,cons8 strict post,11,74.17
+ShallowConvNet,cons8 strict post,12,69.64
+ShallowConvNet,cons8 strict post,107,55.36
+ShallowConvNet,cons8 strict post,14,68.81
+ShallowConvNet,cons8 strict post,24,49.76
+ShallowConvNet,cons8 strict post,28,62.5
+ShallowConvNet,cons8 strict post,5,67.86
+ShallowConvNet,cons8 strict post,43,73.33
+ShallowConvNet,cons8 strict post,45,80.0
+ShallowConvNet,cons8 strict post,81,51.55
+ShallowConvNet,cons8 strict post,51,69.64
+ShallowConvNet,cons8 strict post,20,82.14
+ShallowConvNet,cons8 strict post,85,64.64
+ShallowConvNet,cons8 strict post,53,64.76
+ShallowConvNet,cons8 strict post,23,78.57
+ShallowConvNet,cons8 strict post,56,87.5
+ShallowConvNet,cons8 strict post,26,82.14
+ShallowConvNet,cons8 strict post,65,83.93
+ShallowConvNet,cons8 strict post,3,51.79
+ShallowConvNet,cons8 strict post,36,68.21
+ShallowConvNet,cons8 strict post,71,79.46
+ShallowConvNet,cons8 strict post,16,74.64
+ShallowConvNet,cons8 strict post,82,81.07
+ShallowConvNet,cons8 strict post,83,50.0
+ShallowConvNet,cons8 strict post,87,53.12
+ShallowConvNet,cons8 strict post,31,68.3
+ShallowConvNet,cons8 strict post,94,63.45
+ShallowConvNet,cons8 strict post,95,57.14
+ShallowConvNet,cons8 strict post,2,69.64
+ShallowConvNet,cons8 strict post,4,84.88
+ShallowConvNet,cons8 strict post,101,84.38
+ShallowConvNet,cons8 strict post,69,67.86
+ShallowConvNet,cons8 strict post,7,79.76
+ShallowConvNet,cons8 strict post,72,66.19
+ShallowConvNet,cons8 strict post,44,77.74
+ShallowConvNet,cons8 strict post,18,86.19
+ShallowConvNet,cons8 strict post,29,85.71
+ShallowConvNet,cons8 strict post,19,64.88
+ShallowConvNet,cons8 strict post,93,68.57
+ShallowConvNet,cons8 strict post,1,70.6
+ShallowConvNet,cons8 strict post,99,45.71
+ShallowConvNet,cons8 strict post,67,48.66
+ShallowConvNet,cons8 strict post,73,67.86
+ShallowConvNet,cons8 strict post,75,75.24
+ShallowConvNet,cons8 strict post,48,54.02
+ShallowConvNet,cons8 strict post,54,54.88
+ShallowConvNet,cons8 strict post,22,68.81
+ShallowConvNet,cons8 strict post,86,76.79
+ShallowConvNet,cons8 strict post,25,71.43
+ShallowConvNet,cons8 strict post,58,64.29
+ShallowConvNet,cons8 strict post,102,92.86
+ShallowConvNet,cons8 strict post,105,74.17
+ShallowConvNet,cons8 strict post,91,44.64
+ShallowConvNet,cons8 strict post,46,51.79
+ShallowConvNet,cons8 strict post,50,71.43
+ShallowConvNet,cons8 strict post,52,73.21
+ShallowConvNet,cons8 strict post,84,53.69
+ShallowConvNet,cons8 strict post,27,67.02
+ShallowConvNet,cons8 strict post,61,61.31
+ShallowConvNet,cons8 strict post,63,62.5
+ShallowConvNet,cons8 strict post,33,60.0
+ShallowConvNet,cons8 strict post,41,83.93
+ShallowConvNet,cons8 strict post,106,78.57
+ShallowConvNet,cons8 strict post,74,57.14
+ShallowConvNet,cons8 strict post,108,56.67
+ShallowConvNet,cons8 strict post,13,59.52
+ShallowConvNet,cons8 strict post,47,58.93
+ShallowConvNet,cons8 strict post,15,96.43
+ShallowConvNet,cons8 strict post,59,64.29
+ShallowConvNet,cons8 strict post,62,89.29
+ShallowConvNet,cons8 strict post,96,44.64
+ShallowConvNet,cons8 strict post,97,53.69
+ShallowConvNet,cons8 strict post,32,75.0
+ShallowConvNet,cons8 strict post,64,78.21
+ShallowConvNet,cons8 strict post,39,57.02
+ShallowConvNet,cons8 strict post,8,89.52
+ShallowConvNet,cons8 strict post,77,54.02
+ShallowConvNet,cons8 strict post,78,55.48
+ShallowConvNet,cons8 strict post,109,66.07
+ShallowConvNet,cons8 strict post,49,53.57
+ShallowConvNet,cons8 strict post,34,88.39
+ShallowConvNet,cons8 strict post,98,64.17
+ShallowConvNet,cons8 strict post,70,87.98
+ShallowConvNet,cons8 strict post,42,89.76
+ShallowConvNet,cons8 strict post,79,55.8
+ShallowConvNet,cons8 strict post,80,87.5
+ShallowConvNet,cons8 strict post,55,74.88
+ShallowConvNet,cons8 strict post,57,57.14
+ShallowConvNet,cons8 strict post,60,69.64
+ShallowConvNet,cons8 strict post,30,83.93
+ShallowConvNet,cons8 strict shuffled,66,65.95
+ShallowConvNet,cons8 strict shuffled,38,43.69
+ShallowConvNet,cons8 strict shuffled,6,51.79
+ShallowConvNet,cons8 strict shuffled,103,58.81
+ShallowConvNet,cons8 strict shuffled,40,48.66
+ShallowConvNet,cons8 strict shuffled,104,38.46
+ShallowConvNet,cons8 strict shuffled,76,49.52
+ShallowConvNet,cons8 strict shuffled,17,53.57
+ShallowConvNet,cons8 strict shuffled,21,46.43
+ShallowConvNet,cons8 strict shuffled,89,62.5
+ShallowConvNet,cons8 strict shuffled,90,70.12
+ShallowConvNet,cons8 strict shuffled,35,43.3
+ShallowConvNet,cons8 strict shuffled,68,42.86
+ShallowConvNet,cons8 strict shuffled,37,49.76
+ShallowConvNet,cons8 strict shuffled,9,53.57
+ShallowConvNet,cons8 strict shuffled,10,50.0
+ShallowConvNet,cons8 strict shuffled,11,53.93
+ShallowConvNet,cons8 strict shuffled,12,38.39
+ShallowConvNet,cons8 strict shuffled,107,46.43
+ShallowConvNet,cons8 strict shuffled,14,49.88
+ShallowConvNet,cons8 strict shuffled,24,46.19
+ShallowConvNet,cons8 strict shuffled,28,45.98
+ShallowConvNet,cons8 strict shuffled,5,62.05
+ShallowConvNet,cons8 strict shuffled,43,46.55
+ShallowConvNet,cons8 strict shuffled,45,50.6
+ShallowConvNet,cons8 strict shuffled,81,43.21
+ShallowConvNet,cons8 strict shuffled,51,64.29
+ShallowConvNet,cons8 strict shuffled,20,64.29
+ShallowConvNet,cons8 strict shuffled,85,50.36
+ShallowConvNet,cons8 strict shuffled,53,57.26
+ShallowConvNet,cons8 strict shuffled,23,39.73
+ShallowConvNet,cons8 strict shuffled,56,44.4
+ShallowConvNet,cons8 strict shuffled,26,57.14
+ShallowConvNet,cons8 strict shuffled,65,44.64
+ShallowConvNet,cons8 strict shuffled,3,62.86
+ShallowConvNet,cons8 strict shuffled,36,52.26
+ShallowConvNet,cons8 strict shuffled,71,47.32
+ShallowConvNet,cons8 strict shuffled,16,43.93
+ShallowConvNet,cons8 strict shuffled,82,45.48
+ShallowConvNet,cons8 strict shuffled,83,59.38
+ShallowConvNet,cons8 strict shuffled,87,64.73
+ShallowConvNet,cons8 strict shuffled,31,44.64
+ShallowConvNet,cons8 strict shuffled,94,46.31
+ShallowConvNet,cons8 strict shuffled,95,44.64
+ShallowConvNet,cons8 strict shuffled,2,35.71
+ShallowConvNet,cons8 strict shuffled,4,55.83
+ShallowConvNet,cons8 strict shuffled,101,68.3
+ShallowConvNet,cons8 strict shuffled,69,50.0
+ShallowConvNet,cons8 strict shuffled,7,60.36
+ShallowConvNet,cons8 strict shuffled,72,50.0
+ShallowConvNet,cons8 strict shuffled,44,54.17
+ShallowConvNet,cons8 strict shuffled,18,51.79
+ShallowConvNet,cons8 strict shuffled,29,52.74
+ShallowConvNet,cons8 strict shuffled,19,51.67
+ShallowConvNet,cons8 strict shuffled,93,43.81
+ShallowConvNet,cons8 strict shuffled,1,68.57
+ShallowConvNet,cons8 strict shuffled,99,47.02
+ShallowConvNet,cons8 strict shuffled,67,60.71
+ShallowConvNet,cons8 strict shuffled,73,63.45
+ShallowConvNet,cons8 strict shuffled,75,45.24
+ShallowConvNet,cons8 strict shuffled,48,45.09
+ShallowConvNet,cons8 strict shuffled,54,58.81
+ShallowConvNet,cons8 strict shuffled,22,53.93
+ShallowConvNet,cons8 strict shuffled,86,57.59
+ShallowConvNet,cons8 strict shuffled,25,43.81
+ShallowConvNet,cons8 strict shuffled,58,60.71
+ShallowConvNet,cons8 strict shuffled,102,56.55
+ShallowConvNet,cons8 strict shuffled,105,43.45
+ShallowConvNet,cons8 strict shuffled,91,33.48
+ShallowConvNet,cons8 strict shuffled,46,52.38
+ShallowConvNet,cons8 strict shuffled,50,73.21
+ShallowConvNet,cons8 strict shuffled,52,50.0
+ShallowConvNet,cons8 strict shuffled,84,38.33
+ShallowConvNet,cons8 strict shuffled,27,50.12
+ShallowConvNet,cons8 strict shuffled,61,51.19
+ShallowConvNet,cons8 strict shuffled,63,36.79
+ShallowConvNet,cons8 strict shuffled,33,42.74
+ShallowConvNet,cons8 strict shuffled,41,60.71
+ShallowConvNet,cons8 strict shuffled,106,78.57
+ShallowConvNet,cons8 strict shuffled,74,57.14
+ShallowConvNet,cons8 strict shuffled,108,51.9
+ShallowConvNet,cons8 strict shuffled,13,46.31
+ShallowConvNet,cons8 strict shuffled,47,37.5
+ShallowConvNet,cons8 strict shuffled,15,50.0
+ShallowConvNet,cons8 strict shuffled,59,57.14
+ShallowConvNet,cons8 strict shuffled,62,42.86
+ShallowConvNet,cons8 strict shuffled,96,46.43
+ShallowConvNet,cons8 strict shuffled,97,45.24
+ShallowConvNet,cons8 strict shuffled,32,38.39
+ShallowConvNet,cons8 strict shuffled,64,42.38
+ShallowConvNet,cons8 strict shuffled,39,47.02
+ShallowConvNet,cons8 strict shuffled,8,54.17
+ShallowConvNet,cons8 strict shuffled,77,59.38
+ShallowConvNet,cons8 strict shuffled,78,55.71
+ShallowConvNet,cons8 strict shuffled,109,48.21
+ShallowConvNet,cons8 strict shuffled,49,39.29
+ShallowConvNet,cons8 strict shuffled,34,55.8
+ShallowConvNet,cons8 strict shuffled,98,48.81
+ShallowConvNet,cons8 strict shuffled,70,51.67
+ShallowConvNet,cons8 strict shuffled,42,43.69
+ShallowConvNet,cons8 strict shuffled,79,62.5
+ShallowConvNet,cons8 strict shuffled,80,46.43
+ShallowConvNet,cons8 strict shuffled,55,44.17
+ShallowConvNet,cons8 strict shuffled,57,53.57
+ShallowConvNet,cons8 strict shuffled,60,48.21
+ShallowConvNet,cons8 strict shuffled,30,39.29
+ShallowConvNet,central5 strict,66,48.33
+ShallowConvNet,central5 strict,38,61.07
+ShallowConvNet,central5 strict,6,66.07
+ShallowConvNet,central5 strict,103,46.19
+ShallowConvNet,central5 strict,40,56.7
+ShallowConvNet,central5 strict,104,75.0
+ShallowConvNet,central5 strict,76,48.69
+ShallowConvNet,central5 strict,17,89.29
+ShallowConvNet,central5 strict,21,62.5
+ShallowConvNet,central5 strict,89,53.57
+ShallowConvNet,central5 strict,90,81.31
+ShallowConvNet,central5 strict,35,62.95
+ShallowConvNet,central5 strict,68,82.14
+ShallowConvNet,central5 strict,37,51.55
+ShallowConvNet,central5 strict,9,55.36
+ShallowConvNet,central5 strict,10,53.57
+ShallowConvNet,central5 strict,11,79.52
+ShallowConvNet,central5 strict,12,69.64
+ShallowConvNet,central5 strict,107,51.79
+ShallowConvNet,central5 strict,14,66.79
+ShallowConvNet,central5 strict,24,62.62
+ShallowConvNet,central5 strict,28,90.18
+ShallowConvNet,central5 strict,5,65.62
+ShallowConvNet,central5 strict,43,63.33
+ShallowConvNet,central5 strict,45,91.55
+ShallowConvNet,central5 strict,81,53.33
+ShallowConvNet,central5 strict,51,62.5
+ShallowConvNet,central5 strict,20,83.93
+ShallowConvNet,central5 strict,85,87.98
+ShallowConvNet,central5 strict,53,77.26
+ShallowConvNet,central5 strict,23,74.55
+ShallowConvNet,central5 strict,56,79.05
+ShallowConvNet,central5 strict,26,82.14
+ShallowConvNet,central5 strict,65,69.64
+ShallowConvNet,central5 strict,3,50.71
+ShallowConvNet,central5 strict,36,56.43
+ShallowConvNet,central5 strict,71,75.0
+ShallowConvNet,central5 strict,16,76.19
+ShallowConvNet,central5 strict,82,59.29
+ShallowConvNet,central5 strict,83,53.12
+ShallowConvNet,central5 strict,87,42.41
+ShallowConvNet,central5 strict,31,66.52
+ShallowConvNet,central5 strict,94,41.19
+ShallowConvNet,central5 strict,95,60.71
+ShallowConvNet,central5 strict,2,64.29
+ShallowConvNet,central5 strict,4,78.21
+ShallowConvNet,central5 strict,101,73.66
+ShallowConvNet,central5 strict,69,80.36
+ShallowConvNet,central5 strict,7,71.07
+ShallowConvNet,central5 strict,72,82.62
+ShallowConvNet,central5 strict,44,84.4
+ShallowConvNet,central5 strict,18,64.88
+ShallowConvNet,central5 strict,29,89.52
+ShallowConvNet,central5 strict,19,62.86
+ShallowConvNet,central5 strict,93,61.67
+ShallowConvNet,central5 strict,1,77.02
+ShallowConvNet,central5 strict,99,71.31
+ShallowConvNet,central5 strict,67,46.43
+ShallowConvNet,central5 strict,73,87.74
+ShallowConvNet,central5 strict,75,79.05
+ShallowConvNet,central5 strict,48,57.59
+ShallowConvNet,central5 strict,54,71.31
+ShallowConvNet,central5 strict,22,84.88
+ShallowConvNet,central5 strict,86,85.71
+ShallowConvNet,central5 strict,25,84.4
+ShallowConvNet,central5 strict,58,71.43
+ShallowConvNet,central5 strict,102,91.31
+ShallowConvNet,central5 strict,105,70.36
+ShallowConvNet,central5 strict,91,52.23
+ShallowConvNet,central5 strict,46,67.86
+ShallowConvNet,central5 strict,50,50.0
+ShallowConvNet,central5 strict,52,73.21
+ShallowConvNet,central5 strict,84,51.67
+ShallowConvNet,central5 strict,27,68.81
+ShallowConvNet,central5 strict,61,64.4
+ShallowConvNet,central5 strict,63,62.98
+ShallowConvNet,central5 strict,33,64.88
+ShallowConvNet,central5 strict,41,67.86
+ShallowConvNet,central5 strict,106,83.93
+ShallowConvNet,central5 strict,74,67.86
+ShallowConvNet,central5 strict,108,55.71
+ShallowConvNet,central5 strict,13,57.98
+ShallowConvNet,central5 strict,47,57.14
+ShallowConvNet,central5 strict,15,78.57
+ShallowConvNet,central5 strict,59,67.86
+ShallowConvNet,central5 strict,62,91.07
+ShallowConvNet,central5 strict,96,50.0
+ShallowConvNet,central5 strict,97,54.76
+ShallowConvNet,central5 strict,32,93.75
+ShallowConvNet,central5 strict,64,86.43
+ShallowConvNet,central5 strict,39,61.9
+ShallowConvNet,central5 strict,8,82.14
+ShallowConvNet,central5 strict,77,51.34
+ShallowConvNet,central5 strict,78,52.98
+ShallowConvNet,central5 strict,109,51.79
+ShallowConvNet,central5 strict,49,69.64
+ShallowConvNet,central5 strict,34,87.95
+ShallowConvNet,central5 strict,98,54.4
+ShallowConvNet,central5 strict,70,92.86
+ShallowConvNet,central5 strict,42,87.74
+ShallowConvNet,central5 strict,79,49.55
+ShallowConvNet,central5 strict,80,83.93
+ShallowConvNet,central5 strict,55,72.86
+ShallowConvNet,central5 strict,57,62.5
+ShallowConvNet,central5 strict,60,64.29
+ShallowConvNet,central5 strict,30,78.57
+ShallowConvNet,parietal3 strict,66,53.21
+ShallowConvNet,parietal3 strict,38,41.9
+ShallowConvNet,parietal3 strict,6,62.5
+ShallowConvNet,parietal3 strict,103,44.4
+ShallowConvNet,parietal3 strict,40,60.27
+ShallowConvNet,parietal3 strict,104,67.31
+ShallowConvNet,parietal3 strict,76,52.74
+ShallowConvNet,parietal3 strict,17,82.14
+ShallowConvNet,parietal3 strict,21,44.64
+ShallowConvNet,parietal3 strict,89,66.07
+ShallowConvNet,parietal3 strict,90,51.07
+ShallowConvNet,parietal3 strict,35,51.34
+ShallowConvNet,parietal3 strict,68,69.2
+ShallowConvNet,parietal3 strict,37,40.83
+ShallowConvNet,parietal3 strict,9,44.64
+ShallowConvNet,parietal3 strict,10,51.79
+ShallowConvNet,parietal3 strict,11,63.69
+ShallowConvNet,parietal3 strict,12,77.23
+ShallowConvNet,parietal3 strict,107,60.71
+ShallowConvNet,parietal3 strict,14,55.24
+ShallowConvNet,parietal3 strict,24,54.05
+ShallowConvNet,parietal3 strict,28,79.46
+ShallowConvNet,parietal3 strict,5,75.0
+ShallowConvNet,parietal3 strict,43,55.95
+ShallowConvNet,parietal3 strict,45,81.07
+ShallowConvNet,parietal3 strict,81,46.43
+ShallowConvNet,parietal3 strict,51,60.71
+ShallowConvNet,parietal3 strict,20,62.5
+ShallowConvNet,parietal3 strict,85,75.48
+ShallowConvNet,parietal3 strict,53,57.02
+ShallowConvNet,parietal3 strict,23,70.09
+ShallowConvNet,parietal3 strict,56,77.74
+ShallowConvNet,parietal3 strict,26,67.86
+ShallowConvNet,parietal3 strict,65,39.29
+ShallowConvNet,parietal3 strict,3,32.02
+ShallowConvNet,parietal3 strict,36,57.98
+ShallowConvNet,parietal3 strict,71,52.23
+ShallowConvNet,parietal3 strict,16,79.52
+ShallowConvNet,parietal3 strict,82,45.6
+ShallowConvNet,parietal3 strict,83,49.11
+ShallowConvNet,parietal3 strict,87,51.79
+ShallowConvNet,parietal3 strict,31,57.59
+ShallowConvNet,parietal3 strict,94,58.81
+ShallowConvNet,parietal3 strict,95,50.0
+ShallowConvNet,parietal3 strict,2,58.93
+ShallowConvNet,parietal3 strict,4,60.36
+ShallowConvNet,parietal3 strict,101,59.82
+ShallowConvNet,parietal3 strict,69,62.5
+ShallowConvNet,parietal3 strict,7,47.26
+ShallowConvNet,parietal3 strict,72,66.07
+ShallowConvNet,parietal3 strict,44,59.29
+ShallowConvNet,parietal3 strict,18,46.55
+ShallowConvNet,parietal3 strict,29,75.24
+ShallowConvNet,parietal3 strict,19,66.79
+ShallowConvNet,parietal3 strict,93,62.5
+ShallowConvNet,parietal3 strict,1,57.02
+ShallowConvNet,parietal3 strict,99,62.14
+ShallowConvNet,parietal3 strict,67,49.55
+ShallowConvNet,parietal3 strict,73,63.1
+ShallowConvNet,parietal3 strict,75,59.64
+ShallowConvNet,parietal3 strict,48,55.36
+ShallowConvNet,parietal3 strict,54,62.98
+ShallowConvNet,parietal3 strict,22,51.67
+ShallowConvNet,parietal3 strict,86,71.43
+ShallowConvNet,parietal3 strict,25,51.55
+ShallowConvNet,parietal3 strict,58,55.36
+ShallowConvNet,parietal3 strict,102,70.12
+ShallowConvNet,parietal3 strict,105,69.05
+ShallowConvNet,parietal3 strict,91,55.36
+ShallowConvNet,parietal3 strict,46,54.76
+ShallowConvNet,parietal3 strict,50,55.36
+ShallowConvNet,parietal3 strict,52,71.43
+ShallowConvNet,parietal3 strict,84,40.12
+ShallowConvNet,parietal3 strict,27,55.0
+ShallowConvNet,parietal3 strict,61,50.6
+ShallowConvNet,parietal3 strict,63,71.43
+ShallowConvNet,parietal3 strict,33,52.38
+ShallowConvNet,parietal3 strict,41,50.0
+ShallowConvNet,parietal3 strict,106,57.14
+ShallowConvNet,parietal3 strict,74,58.93
+ShallowConvNet,parietal3 strict,108,42.98
+ShallowConvNet,parietal3 strict,13,50.36
+ShallowConvNet,parietal3 strict,47,44.64
+ShallowConvNet,parietal3 strict,15,73.21
+ShallowConvNet,parietal3 strict,59,48.21
+ShallowConvNet,parietal3 strict,62,73.21
+ShallowConvNet,parietal3 strict,96,42.86
+ShallowConvNet,parietal3 strict,97,42.5
+ShallowConvNet,parietal3 strict,32,83.93
+ShallowConvNet,parietal3 strict,64,70.6
+ShallowConvNet,parietal3 strict,39,50.95
+ShallowConvNet,parietal3 strict,8,88.21
+ShallowConvNet,parietal3 strict,77,41.96
+ShallowConvNet,parietal3 strict,78,46.31
+ShallowConvNet,parietal3 strict,109,51.79
+ShallowConvNet,parietal3 strict,49,55.36
+ShallowConvNet,parietal3 strict,34,65.62
+ShallowConvNet,parietal3 strict,98,55.71
+ShallowConvNet,parietal3 strict,70,51.43
+ShallowConvNet,parietal3 strict,42,62.86
+ShallowConvNet,parietal3 strict,79,50.45
+ShallowConvNet,parietal3 strict,80,57.14
+ShallowConvNet,parietal3 strict,55,68.57
+ShallowConvNet,parietal3 strict,57,60.71
+ShallowConvNet,parietal3 strict,60,55.36
+ShallowConvNet,parietal3 strict,30,51.79
+ShallowConvNet,occ5 strict,66,63.1
+ShallowConvNet,occ5 strict,38,50.6
+ShallowConvNet,occ5 strict,6,64.29
+ShallowConvNet,occ5 strict,103,41.07
+ShallowConvNet,occ5 strict,40,64.73
+ShallowConvNet,occ5 strict,104,78.85
+ShallowConvNet,occ5 strict,76,57.02
+ShallowConvNet,occ5 strict,17,58.93
+ShallowConvNet,occ5 strict,21,55.36
+ShallowConvNet,occ5 strict,89,69.64
+ShallowConvNet,occ5 strict,90,48.57
+ShallowConvNet,occ5 strict,35,74.55
+ShallowConvNet,occ5 strict,68,60.71
+ShallowConvNet,occ5 strict,37,50.0
+ShallowConvNet,occ5 strict,9,85.71
+ShallowConvNet,occ5 strict,10,48.21
+ShallowConvNet,occ5 strict,11,71.31
+ShallowConvNet,occ5 strict,12,62.95
+ShallowConvNet,occ5 strict,107,55.36
+ShallowConvNet,occ5 strict,14,68.33
+ShallowConvNet,occ5 strict,24,66.19
+ShallowConvNet,occ5 strict,28,69.64
+ShallowConvNet,occ5 strict,5,63.39
+ShallowConvNet,occ5 strict,43,66.19
+ShallowConvNet,occ5 strict,45,82.86
+ShallowConvNet,occ5 strict,81,49.17
+ShallowConvNet,occ5 strict,51,53.57
+ShallowConvNet,occ5 strict,20,55.36
+ShallowConvNet,occ5 strict,85,58.93
+ShallowConvNet,occ5 strict,53,82.14
+ShallowConvNet,occ5 strict,23,70.09
+ShallowConvNet,occ5 strict,56,71.31
+ShallowConvNet,occ5 strict,26,51.79
+ShallowConvNet,occ5 strict,65,55.36
+ShallowConvNet,occ5 strict,3,60.36
+ShallowConvNet,occ5 strict,36,69.52
+ShallowConvNet,occ5 strict,71,73.21
+ShallowConvNet,occ5 strict,16,52.98
+ShallowConvNet,occ5 strict,82,70.36
+ShallowConvNet,occ5 strict,83,58.48
+ShallowConvNet,occ5 strict,87,62.05
+ShallowConvNet,occ5 strict,31,49.11
+ShallowConvNet,occ5 strict,94,70.6
+ShallowConvNet,occ5 strict,95,55.36
+ShallowConvNet,occ5 strict,2,50.0
+ShallowConvNet,occ5 strict,4,93.33
+ShallowConvNet,occ5 strict,101,73.21
+ShallowConvNet,occ5 strict,69,73.21
+ShallowConvNet,occ5 strict,7,79.52
+ShallowConvNet,occ5 strict,72,67.5
+ShallowConvNet,occ5 strict,44,78.81
+ShallowConvNet,occ5 strict,18,52.86
+ShallowConvNet,occ5 strict,29,65.0
+ShallowConvNet,occ5 strict,19,63.45
+ShallowConvNet,occ5 strict,93,66.31
+ShallowConvNet,occ5 strict,1,71.67
+ShallowConvNet,occ5 strict,99,57.74
+ShallowConvNet,occ5 strict,67,48.21
+ShallowConvNet,occ5 strict,73,70.12
+ShallowConvNet,occ5 strict,75,52.38
+ShallowConvNet,occ5 strict,48,73.21
+ShallowConvNet,occ5 strict,54,70.83
+ShallowConvNet,occ5 strict,22,81.31
+ShallowConvNet,occ5 strict,86,80.36
+ShallowConvNet,occ5 strict,25,48.69
+ShallowConvNet,occ5 strict,58,53.57
+ShallowConvNet,occ5 strict,102,75.24
+ShallowConvNet,occ5 strict,105,65.71
+ShallowConvNet,occ5 strict,91,66.07
+ShallowConvNet,occ5 strict,46,69.29
+ShallowConvNet,occ5 strict,50,58.93
+ShallowConvNet,occ5 strict,52,75.0
+ShallowConvNet,occ5 strict,84,35.24
+ShallowConvNet,occ5 strict,27,57.26
+ShallowConvNet,occ5 strict,61,60.83
+ShallowConvNet,occ5 strict,63,69.64
+ShallowConvNet,occ5 strict,33,89.52
+ShallowConvNet,occ5 strict,41,67.86
+ShallowConvNet,occ5 strict,106,50.0
+ShallowConvNet,occ5 strict,74,83.93
+ShallowConvNet,occ5 strict,108,68.81
+ShallowConvNet,occ5 strict,13,67.26
+ShallowConvNet,occ5 strict,47,67.86
+ShallowConvNet,occ5 strict,15,62.5
+ShallowConvNet,occ5 strict,59,58.93
+ShallowConvNet,occ5 strict,62,85.71
+ShallowConvNet,occ5 strict,96,62.5
+ShallowConvNet,occ5 strict,97,62.62
+ShallowConvNet,occ5 strict,32,93.3
+ShallowConvNet,occ5 strict,64,60.36
+ShallowConvNet,occ5 strict,39,64.17
+ShallowConvNet,occ5 strict,8,73.93
+ShallowConvNet,occ5 strict,77,66.52
+ShallowConvNet,occ5 strict,78,63.93
+ShallowConvNet,occ5 strict,109,58.93
+ShallowConvNet,occ5 strict,49,75.0
+ShallowConvNet,occ5 strict,34,74.11
+ShallowConvNet,occ5 strict,98,71.31
+ShallowConvNet,occ5 strict,70,80.83
+ShallowConvNet,occ5 strict,42,67.98
+ShallowConvNet,occ5 strict,79,65.18
+ShallowConvNet,occ5 strict,80,78.57
+ShallowConvNet,occ5 strict,55,84.4
+ShallowConvNet,occ5 strict,57,71.43
+ShallowConvNet,occ5 strict,60,76.79
+ShallowConvNet,occ5 strict,30,83.93
+ShallowConvNet,nearC3_8 strict,66,37.62
+ShallowConvNet,nearC3_8 strict,38,52.86
+ShallowConvNet,nearC3_8 strict,6,57.14
+ShallowConvNet,nearC3_8 strict,103,58.81
+ShallowConvNet,nearC3_8 strict,40,52.23
+ShallowConvNet,nearC3_8 strict,104,82.69
+ShallowConvNet,nearC3_8 strict,76,60.71
+ShallowConvNet,nearC3_8 strict,17,80.36
+ShallowConvNet,nearC3_8 strict,21,64.29
+ShallowConvNet,nearC3_8 strict,89,76.79
+ShallowConvNet,nearC3_8 strict,90,79.29
+ShallowConvNet,nearC3_8 strict,35,74.11
+ShallowConvNet,nearC3_8 strict,68,73.21
+ShallowConvNet,nearC3_8 strict,37,66.43
+ShallowConvNet,nearC3_8 strict,9,62.5
+ShallowConvNet,nearC3_8 strict,10,51.79
+ShallowConvNet,nearC3_8 strict,11,68.81
+ShallowConvNet,nearC3_8 strict,12,53.12
+ShallowConvNet,nearC3_8 strict,107,48.21
+ShallowConvNet,nearC3_8 strict,14,68.33
+ShallowConvNet,nearC3_8 strict,24,45.83
+ShallowConvNet,nearC3_8 strict,28,66.96
+ShallowConvNet,nearC3_8 strict,5,53.57
+ShallowConvNet,nearC3_8 strict,43,70.0
+ShallowConvNet,nearC3_8 strict,45,89.52
+ShallowConvNet,nearC3_8 strict,81,53.33
+ShallowConvNet,nearC3_8 strict,51,75.0
+ShallowConvNet,nearC3_8 strict,20,67.86
+ShallowConvNet,nearC3_8 strict,85,88.21
+ShallowConvNet,nearC3_8 strict,53,73.21
+ShallowConvNet,nearC3_8 strict,23,75.89
+ShallowConvNet,nearC3_8 strict,56,69.64
+ShallowConvNet,nearC3_8 strict,26,64.29
+ShallowConvNet,nearC3_8 strict,65,71.43
+ShallowConvNet,nearC3_8 strict,3,42.26
+ShallowConvNet,nearC3_8 strict,36,53.33
+ShallowConvNet,nearC3_8 strict,71,62.5
+ShallowConvNet,nearC3_8 strict,16,74.4
+ShallowConvNet,nearC3_8 strict,82,67.02
+ShallowConvNet,nearC3_8 strict,83,49.55
+ShallowConvNet,nearC3_8 strict,87,42.41
+ShallowConvNet,nearC3_8 strict,31,64.29
+ShallowConvNet,nearC3_8 strict,94,45.71
+ShallowConvNet,nearC3_8 strict,95,58.93
+ShallowConvNet,nearC3_8 strict,2,60.71
+ShallowConvNet,nearC3_8 strict,4,69.76
+ShallowConvNet,nearC3_8 strict,101,66.52
+ShallowConvNet,nearC3_8 strict,69,58.93
+ShallowConvNet,nearC3_8 strict,7,85.71
+ShallowConvNet,nearC3_8 strict,72,74.17
+ShallowConvNet,nearC3_8 strict,44,69.52
+ShallowConvNet,nearC3_8 strict,18,59.52
+ShallowConvNet,nearC3_8 strict,29,89.52
+ShallowConvNet,nearC3_8 strict,19,51.07
+ShallowConvNet,nearC3_8 strict,93,68.57
+ShallowConvNet,nearC3_8 strict,1,74.17
+ShallowConvNet,nearC3_8 strict,99,69.29
+ShallowConvNet,nearC3_8 strict,67,52.68
+ShallowConvNet,nearC3_8 strict,73,81.07
+ShallowConvNet,nearC3_8 strict,75,62.98
+ShallowConvNet,nearC3_8 strict,48,59.38
+ShallowConvNet,nearC3_8 strict,54,72.86
+ShallowConvNet,nearC3_8 strict,22,67.02
+ShallowConvNet,nearC3_8 strict,86,73.21
+ShallowConvNet,nearC3_8 strict,25,63.33
+ShallowConvNet,nearC3_8 strict,58,58.93
+ShallowConvNet,nearC3_8 strict,102,75.95
+ShallowConvNet,nearC3_8 strict,105,52.14
+ShallowConvNet,nearC3_8 strict,91,58.93
+ShallowConvNet,nearC3_8 strict,46,74.17
+ShallowConvNet,nearC3_8 strict,50,62.5
+ShallowConvNet,nearC3_8 strict,52,67.86
+ShallowConvNet,nearC3_8 strict,84,50.12
+ShallowConvNet,nearC3_8 strict,27,60.12
+ShallowConvNet,nearC3_8 strict,61,53.1
+ShallowConvNet,nearC3_8 strict,63,54.52
+ShallowConvNet,nearC3_8 strict,33,78.21
+ShallowConvNet,nearC3_8 strict,41,75.0
+ShallowConvNet,nearC3_8 strict,106,73.21
+ShallowConvNet,nearC3_8 strict,74,69.64
+ShallowConvNet,nearC3_8 strict,108,58.21
+ShallowConvNet,nearC3_8 strict,13,63.21
+ShallowConvNet,nearC3_8 strict,47,48.21
+ShallowConvNet,nearC3_8 strict,15,82.14
+ShallowConvNet,nearC3_8 strict,59,62.5
+ShallowConvNet,nearC3_8 strict,62,85.71
+ShallowConvNet,nearC3_8 strict,96,62.5
+ShallowConvNet,nearC3_8 strict,97,52.62
+ShallowConvNet,nearC3_8 strict,32,90.62
+ShallowConvNet,nearC3_8 strict,64,82.38
+ShallowConvNet,nearC3_8 strict,39,58.81
+ShallowConvNet,nearC3_8 strict,8,80.6
+ShallowConvNet,nearC3_8 strict,77,63.39
+ShallowConvNet,nearC3_8 strict,78,42.74
+ShallowConvNet,nearC3_8 strict,109,42.86
+ShallowConvNet,nearC3_8 strict,49,67.86
+ShallowConvNet,nearC3_8 strict,34,83.93
+ShallowConvNet,nearC3_8 strict,98,59.88
+ShallowConvNet,nearC3_8 strict,70,84.64
+ShallowConvNet,nearC3_8 strict,42,94.88
+ShallowConvNet,nearC3_8 strict,79,43.75
+ShallowConvNet,nearC3_8 strict,80,62.5
+ShallowConvNet,nearC3_8 strict,55,82.38
+ShallowConvNet,nearC3_8 strict,57,46.43
+ShallowConvNet,nearC3_8 strict,60,73.21
+ShallowConvNet,nearC3_8 strict,30,71.43
+ShallowConvNet,pool31 strict,66,40.95
+ShallowConvNet,pool31 strict,38,51.07
+ShallowConvNet,pool31 strict,6,67.86
+ShallowConvNet,pool31 strict,103,59.29
+ShallowConvNet,pool31 strict,40,75.45
+ShallowConvNet,pool31 strict,104,76.92
+ShallowConvNet,pool31 strict,76,51.79
+ShallowConvNet,pool31 strict,17,87.5
+ShallowConvNet,pool31 strict,21,53.57
+ShallowConvNet,pool31 strict,89,76.79
+ShallowConvNet,pool31 strict,90,84.17
+ShallowConvNet,pool31 strict,35,81.25
+ShallowConvNet,pool31 strict,68,84.38
+ShallowConvNet,pool31 strict,37,50.0
+ShallowConvNet,pool31 strict,9,58.93
+ShallowConvNet,pool31 strict,10,58.93
+ShallowConvNet,pool31 strict,11,72.86
+ShallowConvNet,pool31 strict,12,85.27
+ShallowConvNet,pool31 strict,107,55.36
+ShallowConvNet,pool31 strict,14,77.26
+ShallowConvNet,pool31 strict,24,50.12
+ShallowConvNet,pool31 strict,28,82.59
+ShallowConvNet,pool31 strict,5,54.91
+ShallowConvNet,pool31 strict,43,76.43
+ShallowConvNet,pool31 strict,45,87.98
+ShallowConvNet,pool31 strict,81,46.19
+ShallowConvNet,pool31 strict,51,78.57
+ShallowConvNet,pool31 strict,20,80.36
+ShallowConvNet,pool31 strict,85,74.64
+ShallowConvNet,pool31 strict,53,80.83
+ShallowConvNet,pool31 strict,23,81.7
+ShallowConvNet,pool31 strict,56,82.14
+ShallowConvNet,pool31 strict,26,80.36
+ShallowConvNet,pool31 strict,65,66.07
+ShallowConvNet,pool31 strict,3,45.12
+ShallowConvNet,pool31 strict,36,66.43
+ShallowConvNet,pool31 strict,71,72.77
+ShallowConvNet,pool31 strict,16,79.52
+ShallowConvNet,pool31 strict,82,69.52
+ShallowConvNet,pool31 strict,83,51.34
+ShallowConvNet,pool31 strict,87,45.09
+ShallowConvNet,pool31 strict,31,71.88
+ShallowConvNet,pool31 strict,94,69.05
+ShallowConvNet,pool31 strict,95,55.36
+ShallowConvNet,pool31 strict,2,73.21
+ShallowConvNet,pool31 strict,4,72.86
+ShallowConvNet,pool31 strict,101,80.8
+ShallowConvNet,pool31 strict,69,83.93
+ShallowConvNet,pool31 strict,7,77.98
+ShallowConvNet,pool31 strict,72,69.52
+ShallowConvNet,pool31 strict,44,86.19
+ShallowConvNet,pool31 strict,18,93.1
+ShallowConvNet,pool31 strict,29,94.88
+ShallowConvNet,pool31 strict,19,67.74
+ShallowConvNet,pool31 strict,93,78.81
+ShallowConvNet,pool31 strict,1,72.14
+ShallowConvNet,pool31 strict,99,65.95
+ShallowConvNet,pool31 strict,67,60.27
+ShallowConvNet,pool31 strict,73,73.33
+ShallowConvNet,pool31 strict,75,68.1
+ShallowConvNet,pool31 strict,48,69.2
+ShallowConvNet,pool31 strict,54,70.83
+ShallowConvNet,pool31 strict,22,70.36
+ShallowConvNet,pool31 strict,86,82.14
+ShallowConvNet,pool31 strict,25,50.0
+ShallowConvNet,pool31 strict,58,69.64
+ShallowConvNet,pool31 strict,102,89.52
+ShallowConvNet,pool31 strict,105,60.83
+ShallowConvNet,pool31 strict,91,61.16
+ShallowConvNet,pool31 strict,46,75.0
+ShallowConvNet,pool31 strict,50,64.29
+ShallowConvNet,pool31 strict,52,85.71
+ShallowConvNet,pool31 strict,84,58.81
+ShallowConvNet,pool31 strict,27,70.83
+ShallowConvNet,pool31 strict,61,73.33
+ShallowConvNet,pool31 strict,63,77.74
+ShallowConvNet,pool31 strict,33,73.33
+ShallowConvNet,pool31 strict,41,83.93
+ShallowConvNet,pool31 strict,106,91.07
+ShallowConvNet,pool31 strict,74,69.64
+ShallowConvNet,pool31 strict,108,58.21
+ShallowConvNet,pool31 strict,13,57.14
+ShallowConvNet,pool31 strict,47,51.79
+ShallowConvNet,pool31 strict,15,100.0
+ShallowConvNet,pool31 strict,59,71.43
+ShallowConvNet,pool31 strict,62,96.43
+ShallowConvNet,pool31 strict,96,67.86
+ShallowConvNet,pool31 strict,97,69.52
+ShallowConvNet,pool31 strict,32,95.09
+ShallowConvNet,pool31 strict,64,82.62
+ShallowConvNet,pool31 strict,39,64.64
+ShallowConvNet,pool31 strict,8,74.17
+ShallowConvNet,pool31 strict,77,48.21
+ShallowConvNet,pool31 strict,78,51.67
+ShallowConvNet,pool31 strict,109,50.0
+ShallowConvNet,pool31 strict,49,51.79
+ShallowConvNet,pool31 strict,34,94.64
+ShallowConvNet,pool31 strict,98,57.26
+ShallowConvNet,pool31 strict,70,87.98
+ShallowConvNet,pool31 strict,42,90.0
+ShallowConvNet,pool31 strict,79,53.12
+ShallowConvNet,pool31 strict,80,85.71
+ShallowConvNet,pool31 strict,55,87.98
+ShallowConvNet,pool31 strict,57,60.71
+ShallowConvNet,pool31 strict,60,73.21
+ShallowConvNet,pool31 strict,30,82.14
+ShallowConvNet,all64 strict,66,50.12
+ShallowConvNet,all64 strict,38,57.5
+ShallowConvNet,all64 strict,6,73.21
+ShallowConvNet,all64 strict,103,59.29
+ShallowConvNet,all64 strict,40,80.8
+ShallowConvNet,all64 strict,104,88.46
+ShallowConvNet,all64 strict,76,57.14
+ShallowConvNet,all64 strict,17,82.14
+ShallowConvNet,all64 strict,21,55.36
+ShallowConvNet,all64 strict,89,83.93
+ShallowConvNet,all64 strict,90,82.86
+ShallowConvNet,all64 strict,35,88.84
+ShallowConvNet,all64 strict,68,86.61
+ShallowConvNet,all64 strict,37,50.0
+ShallowConvNet,all64 strict,9,60.71
+ShallowConvNet,all64 strict,10,51.79
+ShallowConvNet,all64 strict,11,75.0
+ShallowConvNet,all64 strict,12,77.23
+ShallowConvNet,all64 strict,107,55.36
+ShallowConvNet,all64 strict,14,74.17
+ShallowConvNet,all64 strict,24,58.21
+ShallowConvNet,all64 strict,28,81.25
+ShallowConvNet,all64 strict,5,63.39
+ShallowConvNet,all64 strict,43,74.64
+ShallowConvNet,all64 strict,45,88.21
+ShallowConvNet,all64 strict,81,58.21
+ShallowConvNet,all64 strict,51,64.29
+ShallowConvNet,all64 strict,20,75.0
+ShallowConvNet,all64 strict,85,73.33
+ShallowConvNet,all64 strict,53,76.79
+ShallowConvNet,all64 strict,23,77.23
+ShallowConvNet,all64 strict,56,78.57
+ShallowConvNet,all64 strict,26,80.36
+ShallowConvNet,all64 strict,65,78.57
+ShallowConvNet,all64 strict,3,63.21
+ShallowConvNet,all64 strict,36,54.88
+ShallowConvNet,all64 strict,71,81.25
+ShallowConvNet,all64 strict,16,81.31
+ShallowConvNet,all64 strict,82,84.88
+ShallowConvNet,all64 strict,83,50.0
+ShallowConvNet,all64 strict,87,45.54
+ShallowConvNet,all64 strict,31,74.55
+ShallowConvNet,all64 strict,94,63.69
+ShallowConvNet,all64 strict,95,71.43
+ShallowConvNet,all64 strict,2,75.0
+ShallowConvNet,all64 strict,4,84.4
+ShallowConvNet,all64 strict,101,82.14
+ShallowConvNet,all64 strict,69,94.64
+ShallowConvNet,all64 strict,7,92.86
+ShallowConvNet,all64 strict,72,50.83
+ShallowConvNet,all64 strict,44,85.95
+ShallowConvNet,all64 strict,18,87.5
+ShallowConvNet,all64 strict,29,94.88
+ShallowConvNet,all64 strict,19,71.31
+ShallowConvNet,all64 strict,93,80.6
+ShallowConvNet,all64 strict,1,62.98
+ShallowConvNet,all64 strict,99,58.21
+ShallowConvNet,all64 strict,67,51.79
+ShallowConvNet,all64 strict,73,55.36
+ShallowConvNet,all64 strict,75,43.69
+ShallowConvNet,all64 strict,48,71.43
+ShallowConvNet,all64 strict,54,77.98
+ShallowConvNet,all64 strict,22,69.05
+ShallowConvNet,all64 strict,86,87.5
+ShallowConvNet,all64 strict,25,62.5
+ShallowConvNet,all64 strict,58,73.21
+ShallowConvNet,all64 strict,102,94.64
+ShallowConvNet,all64 strict,105,59.29
+ShallowConvNet,all64 strict,91,65.62
+ShallowConvNet,all64 strict,46,84.4
+ShallowConvNet,all64 strict,50,91.07
+ShallowConvNet,all64 strict,52,87.5
+ShallowConvNet,all64 strict,84,64.88
+ShallowConvNet,all64 strict,27,62.38
+ShallowConvNet,all64 strict,61,71.31
+ShallowConvNet,all64 strict,63,82.38
+ShallowConvNet,all64 strict,33,76.67
+ShallowConvNet,all64 strict,41,78.57
+ShallowConvNet,all64 strict,106,83.93
+ShallowConvNet,all64 strict,74,60.71
+ShallowConvNet,all64 strict,108,53.1
+ShallowConvNet,all64 strict,13,62.86
+ShallowConvNet,all64 strict,47,66.07
+ShallowConvNet,all64 strict,15,100.0
+ShallowConvNet,all64 strict,59,67.86
+ShallowConvNet,all64 strict,62,85.71
+ShallowConvNet,all64 strict,96,75.0
+ShallowConvNet,all64 strict,97,63.1
+ShallowConvNet,all64 strict,32,87.5
+ShallowConvNet,all64 strict,64,77.98
+ShallowConvNet,all64 strict,39,60.83
+ShallowConvNet,all64 strict,8,79.29
+ShallowConvNet,all64 strict,77,55.36
+ShallowConvNet,all64 strict,78,63.93
+ShallowConvNet,all64 strict,109,50.0
+ShallowConvNet,all64 strict,49,80.36
+ShallowConvNet,all64 strict,34,92.86
+ShallowConvNet,all64 strict,98,62.14
+ShallowConvNet,all64 strict,70,89.52
+ShallowConvNet,all64 strict,42,100.0
+ShallowConvNet,all64 strict,79,68.3
+ShallowConvNet,all64 strict,80,71.43
+ShallowConvNet,all64 strict,55,91.55
+ShallowConvNet,all64 strict,57,67.86
+ShallowConvNet,all64 strict,60,69.64
+ShallowConvNet,all64 strict,30,73.21
+ShallowConvNet,cons8 aligned,66,46.55
+ShallowConvNet,cons8 aligned,38,42.38
+ShallowConvNet,cons8 aligned,6,66.07
+ShallowConvNet,cons8 aligned,103,62.62
+ShallowConvNet,cons8 aligned,40,65.18
+ShallowConvNet,cons8 aligned,104,76.92
+ShallowConvNet,cons8 aligned,76,48.57
+ShallowConvNet,cons8 aligned,17,85.71
+ShallowConvNet,cons8 aligned,21,58.93
+ShallowConvNet,cons8 aligned,89,91.07
+ShallowConvNet,cons8 aligned,90,69.52
+ShallowConvNet,cons8 aligned,35,74.55
+ShallowConvNet,cons8 aligned,68,79.91
+ShallowConvNet,cons8 aligned,37,59.05
+ShallowConvNet,cons8 aligned,9,66.07
+ShallowConvNet,cons8 aligned,10,50.0
+ShallowConvNet,cons8 aligned,11,58.93
+ShallowConvNet,cons8 aligned,12,84.38
+ShallowConvNet,cons8 aligned,107,53.57
+ShallowConvNet,cons8 aligned,14,71.9
+ShallowConvNet,cons8 aligned,24,57.98
+ShallowConvNet,cons8 aligned,28,87.95
+ShallowConvNet,cons8 aligned,5,65.62
+ShallowConvNet,cons8 aligned,43,50.0
+ShallowConvNet,cons8 aligned,45,90.0
+ShallowConvNet,cons8 aligned,81,48.21
+ShallowConvNet,cons8 aligned,51,67.86
+ShallowConvNet,cons8 aligned,20,60.71
+ShallowConvNet,cons8 aligned,85,77.74
+ShallowConvNet,cons8 aligned,53,73.69
+ShallowConvNet,cons8 aligned,23,70.98
+ShallowConvNet,cons8 aligned,56,94.64
+ShallowConvNet,cons8 aligned,26,67.86
+ShallowConvNet,cons8 aligned,65,69.64
+ShallowConvNet,cons8 aligned,3,45.36
+ShallowConvNet,cons8 aligned,36,61.55
+ShallowConvNet,cons8 aligned,71,70.98
+ShallowConvNet,cons8 aligned,16,72.86
+ShallowConvNet,cons8 aligned,82,65.95
+ShallowConvNet,cons8 aligned,83,52.68
+ShallowConvNet,cons8 aligned,87,45.09
+ShallowConvNet,cons8 aligned,31,71.43
+ShallowConvNet,cons8 aligned,94,51.07
+ShallowConvNet,cons8 aligned,95,53.57
+ShallowConvNet,cons8 aligned,2,75.0
+ShallowConvNet,cons8 aligned,4,78.21
+ShallowConvNet,cons8 aligned,101,73.66
+ShallowConvNet,cons8 aligned,69,83.93
+ShallowConvNet,cons8 aligned,7,82.86
+ShallowConvNet,cons8 aligned,72,72.86
+ShallowConvNet,cons8 aligned,44,87.74
+ShallowConvNet,cons8 aligned,18,50.12
+ShallowConvNet,cons8 aligned,29,93.33
+ShallowConvNet,cons8 aligned,19,70.0
+ShallowConvNet,cons8 aligned,93,60.83
+ShallowConvNet,cons8 aligned,1,77.26
+ShallowConvNet,cons8 aligned,99,53.1
+ShallowConvNet,cons8 aligned,67,40.18
+ShallowConvNet,cons8 aligned,73,66.67
+ShallowConvNet,cons8 aligned,75,75.0
+ShallowConvNet,cons8 aligned,48,69.64
+ShallowConvNet,cons8 aligned,54,69.76
+ShallowConvNet,cons8 aligned,22,59.76
+ShallowConvNet,cons8 aligned,86,76.79
+ShallowConvNet,cons8 aligned,25,60.0
+ShallowConvNet,cons8 aligned,58,64.29
+ShallowConvNet,cons8 aligned,102,84.64
+ShallowConvNet,cons8 aligned,105,67.5
+ShallowConvNet,cons8 aligned,91,54.91
+ShallowConvNet,cons8 aligned,46,75.0
+ShallowConvNet,cons8 aligned,50,71.43
+ShallowConvNet,cons8 aligned,52,89.29
+ShallowConvNet,cons8 aligned,84,52.38
+ShallowConvNet,cons8 aligned,27,60.6
+ShallowConvNet,cons8 aligned,61,66.67
+ShallowConvNet,cons8 aligned,63,66.79
+ShallowConvNet,cons8 aligned,33,73.1
+ShallowConvNet,cons8 aligned,41,67.86
+ShallowConvNet,cons8 aligned,106,80.36
+ShallowConvNet,cons8 aligned,74,64.29
+ShallowConvNet,cons8 aligned,108,57.98
+ShallowConvNet,cons8 aligned,13,63.1
+ShallowConvNet,cons8 aligned,47,48.21
+ShallowConvNet,cons8 aligned,15,85.71
+ShallowConvNet,cons8 aligned,59,58.93
+ShallowConvNet,cons8 aligned,62,82.14
+ShallowConvNet,cons8 aligned,96,66.07
+ShallowConvNet,cons8 aligned,97,55.71
+ShallowConvNet,cons8 aligned,32,87.5
+ShallowConvNet,cons8 aligned,64,76.79
+ShallowConvNet,cons8 aligned,39,54.64
+ShallowConvNet,cons8 aligned,8,77.02
+ShallowConvNet,cons8 aligned,77,55.36
+ShallowConvNet,cons8 aligned,78,48.1
+ShallowConvNet,cons8 aligned,109,51.79
+ShallowConvNet,cons8 aligned,49,57.14
+ShallowConvNet,cons8 aligned,34,92.86
+ShallowConvNet,cons8 aligned,98,57.98
+ShallowConvNet,cons8 aligned,70,84.64
+ShallowConvNet,cons8 aligned,42,85.71
+ShallowConvNet,cons8 aligned,79,44.64
+ShallowConvNet,cons8 aligned,80,87.5
+ShallowConvNet,cons8 aligned,55,78.21
+ShallowConvNet,cons8 aligned,57,58.93
+ShallowConvNet,cons8 aligned,60,75.0
+ShallowConvNet,cons8 aligned,30,83.93
+ShallowConvNet,nearC3_8 aligned,66,36.55
+ShallowConvNet,nearC3_8 aligned,38,54.17
+ShallowConvNet,nearC3_8 aligned,6,66.07
+ShallowConvNet,nearC3_8 aligned,103,59.4
+ShallowConvNet,nearC3_8 aligned,40,57.14
+ShallowConvNet,nearC3_8 aligned,104,84.62
+ShallowConvNet,nearC3_8 aligned,76,40.71
+ShallowConvNet,nearC3_8 aligned,17,75.0
+ShallowConvNet,nearC3_8 aligned,21,62.5
+ShallowConvNet,nearC3_8 aligned,89,71.43
+ShallowConvNet,nearC3_8 aligned,90,69.88
+ShallowConvNet,nearC3_8 aligned,35,84.38
+ShallowConvNet,nearC3_8 aligned,68,66.96
+ShallowConvNet,nearC3_8 aligned,37,46.43
+ShallowConvNet,nearC3_8 aligned,9,58.93
+ShallowConvNet,nearC3_8 aligned,10,62.5
+ShallowConvNet,nearC3_8 aligned,11,65.24
+ShallowConvNet,nearC3_8 aligned,12,49.11
+ShallowConvNet,nearC3_8 aligned,107,53.57
+ShallowConvNet,nearC3_8 aligned,14,55.95
+ShallowConvNet,nearC3_8 aligned,24,66.19
+ShallowConvNet,nearC3_8 aligned,28,83.93
+ShallowConvNet,nearC3_8 aligned,5,62.05
+ShallowConvNet,nearC3_8 aligned,43,50.0
+ShallowConvNet,nearC3_8 aligned,45,93.33
+ShallowConvNet,nearC3_8 aligned,81,48.21
+ShallowConvNet,nearC3_8 aligned,51,69.64
+ShallowConvNet,nearC3_8 aligned,20,69.64
+ShallowConvNet,nearC3_8 aligned,85,87.98
+ShallowConvNet,nearC3_8 aligned,53,60.71
+ShallowConvNet,nearC3_8 aligned,23,73.21
+ShallowConvNet,nearC3_8 aligned,56,80.36
+ShallowConvNet,nearC3_8 aligned,26,75.0
+ShallowConvNet,nearC3_8 aligned,65,73.21
+ShallowConvNet,nearC3_8 aligned,3,46.31
+ShallowConvNet,nearC3_8 aligned,36,68.21
+ShallowConvNet,nearC3_8 aligned,71,79.46
+ShallowConvNet,nearC3_8 aligned,16,91.31
+ShallowConvNet,nearC3_8 aligned,82,64.88
+ShallowConvNet,nearC3_8 aligned,83,68.3
+ShallowConvNet,nearC3_8 aligned,87,38.84
+ShallowConvNet,nearC3_8 aligned,31,80.36
+ShallowConvNet,nearC3_8 aligned,94,75.71
+ShallowConvNet,nearC3_8 aligned,95,58.93
+ShallowConvNet,nearC3_8 aligned,2,60.71
+ShallowConvNet,nearC3_8 aligned,4,84.88
+ShallowConvNet,nearC3_8 aligned,101,72.77
+ShallowConvNet,nearC3_8 aligned,69,67.86
+ShallowConvNet,nearC3_8 aligned,7,89.29
+ShallowConvNet,nearC3_8 aligned,72,84.64
+ShallowConvNet,nearC3_8 aligned,44,77.5
+ShallowConvNet,nearC3_8 aligned,18,54.64
+ShallowConvNet,nearC3_8 aligned,29,93.33
+ShallowConvNet,nearC3_8 aligned,19,60.0
+ShallowConvNet,nearC3_8 aligned,93,58.1
+ShallowConvNet,nearC3_8 aligned,1,65.95
+ShallowConvNet,nearC3_8 aligned,99,58.81
+ShallowConvNet,nearC3_8 aligned,67,47.32
+ShallowConvNet,nearC3_8 aligned,73,81.55
+ShallowConvNet,nearC3_8 aligned,75,57.5
+ShallowConvNet,nearC3_8 aligned,48,61.61
+ShallowConvNet,nearC3_8 aligned,54,66.43
+ShallowConvNet,nearC3_8 aligned,22,84.4
+ShallowConvNet,nearC3_8 aligned,86,68.75
+ShallowConvNet,nearC3_8 aligned,25,50.0
+ShallowConvNet,nearC3_8 aligned,58,48.21
+ShallowConvNet,nearC3_8 aligned,102,93.33
+ShallowConvNet,nearC3_8 aligned,105,59.52
+ShallowConvNet,nearC3_8 aligned,91,57.14
+ShallowConvNet,nearC3_8 aligned,46,68.57
+ShallowConvNet,nearC3_8 aligned,50,76.79
+ShallowConvNet,nearC3_8 aligned,52,75.0
+ShallowConvNet,nearC3_8 aligned,84,65.71
+ShallowConvNet,nearC3_8 aligned,27,66.79
+ShallowConvNet,nearC3_8 aligned,61,53.33
+ShallowConvNet,nearC3_8 aligned,63,58.93
+ShallowConvNet,nearC3_8 aligned,33,69.76
+ShallowConvNet,nearC3_8 aligned,41,71.43
+ShallowConvNet,nearC3_8 aligned,106,58.93
+ShallowConvNet,nearC3_8 aligned,74,57.14
+ShallowConvNet,nearC3_8 aligned,108,56.67
+ShallowConvNet,nearC3_8 aligned,13,67.74
+ShallowConvNet,nearC3_8 aligned,47,48.21
+ShallowConvNet,nearC3_8 aligned,15,53.57
+ShallowConvNet,nearC3_8 aligned,59,62.5
+ShallowConvNet,nearC3_8 aligned,62,71.43
+ShallowConvNet,nearC3_8 aligned,96,60.71
+ShallowConvNet,nearC3_8 aligned,97,69.05
+ShallowConvNet,nearC3_8 aligned,32,87.5
+ShallowConvNet,nearC3_8 aligned,64,84.64
+ShallowConvNet,nearC3_8 aligned,39,55.95
+ShallowConvNet,nearC3_8 aligned,8,67.86
+ShallowConvNet,nearC3_8 aligned,77,60.27
+ShallowConvNet,nearC3_8 aligned,78,46.07
+ShallowConvNet,nearC3_8 aligned,109,50.0
+ShallowConvNet,nearC3_8 aligned,49,64.29
+ShallowConvNet,nearC3_8 aligned,34,91.07
+ShallowConvNet,nearC3_8 aligned,98,62.38
+ShallowConvNet,nearC3_8 aligned,70,84.64
+ShallowConvNet,nearC3_8 aligned,42,100.0
+ShallowConvNet,nearC3_8 aligned,79,35.71
+ShallowConvNet,nearC3_8 aligned,80,64.29
+ShallowConvNet,nearC3_8 aligned,55,91.55
+ShallowConvNet,nearC3_8 aligned,57,53.57
+ShallowConvNet,nearC3_8 aligned,60,85.71
+ShallowConvNet,nearC3_8 aligned,30,73.21
+ShallowConvNet,pool31 aligned,66,49.4
+ShallowConvNet,pool31 aligned,38,58.57
+ShallowConvNet,pool31 aligned,6,66.07
+ShallowConvNet,pool31 aligned,103,62.86
+ShallowConvNet,pool31 aligned,40,64.73
+ShallowConvNet,pool31 aligned,104,84.62
+ShallowConvNet,pool31 aligned,76,58.81
+ShallowConvNet,pool31 aligned,17,78.57
+ShallowConvNet,pool31 aligned,21,60.71
+ShallowConvNet,pool31 aligned,89,80.36
+ShallowConvNet,pool31 aligned,90,69.64
+ShallowConvNet,pool31 aligned,35,71.43
+ShallowConvNet,pool31 aligned,68,85.71
+ShallowConvNet,pool31 aligned,37,44.17
+ShallowConvNet,pool31 aligned,9,58.93
+ShallowConvNet,pool31 aligned,10,58.93
+ShallowConvNet,pool31 aligned,11,66.19
+ShallowConvNet,pool31 aligned,12,85.27
+ShallowConvNet,pool31 aligned,107,62.5
+ShallowConvNet,pool31 aligned,14,80.6
+ShallowConvNet,pool31 aligned,24,53.69
+ShallowConvNet,pool31 aligned,28,80.36
+ShallowConvNet,pool31 aligned,5,64.29
+ShallowConvNet,pool31 aligned,43,63.33
+ShallowConvNet,pool31 aligned,45,91.07
+ShallowConvNet,pool31 aligned,81,46.19
+ShallowConvNet,pool31 aligned,51,82.14
+ShallowConvNet,pool31 aligned,20,75.0
+ShallowConvNet,pool31 aligned,85,71.07
+ShallowConvNet,pool31 aligned,53,64.29
+ShallowConvNet,pool31 aligned,23,71.43
+ShallowConvNet,pool31 aligned,56,85.71
+ShallowConvNet,pool31 aligned,26,75.0
+ShallowConvNet,pool31 aligned,65,66.07
+ShallowConvNet,pool31 aligned,3,45.12
+ShallowConvNet,pool31 aligned,36,63.1
+ShallowConvNet,pool31 aligned,71,82.59
+ShallowConvNet,pool31 aligned,16,79.52
+ShallowConvNet,pool31 aligned,82,79.76
+ShallowConvNet,pool31 aligned,83,55.36
+ShallowConvNet,pool31 aligned,87,48.66
+ShallowConvNet,pool31 aligned,31,82.59
+ShallowConvNet,pool31 aligned,94,57.5
+ShallowConvNet,pool31 aligned,95,64.29
+ShallowConvNet,pool31 aligned,2,71.43
+ShallowConvNet,pool31 aligned,4,86.19
+ShallowConvNet,pool31 aligned,101,62.5
+ShallowConvNet,pool31 aligned,69,85.71
+ShallowConvNet,pool31 aligned,7,70.83
+ShallowConvNet,pool31 aligned,72,67.98
+ShallowConvNet,pool31 aligned,44,85.71
+ShallowConvNet,pool31 aligned,18,49.29
+ShallowConvNet,pool31 aligned,29,93.33
+ShallowConvNet,pool31 aligned,19,70.6
+ShallowConvNet,pool31 aligned,93,68.33
+ShallowConvNet,pool31 aligned,1,68.57
+ShallowConvNet,pool31 aligned,99,55.24
+ShallowConvNet,pool31 aligned,67,50.0
+ShallowConvNet,pool31 aligned,73,89.76
+ShallowConvNet,pool31 aligned,75,68.57
+ShallowConvNet,pool31 aligned,48,68.75
+ShallowConvNet,pool31 aligned,54,74.4
+ShallowConvNet,pool31 aligned,22,89.76
+ShallowConvNet,pool31 aligned,86,89.29
+ShallowConvNet,pool31 aligned,25,56.67
+ShallowConvNet,pool31 aligned,58,53.57
+ShallowConvNet,pool31 aligned,102,84.88
+ShallowConvNet,pool31 aligned,105,66.19
+ShallowConvNet,pool31 aligned,91,54.46
+ShallowConvNet,pool31 aligned,46,70.36
+ShallowConvNet,pool31 aligned,50,67.86
+ShallowConvNet,pool31 aligned,52,85.71
+ShallowConvNet,pool31 aligned,84,59.52
+ShallowConvNet,pool31 aligned,27,62.38
+ShallowConvNet,pool31 aligned,61,63.33
+ShallowConvNet,pool31 aligned,63,68.1
+ShallowConvNet,pool31 aligned,33,71.31
+ShallowConvNet,pool31 aligned,41,73.21
+ShallowConvNet,pool31 aligned,106,73.21
+ShallowConvNet,pool31 aligned,74,62.5
+ShallowConvNet,pool31 aligned,108,57.98
+ShallowConvNet,pool31 aligned,13,59.64
+ShallowConvNet,pool31 aligned,47,46.43
+ShallowConvNet,pool31 aligned,15,85.71
+ShallowConvNet,pool31 aligned,59,57.14
+ShallowConvNet,pool31 aligned,62,85.71
+ShallowConvNet,pool31 aligned,96,48.21
+ShallowConvNet,pool31 aligned,97,52.98
+ShallowConvNet,pool31 aligned,32,84.38
+ShallowConvNet,pool31 aligned,64,71.9
+ShallowConvNet,pool31 aligned,39,55.48
+ShallowConvNet,pool31 aligned,8,61.19
+ShallowConvNet,pool31 aligned,77,53.12
+ShallowConvNet,pool31 aligned,78,52.74
+ShallowConvNet,pool31 aligned,109,57.14
+ShallowConvNet,pool31 aligned,49,67.86
+ShallowConvNet,pool31 aligned,34,89.73
+ShallowConvNet,pool31 aligned,98,69.76
+ShallowConvNet,pool31 aligned,70,79.76
+ShallowConvNet,pool31 aligned,42,93.1
+ShallowConvNet,pool31 aligned,79,45.54
+ShallowConvNet,pool31 aligned,80,71.43
+ShallowConvNet,pool31 aligned,55,61.55
+ShallowConvNet,pool31 aligned,57,51.79
+ShallowConvNet,pool31 aligned,60,60.71
+ShallowConvNet,pool31 aligned,30,82.14
+ShallowConvNet,all64 aligned,66,52.74
+ShallowConvNet,all64 aligned,38,60.36
+ShallowConvNet,all64 aligned,6,60.71
+ShallowConvNet,all64 aligned,103,58.57
+ShallowConvNet,all64 aligned,40,65.18
+ShallowConvNet,all64 aligned,104,82.69
+ShallowConvNet,all64 aligned,76,58.1
+ShallowConvNet,all64 aligned,17,89.29
+ShallowConvNet,all64 aligned,21,57.14
+ShallowConvNet,all64 aligned,89,87.5
+ShallowConvNet,all64 aligned,90,69.64
+ShallowConvNet,all64 aligned,35,71.43
+ShallowConvNet,all64 aligned,68,84.38
+ShallowConvNet,all64 aligned,37,56.43
+ShallowConvNet,all64 aligned,9,53.57
+ShallowConvNet,all64 aligned,10,53.57
+ShallowConvNet,all64 aligned,11,66.79
+ShallowConvNet,all64 aligned,12,75.89
+ShallowConvNet,all64 aligned,107,58.93
+ShallowConvNet,all64 aligned,14,75.24
+ShallowConvNet,all64 aligned,24,61.9
+ShallowConvNet,all64 aligned,28,83.04
+ShallowConvNet,all64 aligned,5,70.09
+ShallowConvNet,all64 aligned,43,81.31
+ShallowConvNet,all64 aligned,45,94.64
+ShallowConvNet,all64 aligned,81,47.5
+ShallowConvNet,all64 aligned,51,85.71
+ShallowConvNet,all64 aligned,20,87.5
+ShallowConvNet,all64 aligned,85,81.07
+ShallowConvNet,all64 aligned,53,69.64
+ShallowConvNet,all64 aligned,23,70.98
+ShallowConvNet,all64 aligned,56,86.19
+ShallowConvNet,all64 aligned,26,80.36
+ShallowConvNet,all64 aligned,65,75.0
+ShallowConvNet,all64 aligned,3,56.31
+ShallowConvNet,all64 aligned,36,56.67
+ShallowConvNet,all64 aligned,71,66.96
+ShallowConvNet,all64 aligned,16,81.31
+ShallowConvNet,all64 aligned,82,76.43
+ShallowConvNet,all64 aligned,83,55.8
+ShallowConvNet,all64 aligned,87,50.45
+ShallowConvNet,all64 aligned,31,78.57
+ShallowConvNet,all64 aligned,94,62.86
+ShallowConvNet,all64 aligned,95,55.36
+ShallowConvNet,all64 aligned,2,91.07
+ShallowConvNet,all64 aligned,4,84.64
+ShallowConvNet,all64 aligned,101,75.0
+ShallowConvNet,all64 aligned,69,91.07
+ShallowConvNet,all64 aligned,7,73.1
+ShallowConvNet,all64 aligned,72,71.31
+ShallowConvNet,all64 aligned,44,89.29
+ShallowConvNet,all64 aligned,18,51.07
+ShallowConvNet,all64 aligned,29,84.88
+ShallowConvNet,all64 aligned,19,72.86
+ShallowConvNet,all64 aligned,93,77.26
+ShallowConvNet,all64 aligned,1,72.38
+ShallowConvNet,all64 aligned,99,65.0
+ShallowConvNet,all64 aligned,67,70.09
+ShallowConvNet,all64 aligned,73,86.43
+ShallowConvNet,all64 aligned,75,75.95
+ShallowConvNet,all64 aligned,48,75.45
+ShallowConvNet,all64 aligned,54,82.86
+ShallowConvNet,all64 aligned,22,90.0
+ShallowConvNet,all64 aligned,86,85.27
+ShallowConvNet,all64 aligned,25,60.0
+ShallowConvNet,all64 aligned,58,64.29
+ShallowConvNet,all64 aligned,102,93.33
+ShallowConvNet,all64 aligned,105,65.95
+ShallowConvNet,all64 aligned,91,56.25
+ShallowConvNet,all64 aligned,46,78.21
+ShallowConvNet,all64 aligned,50,71.43
+ShallowConvNet,all64 aligned,52,89.29
+ShallowConvNet,all64 aligned,84,66.43
+ShallowConvNet,all64 aligned,27,77.5
+ShallowConvNet,all64 aligned,61,60.0
+ShallowConvNet,all64 aligned,63,62.74
+ShallowConvNet,all64 aligned,33,79.76
+ShallowConvNet,all64 aligned,41,78.57
+ShallowConvNet,all64 aligned,106,76.79
+ShallowConvNet,all64 aligned,74,64.29
+ShallowConvNet,all64 aligned,108,60.0
+ShallowConvNet,all64 aligned,13,67.26
+ShallowConvNet,all64 aligned,47,57.14
+ShallowConvNet,all64 aligned,15,92.86
+ShallowConvNet,all64 aligned,59,64.29
+ShallowConvNet,all64 aligned,62,82.14
+ShallowConvNet,all64 aligned,96,66.07
+ShallowConvNet,all64 aligned,97,48.57
+ShallowConvNet,all64 aligned,32,84.38
+ShallowConvNet,all64 aligned,64,87.74
+ShallowConvNet,all64 aligned,39,59.88
+ShallowConvNet,all64 aligned,8,70.12
+ShallowConvNet,all64 aligned,77,56.7
+ShallowConvNet,all64 aligned,78,59.64
+ShallowConvNet,all64 aligned,109,57.14
+ShallowConvNet,all64 aligned,49,83.93
+ShallowConvNet,all64 aligned,34,88.39
+ShallowConvNet,all64 aligned,98,61.07
+ShallowConvNet,all64 aligned,70,88.21
+ShallowConvNet,all64 aligned,42,94.64
+ShallowConvNet,all64 aligned,79,54.91
+ShallowConvNet,all64 aligned,80,83.93
+ShallowConvNet,all64 aligned,55,63.33
+ShallowConvNet,all64 aligned,57,55.36
+ShallowConvNet,all64 aligned,60,71.43
+ShallowConvNet,all64 aligned,30,89.29

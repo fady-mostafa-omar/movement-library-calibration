@@ -1,0 +1,2 @@
+# Frozen registry
+`registry_trials.csv`: one row per cued trial (condition, subject, run 1-10, trial 1-42, class), the artifact flag used for training data (`r4m_rejected`) and the glove onset latency of executed movements (`onset_latency_s`, s after the cue). `registry_bad_channels.csv`: bad channels per session. `channels.json`: channel order of the preprocessed files (61 EEG + 3 EOG). Built before this study (Section 2.1 of the paper) and used unchanged.

@@ -1,0 +1,842 @@
+
+===== A.7-1 started 15:22:17 on cuda =====
+Downloading file 'S001/S001R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S001/S001R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S001/S001R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S001/S001R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S001/S001R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S001/S001R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S001/S001R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S001/S001R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S001/S001R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S001/S001R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S001/S001R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S001/S001R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S001: 174 epochs (2.4 min)
+Downloading file 'S002/S002R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S002/S002R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S002/S002R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S002/S002R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S002/S002R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S002/S002R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S002/S002R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S002/S002R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S002/S002R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S002/S002R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S002/S002R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S002/S002R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S002: 174 epochs (3.5 min)
+Downloading file 'S003/S003R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S003/S003R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S003/S003R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S003/S003R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S003/S003R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S003/S003R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S003/S003R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S003/S003R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S003/S003R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S003/S003R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S003/S003R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S003/S003R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S003: 174 epochs (4.6 min)
+Downloading file 'S004/S004R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S004/S004R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S004/S004R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S004/S004R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S004/S004R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S004/S004R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S004/S004R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S004/S004R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S004/S004R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S004/S004R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S004/S004R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S004/S004R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S004: 174 epochs (5.7 min)
+Downloading file 'S005/S005R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S005/S005R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S005/S005R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S005/S005R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S005/S005R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S005/S005R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S005/S005R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S005/S005R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S005/S005R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S005/S005R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S005/S005R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S005/S005R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S005: 174 epochs (6.7 min)
+Downloading file 'S006/S006R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S006/S006R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S006/S006R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S006/S006R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S006/S006R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S006/S006R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S006/S006R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S006/S006R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S006/S006R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S006/S006R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S006/S006R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S006/S006R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S006: 174 epochs (7.8 min)
+Downloading file 'S007/S007R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S007/S007R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S007/S007R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S007/S007R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S007/S007R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S007/S007R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S007/S007R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S007/S007R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S007/S007R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S007/S007R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S007/S007R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S007/S007R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S007: 174 epochs (8.8 min)
+Downloading file 'S008/S008R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S008/S008R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S008/S008R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S008/S008R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S008/S008R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S008/S008R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S008/S008R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S008/S008R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S008/S008R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S008/S008R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S008/S008R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S008/S008R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S008: 174 epochs (9.9 min)
+Downloading file 'S009/S009R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S009/S009R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S009/S009R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S009/S009R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S009/S009R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S009/S009R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S009/S009R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S009/S009R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S009/S009R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S009/S009R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S009/S009R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S009/S009R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S009: 174 epochs (11.0 min)
+Downloading file 'S010/S010R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S010/S010R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S010/S010R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S010/S010R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S010/S010R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S010/S010R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S010/S010R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S010/S010R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S010/S010R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S010/S010R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S010/S010R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S010/S010R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S010: 174 epochs (12.1 min)
+Downloading file 'S011/S011R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S011/S011R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S011/S011R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S011/S011R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S011/S011R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S011/S011R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S011/S011R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S011/S011R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S011/S011R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S011/S011R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S011/S011R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S011/S011R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S011: 174 epochs (13.1 min)
+Downloading file 'S012/S012R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S012/S012R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S012/S012R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S012/S012R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S012/S012R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S012/S012R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S012/S012R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S012/S012R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S012/S012R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S012/S012R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S012/S012R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S012/S012R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S012: 174 epochs (14.2 min)
+Downloading file 'S013/S013R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S013/S013R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S013/S013R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S013/S013R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S013/S013R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S013/S013R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S013/S013R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S013/S013R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S013/S013R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S013/S013R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S013/S013R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S013/S013R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S013: 174 epochs (15.3 min)
+Downloading file 'S014/S014R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S014/S014R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S014/S014R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S014/S014R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S014/S014R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S014/S014R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S014/S014R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S014/S014R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S014/S014R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S014/S014R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S014/S014R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S014/S014R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S014: 174 epochs (16.3 min)
+Downloading file 'S015/S015R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S015/S015R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S015/S015R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S015/S015R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S015/S015R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S015/S015R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S015/S015R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S015/S015R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S015/S015R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S015/S015R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S015/S015R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S015/S015R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S015: 174 epochs (17.4 min)
+Downloading file 'S016/S016R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S016/S016R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S016/S016R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S016/S016R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S016/S016R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S016/S016R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S016/S016R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S016/S016R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S016/S016R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S016/S016R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S016/S016R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S016/S016R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S016: 174 epochs (18.4 min)
+Downloading file 'S017/S017R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S017/S017R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S017/S017R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S017/S017R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S017/S017R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S017/S017R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S017/S017R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S017/S017R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S017/S017R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S017/S017R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S017/S017R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S017/S017R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S017: 174 epochs (19.4 min)
+Downloading file 'S018/S018R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S018/S018R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S018/S018R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S018/S018R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S018/S018R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S018/S018R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S018/S018R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S018/S018R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S018/S018R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S018/S018R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S018/S018R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S018/S018R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S018: 174 epochs (20.5 min)
+Downloading file 'S019/S019R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S019/S019R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S019/S019R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S019/S019R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S019/S019R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S019/S019R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S019/S019R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S019/S019R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S019/S019R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S019/S019R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S019/S019R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S019/S019R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S019: 174 epochs (21.5 min)
+Downloading file 'S020/S020R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S020/S020R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S020/S020R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S020/S020R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S020/S020R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S020/S020R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S020/S020R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S020/S020R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S020/S020R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S020/S020R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S020/S020R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S020/S020R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S020: 174 epochs (22.6 min)
+Downloading file 'S021/S021R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S021/S021R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S021/S021R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S021/S021R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S021/S021R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S021/S021R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S021/S021R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S021/S021R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S021/S021R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S021/S021R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S021/S021R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S021/S021R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S021: 174 epochs (23.7 min)
+Downloading file 'S022/S022R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S022/S022R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S022/S022R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S022/S022R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S022/S022R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S022/S022R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S022/S022R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S022/S022R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S022/S022R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S022/S022R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S022/S022R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S022/S022R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S022: 174 epochs (24.8 min)
+Downloading file 'S023/S023R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S023/S023R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S023/S023R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S023/S023R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S023/S023R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S023/S023R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S023/S023R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S023/S023R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S023/S023R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S023/S023R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S023/S023R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S023/S023R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S023: 174 epochs (25.9 min)
+Downloading file 'S024/S024R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S024/S024R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S024/S024R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S024/S024R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S024/S024R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S024/S024R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S024/S024R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S024/S024R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S024/S024R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S024/S024R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S024/S024R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S024/S024R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S024: 174 epochs (27.0 min)
+Downloading file 'S025/S025R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S025/S025R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S025/S025R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S025/S025R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S025/S025R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S025/S025R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S025/S025R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S025/S025R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S025/S025R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S025/S025R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S025/S025R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S025/S025R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S025: 174 epochs (28.0 min)
+Downloading file 'S026/S026R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S026/S026R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S026/S026R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S026/S026R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S026/S026R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S026/S026R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S026/S026R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S026/S026R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S026/S026R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S026/S026R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S026/S026R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S026/S026R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S026: 174 epochs (29.1 min)
+Downloading file 'S027/S027R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S027/S027R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S027/S027R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S027/S027R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S027/S027R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S027/S027R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S027/S027R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S027/S027R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S027/S027R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S027/S027R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S027/S027R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S027/S027R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S027: 174 epochs (30.2 min)
+Downloading file 'S028/S028R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S028/S028R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S028/S028R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S028/S028R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S028/S028R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S028/S028R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S028/S028R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S028/S028R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S028/S028R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S028/S028R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S028/S028R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S028/S028R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S028: 174 epochs (31.3 min)
+Downloading file 'S029/S029R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S029/S029R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S029/S029R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S029/S029R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S029/S029R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S029/S029R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S029/S029R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S029/S029R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S029/S029R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S029/S029R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S029/S029R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S029/S029R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S029: 174 epochs (32.3 min)
+Downloading file 'S030/S030R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S030/S030R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S030/S030R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S030/S030R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S030/S030R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S030/S030R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S030/S030R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S030/S030R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S030/S030R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S030/S030R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S030/S030R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S030/S030R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S030: 174 epochs (33.4 min)
+Downloading file 'S031/S031R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S031/S031R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S031/S031R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S031/S031R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S031/S031R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S031/S031R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S031/S031R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S031/S031R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S031/S031R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S031/S031R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S031/S031R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S031/S031R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S031: 174 epochs (34.5 min)
+Downloading file 'S032/S032R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S032/S032R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S032/S032R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S032/S032R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S032/S032R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S032/S032R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S032/S032R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S032/S032R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S032/S032R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S032/S032R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S032/S032R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S032/S032R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S032: 174 epochs (35.6 min)
+Downloading file 'S033/S033R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S033/S033R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S033/S033R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S033/S033R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S033/S033R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S033/S033R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S033/S033R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S033/S033R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S033/S033R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S033/S033R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S033/S033R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S033/S033R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S033: 174 epochs (36.6 min)
+Downloading file 'S034/S034R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S034/S034R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S034/S034R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S034/S034R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S034/S034R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S034/S034R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S034/S034R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S034/S034R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S034/S034R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S034/S034R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S034/S034R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S034/S034R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S034: 174 epochs (37.7 min)
+Downloading file 'S035/S035R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S035/S035R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S035/S035R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S035/S035R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S035/S035R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S035/S035R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S035/S035R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S035/S035R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S035/S035R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S035/S035R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S035/S035R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S035/S035R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S035: 174 epochs (38.8 min)
+Downloading file 'S036/S036R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S036/S036R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S036/S036R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S036/S036R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S036/S036R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S036/S036R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S036/S036R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S036/S036R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S036/S036R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S036/S036R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S036/S036R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S036/S036R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S036: 174 epochs (39.8 min)
+Downloading file 'S037/S037R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S037/S037R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S037/S037R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S037/S037R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S037/S037R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S037/S037R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S037/S037R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S037/S037R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S037/S037R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S037/S037R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S037/S037R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S037/S037R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S037: 174 epochs (40.9 min)
+Downloading file 'S038/S038R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S038/S038R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S038/S038R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S038/S038R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S038/S038R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S038/S038R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S038/S038R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S038/S038R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S038/S038R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S038/S038R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S038/S038R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S038/S038R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S038: 174 epochs (42.0 min)
+Downloading file 'S039/S039R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S039/S039R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S039/S039R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S039/S039R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S039/S039R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S039/S039R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S039/S039R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S039/S039R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S039/S039R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S039/S039R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S039/S039R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S039/S039R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S039: 174 epochs (43.0 min)
+Downloading file 'S040/S040R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S040/S040R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S040/S040R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S040/S040R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S040/S040R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S040/S040R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S040/S040R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S040/S040R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S040/S040R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S040/S040R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S040/S040R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S040/S040R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S040: 174 epochs (44.1 min)
+Downloading file 'S041/S041R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S041/S041R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S041/S041R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S041/S041R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S041/S041R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S041/S041R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S041/S041R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S041/S041R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S041/S041R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S041/S041R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S041/S041R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S041/S041R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S041: 174 epochs (45.2 min)
+Downloading file 'S042/S042R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S042/S042R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S042/S042R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S042/S042R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S042/S042R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S042/S042R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S042/S042R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S042/S042R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S042/S042R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S042/S042R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S042/S042R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S042/S042R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S042: 174 epochs (46.3 min)
+Downloading file 'S043/S043R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S043/S043R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S043/S043R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S043/S043R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S043/S043R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S043/S043R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S043/S043R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S043/S043R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S043/S043R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S043/S043R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S043/S043R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S043/S043R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S043: 174 epochs (47.3 min)
+Downloading file 'S044/S044R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S044/S044R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S044/S044R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S044/S044R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S044/S044R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S044/S044R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S044/S044R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S044/S044R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S044/S044R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S044/S044R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S044/S044R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S044/S044R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S044: 174 epochs (48.4 min)
+Downloading file 'S045/S045R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S045/S045R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S045/S045R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S045/S045R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S045/S045R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S045/S045R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S045/S045R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S045/S045R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S045/S045R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S045/S045R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S045/S045R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S045/S045R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S045: 174 epochs (49.5 min)
+Downloading file 'S046/S046R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S046/S046R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S046/S046R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S046/S046R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S046/S046R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S046/S046R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S046/S046R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S046/S046R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S046/S046R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S046/S046R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S046/S046R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S046/S046R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S046: 174 epochs (50.6 min)
+Downloading file 'S047/S047R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S047/S047R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S047/S047R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S047/S047R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S047/S047R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S047/S047R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S047/S047R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S047/S047R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S047/S047R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S047/S047R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S047/S047R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S047/S047R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S047: 174 epochs (51.6 min)
+Downloading file 'S048/S048R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S048/S048R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S048/S048R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S048/S048R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S048/S048R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S048/S048R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S048/S048R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S048/S048R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S048/S048R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S048/S048R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S048/S048R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S048/S048R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S048: 174 epochs (52.7 min)
+Downloading file 'S049/S049R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S049/S049R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S049/S049R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S049/S049R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S049/S049R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S049/S049R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S049/S049R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S049/S049R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S049/S049R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S049/S049R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S049/S049R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S049/S049R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S049: 174 epochs (53.8 min)
+Downloading file 'S050/S050R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S050/S050R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S050/S050R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S050/S050R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S050/S050R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S050/S050R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S050/S050R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S050/S050R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S050/S050R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S050/S050R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S050/S050R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S050/S050R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S050: 174 epochs (54.8 min)
+Downloading file 'S051/S051R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S051/S051R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S051/S051R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S051/S051R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S051/S051R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S051/S051R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S051/S051R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S051/S051R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S051/S051R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S051/S051R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S051/S051R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S051/S051R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S051: 174 epochs (55.9 min)
+Downloading file 'S052/S052R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S052/S052R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S052/S052R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S052/S052R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S052/S052R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S052/S052R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S052/S052R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S052/S052R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S052/S052R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S052/S052R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S052/S052R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S052/S052R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S052: 174 epochs (56.9 min)
+Downloading file 'S053/S053R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S053/S053R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S053/S053R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S053/S053R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S053/S053R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S053/S053R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S053/S053R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S053/S053R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S053/S053R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S053/S053R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S053/S053R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S053/S053R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S053: 174 epochs (58.0 min)
+Downloading file 'S054/S054R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S054/S054R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S054/S054R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S054/S054R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S054/S054R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S054/S054R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S054/S054R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S054/S054R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S054/S054R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S054/S054R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S054/S054R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S054/S054R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S054: 174 epochs (59.0 min)
+Downloading file 'S055/S055R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S055/S055R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S055/S055R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S055/S055R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S055/S055R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S055/S055R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S055/S055R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S055/S055R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S055/S055R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S055/S055R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S055/S055R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S055/S055R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S055: 174 epochs (60.1 min)
+Downloading file 'S056/S056R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S056/S056R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S056/S056R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S056/S056R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S056/S056R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S056/S056R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S056/S056R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S056/S056R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S056/S056R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S056/S056R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S056/S056R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S056/S056R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S056: 174 epochs (61.3 min)
+Downloading file 'S057/S057R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S057/S057R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S057/S057R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S057/S057R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S057/S057R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S057/S057R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S057/S057R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S057/S057R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S057/S057R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S057/S057R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S057/S057R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S057/S057R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S057: 174 epochs (62.4 min)
+Downloading file 'S058/S058R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S058/S058R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S058/S058R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S058/S058R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S058/S058R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S058/S058R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S058/S058R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S058/S058R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S058/S058R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S058/S058R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S058/S058R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S058/S058R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S058: 174 epochs (63.5 min)
+Downloading file 'S059/S059R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S059/S059R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S059/S059R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S059/S059R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S059/S059R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S059/S059R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S059/S059R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S059/S059R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S059/S059R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S059/S059R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S059/S059R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S059/S059R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S059: 174 epochs (64.6 min)
+Downloading file 'S060/S060R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S060/S060R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S060/S060R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S060/S060R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S060/S060R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S060/S060R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S060/S060R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S060/S060R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S060/S060R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S060/S060R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S060/S060R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S060/S060R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S060: 174 epochs (65.7 min)
+Downloading file 'S061/S061R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S061/S061R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S061/S061R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S061/S061R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S061/S061R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S061/S061R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S061/S061R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S061/S061R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S061/S061R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S061/S061R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S061/S061R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S061/S061R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S061: 174 epochs (66.8 min)
+Downloading file 'S062/S062R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S062/S062R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S062/S062R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S062/S062R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S062/S062R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S062/S062R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S062/S062R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S062/S062R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S062/S062R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S062/S062R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S062/S062R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S062/S062R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S062: 174 epochs (67.8 min)
+Downloading file 'S063/S063R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S063/S063R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S063/S063R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S063/S063R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S063/S063R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S063/S063R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S063/S063R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S063/S063R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S063/S063R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S063/S063R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S063/S063R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S063/S063R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S063: 174 epochs (68.9 min)
+Downloading file 'S064/S064R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S064/S064R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S064/S064R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S064/S064R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S064/S064R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S064/S064R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S064/S064R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S064/S064R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S064/S064R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S064/S064R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S064/S064R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S064/S064R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S064: 174 epochs (70.0 min)
+Downloading file 'S065/S065R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S065/S065R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S065/S065R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S065/S065R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S065/S065R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S065/S065R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S065/S065R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S065/S065R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S065/S065R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S065/S065R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S065/S065R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S065/S065R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S065: 174 epochs (71.1 min)
+Downloading file 'S066/S066R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S066/S066R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S066/S066R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S066/S066R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S066/S066R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S066/S066R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S066/S066R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S066/S066R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S066/S066R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S066/S066R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S066/S066R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S066/S066R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S066: 174 epochs (72.1 min)
+Downloading file 'S067/S067R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S067/S067R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S067/S067R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S067/S067R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S067/S067R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S067/S067R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S067/S067R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S067/S067R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S067/S067R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S067/S067R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S067/S067R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S067/S067R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S067: 174 epochs (73.2 min)
+Downloading file 'S068/S068R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S068/S068R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S068/S068R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S068/S068R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S068/S068R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S068/S068R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S068/S068R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S068/S068R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S068/S068R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S068/S068R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S068/S068R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S068/S068R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S068: 174 epochs (74.3 min)
+Downloading file 'S069/S069R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S069/S069R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S069/S069R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S069/S069R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S069/S069R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S069/S069R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S069/S069R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S069/S069R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S069/S069R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S069/S069R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S069/S069R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S069/S069R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S069: 174 epochs (75.4 min)
+Downloading file 'S070/S070R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S070/S070R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S070/S070R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S070/S070R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S070/S070R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S070/S070R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S070/S070R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S070/S070R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S070/S070R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S070/S070R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S070/S070R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S070/S070R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S070: 174 epochs (77.2 min)
+Downloading file 'S071/S071R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S071/S071R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S071/S071R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S071/S071R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S071/S071R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S071/S071R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S071/S071R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S071/S071R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S071/S071R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S071/S071R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S071/S071R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S071/S071R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S071: 174 epochs (78.3 min)
+Downloading file 'S072/S072R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S072/S072R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S072/S072R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S072/S072R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S072/S072R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S072/S072R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S072/S072R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S072/S072R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S072/S072R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S072/S072R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S072/S072R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S072/S072R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S072: 174 epochs (79.4 min)
+Downloading file 'S073/S073R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S073/S073R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S073/S073R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S073/S073R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S073/S073R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S073/S073R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S073/S073R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S073/S073R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S073/S073R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S073/S073R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S073/S073R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S073/S073R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S073: 174 epochs (80.5 min)
+Downloading file 'S074/S074R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S074/S074R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S074/S074R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S074/S074R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S074/S074R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S074/S074R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S074/S074R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S074/S074R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S074/S074R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S074/S074R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S074/S074R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S074/S074R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S074: 174 epochs (82.4 min)
+Downloading file 'S075/S075R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S075/S075R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S075/S075R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S075/S075R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S075/S075R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S075/S075R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S075/S075R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S075/S075R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S075/S075R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S075/S075R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S075/S075R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S075/S075R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S075: 174 epochs (83.8 min)
+Downloading file 'S076/S076R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S076/S076R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S076/S076R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S076/S076R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S076/S076R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S076/S076R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S076/S076R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S076/S076R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S076/S076R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S076/S076R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S076/S076R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S076/S076R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S076: 174 epochs (84.9 min)
+Downloading file 'S077/S077R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S077/S077R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S077/S077R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S077/S077R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S077/S077R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S077/S077R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S077/S077R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S077/S077R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S077/S077R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S077/S077R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S077/S077R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S077/S077R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S077: 174 epochs (86.0 min)
+Downloading file 'S078/S078R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S078/S078R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S078/S078R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S078/S078R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S078/S078R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S078/S078R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S078/S078R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S078/S078R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S078/S078R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S078/S078R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S078/S078R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S078/S078R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S078: 174 epochs (87.1 min)
+Downloading file 'S079/S079R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S079/S079R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S079/S079R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S079/S079R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S079/S079R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S079/S079R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S079/S079R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S079/S079R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S079/S079R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S079/S079R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S079/S079R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S079/S079R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S079: 174 epochs (88.2 min)
+Downloading file 'S080/S080R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S080/S080R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S080/S080R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S080/S080R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S080/S080R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S080/S080R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S080/S080R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S080/S080R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S080/S080R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S080/S080R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S080/S080R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S080/S080R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S080: 174 epochs (89.2 min)
+Downloading file 'S081/S081R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S081/S081R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S081/S081R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S081/S081R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S081/S081R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S081/S081R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S081/S081R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S081/S081R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S081/S081R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S081/S081R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S081/S081R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S081/S081R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S081: 174 epochs (90.4 min)
+Downloading file 'S082/S082R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S082/S082R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S082/S082R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S082/S082R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S082/S082R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S082/S082R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S082/S082R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S082/S082R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S082/S082R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S082/S082R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S082/S082R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S082/S082R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S082: 174 epochs (91.5 min)
+Downloading file 'S083/S083R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S083/S083R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S083/S083R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S083/S083R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S083/S083R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S083/S083R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S083/S083R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S083/S083R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S083/S083R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S083/S083R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S083/S083R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S083/S083R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S083: 174 epochs (92.6 min)
+Downloading file 'S084/S084R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S084/S084R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S084/S084R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S084/S084R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S084/S084R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S084/S084R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S084/S084R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S084/S084R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S084/S084R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S084/S084R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S084/S084R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S084/S084R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S084: 174 epochs (93.7 min)
+Downloading file 'S085/S085R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S085/S085R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S085/S085R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S085/S085R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S085/S085R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S085/S085R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S085/S085R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S085/S085R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S085/S085R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S085/S085R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S085/S085R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S085/S085R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S085: 174 epochs (94.7 min)
+Downloading file 'S086/S086R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S086/S086R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S086/S086R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S086/S086R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S086/S086R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S086/S086R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S086/S086R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S086/S086R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S086/S086R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S086/S086R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S086/S086R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S086/S086R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S086: 174 epochs (95.9 min)
+Downloading file 'S087/S087R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S087/S087R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S087/S087R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S087/S087R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S087/S087R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S087/S087R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S087/S087R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S087/S087R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S087/S087R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S087/S087R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S087/S087R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S087/S087R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S087: 174 epochs (97.0 min)
+Downloading file 'S088/S088R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S088/S088R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S088/S088R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S088/S088R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S088/S088R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S088/S088R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S088/S088R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S088/S088R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S088/S088R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S088/S088R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S088/S088R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S088/S088R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S088 excluded: sampling rate 128.0
+Downloading file 'S089/S089R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S089/S089R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S089/S089R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S089/S089R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S089/S089R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S089/S089R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S089/S089R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S089/S089R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S089/S089R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S089/S089R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S089/S089R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S089/S089R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S089: 188 epochs (98.5 min)
+Downloading file 'S090/S090R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S090/S090R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S090/S090R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S090/S090R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S090/S090R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S090/S090R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S090/S090R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S090/S090R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S090/S090R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S090/S090R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S090/S090R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S090/S090R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S090: 174 epochs (99.6 min)
+Downloading file 'S091/S091R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S091/S091R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S091/S091R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S091/S091R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S091/S091R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S091/S091R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S091/S091R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S091/S091R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S091/S091R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S091/S091R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S091/S091R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S091/S091R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S091: 174 epochs (100.7 min)
+Downloading file 'S092/S092R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S092/S092R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S092/S092R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S092/S092R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S092/S092R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S092/S092R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S092/S092R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S092/S092R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S092/S092R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S092/S092R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S092/S092R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S092/S092R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S092 excluded: sampling rate 128.0
+Downloading file 'S093/S093R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S093/S093R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S093/S093R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S093/S093R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S093/S093R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S093/S093R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S093/S093R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S093/S093R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S093/S093R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S093/S093R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S093/S093R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S093/S093R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S093: 174 epochs (102.1 min)
+Downloading file 'S094/S094R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S094/S094R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S094/S094R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S094/S094R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S094/S094R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S094/S094R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S094/S094R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S094/S094R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S094/S094R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S094/S094R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S094/S094R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S094/S094R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S094: 174 epochs (103.2 min)
+Downloading file 'S095/S095R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S095/S095R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S095/S095R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S095/S095R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S095/S095R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S095/S095R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S095/S095R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S095/S095R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S095/S095R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S095/S095R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S095/S095R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S095/S095R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S095: 174 epochs (104.3 min)
+Downloading file 'S096/S096R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S096/S096R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S096/S096R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S096/S096R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S096/S096R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S096/S096R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S096/S096R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S096/S096R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S096/S096R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S096/S096R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S096/S096R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S096/S096R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S096: 174 epochs (105.3 min)
+Downloading file 'S097/S097R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S097/S097R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S097/S097R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S097/S097R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S097/S097R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S097/S097R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S097/S097R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S097/S097R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S097/S097R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S097/S097R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S097/S097R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S097/S097R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S097: 174 epochs (106.4 min)
+Downloading file 'S098/S098R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S098/S098R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S098/S098R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S098/S098R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S098/S098R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S098/S098R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S098/S098R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S098/S098R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S098/S098R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S098/S098R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S098/S098R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S098/S098R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S098: 174 epochs (107.5 min)
+Downloading file 'S099/S099R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S099/S099R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S099/S099R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S099/S099R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S099/S099R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S099/S099R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S099/S099R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S099/S099R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S099/S099R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S099/S099R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S099/S099R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S099/S099R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S099: 174 epochs (108.6 min)
+Downloading file 'S100/S100R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S100/S100R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S100/S100R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S100/S100R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S100/S100R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S100/S100R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S100/S100R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S100/S100R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S100/S100R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S100/S100R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S100/S100R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S100/S100R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S100 excluded: sampling rate 128.0
+Downloading file 'S101/S101R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S101/S101R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S101/S101R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S101/S101R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S101/S101R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S101/S101R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S101/S101R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S101/S101R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S101/S101R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S101/S101R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S101/S101R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S101/S101R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S101: 174 epochs (110.0 min)
+Downloading file 'S102/S102R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S102/S102R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S102/S102R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S102/S102R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S102/S102R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S102/S102R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S102/S102R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S102/S102R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S102/S102R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S102/S102R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S102/S102R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S102/S102R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S102: 174 epochs (111.0 min)
+Downloading file 'S103/S103R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S103/S103R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S103/S103R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S103/S103R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S103/S103R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S103/S103R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S103/S103R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S103/S103R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S103/S103R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S103/S103R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S103/S103R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S103/S103R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S103: 174 epochs (112.1 min)
+Downloading file 'S104/S104R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S104/S104R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S104/S104R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S104/S104R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S104/S104R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S104/S104R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S104/S104R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S104/S104R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S104/S104R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S104/S104R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S104/S104R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S104/S104R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S104: 169 epochs (113.1 min)
+Downloading file 'S105/S105R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S105/S105R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S105/S105R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S105/S105R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S105/S105R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S105/S105R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S105/S105R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S105/S105R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S105/S105R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S105/S105R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S105/S105R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S105/S105R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S105: 174 epochs (114.2 min)
+Downloading file 'S106/S106R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S106/S106R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S106/S106R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S106/S106R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S106/S106R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S106/S106R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S106/S106R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S106/S106R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S106/S106R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S106/S106R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S106/S106R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S106/S106R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S106: 174 epochs (115.3 min)
+Downloading file 'S107/S107R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S107/S107R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S107/S107R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S107/S107R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S107/S107R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S107/S107R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S107/S107R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S107/S107R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S107/S107R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S107/S107R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S107/S107R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S107/S107R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S107: 174 epochs (116.4 min)
+Downloading file 'S108/S108R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S108/S108R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S108/S108R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S108/S108R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S108/S108R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S108/S108R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S108/S108R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S108/S108R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S108/S108R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S108/S108R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S108/S108R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S108/S108R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S108: 174 epochs (117.5 min)
+Downloading file 'S109/S109R03.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S109/S109R03.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S109/S109R07.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S109/S109R07.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S109/S109R11.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S109/S109R11.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S109/S109R04.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S109/S109R04.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S109/S109R08.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S109/S109R08.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+Downloading file 'S109/S109R12.edf' from 'https://physionet.org/files/eegmmidb/1.0.0/S109/S109R12.edf' to '/content/mne_data/MNE-eegbci-data/files/eegmmidb/1.0.0'.
+S109: 174 epochs (118.6 min)
+subjects ready: 106; excluded: {'88': 'sampling rate 128.0', '92': 'sampling rate 128.0', '100': 'sampling rate 128.0'} (118.6 min)
+TS+LDA all64 full done (119.4 min)
+TS+LDA all64 post done (120.1 min)
+TS+LDA noeye39 full done (120.3 min)
+TS+LDA noeye39 post done (120.4 min)
+TS+LDA rand25_0 post done (120.5 min)
+TS+LDA rand25_1 post done (120.6 min)
+TS+LDA rand25_2 post done (120.8 min)
+TS+LDA eye25 full done (120.8 min)
+TS+LDA motor21 full done (120.8 min)
+[W1109 17:23:35.809664538 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 13212057600 bytes (free: 7811694592, total: 15637086208).
+[W1109 17:23:35.925474187 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 13212057600 bytes (free: 11141971968, total: 15637086208).
+
+===== A.7-1 started 13:48:42 on cuda =====
+subjects ready: 106; excluded: {'88': 'sampling rate 128.0', '92': 'sampling rate 128.0', '100': 'sampling rate 128.0'} (3.9 min)
+TS+LDA all64 full done (3.9 min)
+TS+LDA all64 post done (3.9 min)
+TS+LDA noeye39 full done (3.9 min)
+TS+LDA noeye39 post done (3.9 min)
+TS+LDA rand25_0 post done (3.9 min)
+TS+LDA rand25_1 post done (3.9 min)
+TS+LDA rand25_2 post done (3.9 min)
+TS+LDA eye25 full done (3.9 min)
+TS+LDA motor21 full done (3.9 min)
+ShallowConvNet all64 full done (10.4 min)
+ShallowConvNet all64 post done (18.5 min)
+ShallowConvNet noeye39 full done (24.6 min)
+ShallowConvNet noeye39 post done (28.9 min)
+ShallowConvNet rand25_0 post done (33.6 min)
+
+===== A.7-1 started 14:44:20 on cuda =====
+subjects ready: 106; excluded: {'88': 'sampling rate 128.0', '92': 'sampling rate 128.0', '100': 'sampling rate 128.0'} (0.2 min)
+TS+LDA all64 full done (0.2 min)
+TS+LDA all64 post done (0.2 min)
+TS+LDA noeye39 full done (0.2 min)
+TS+LDA noeye39 post done (0.2 min)
+TS+LDA rand25_0 post done (0.2 min)
+TS+LDA rand25_1 post done (0.2 min)
+TS+LDA rand25_2 post done (0.2 min)
+TS+LDA eye25 full done (0.2 min)
+TS+LDA motor21 full done (0.2 min)
+ShallowConvNet all64 full done (0.2 min)
+ShallowConvNet all64 post done (0.2 min)
+ShallowConvNet noeye39 full done (0.2 min)
+ShallowConvNet noeye39 post done (0.2 min)
+ShallowConvNet rand25_0 post done (0.2 min)
+ShallowConvNet rand25_1 post done (0.2 min)
+ShallowConvNet rand25_2 post done (4.6 min)
+ShallowConvNet eye25 full done (11.6 min)
+
+=== A.7-1: PhysioNet, zero-calibration ME->MI, left vs right fist, 106 subjects, balanced accuracy % ===
+         model     condition   n  mean  median  n_above_50  p_vs_50
+ShallowConvNet    all64 full 106  81.0    82.4         105      0.0
+ShallowConvNet    all64 post 106  77.5    77.2         103      0.0
+ShallowConvNet  noeye39 full 106  78.6    80.1         105      0.0
+ShallowConvNet  noeye39 post 106  75.3    76.6         105      0.0
+ShallowConvNet rand25_0 post 106  77.6    77.4         106      0.0
+ShallowConvNet rand25_1 post 106  78.3    78.2         106      0.0
+ShallowConvNet rand25_2 post 106  77.8    77.9         105      0.0
+ShallowConvNet    eye25 full 106  78.7    78.4         106      0.0
+        TS+LDA    all64 full 106  63.4    64.1          92      0.0
+        TS+LDA    all64 post 106  61.5    61.2          94      0.0
+        TS+LDA  noeye39 full 106  64.2    64.3          91      0.0
+        TS+LDA  noeye39 post 106  62.1    61.7          90      0.0
+        TS+LDA rand25_0 post 106  61.3    58.6          93      0.0
+        TS+LDA rand25_1 post 106  62.2    60.9          98      0.0
+        TS+LDA rand25_2 post 106  61.0    60.6          87      0.0
+        TS+LDA    eye25 full 106  58.6    59.0          85      0.0
+        TS+LDA  motor21 full 106  65.3    62.9          97      0.0
+Perez-Velasco et al. 2025 reported 86.2% for this scenario (their model)
+
+=== pre-specified verdict (large effect: drop_eye >= 10 AND drop_eye - drop_random >= 5) ===
+ShallowConvNet  full 81.0 | no eye-sites + no first 0.5 s 75.3 (drop 5.6) | random 25 removed + no first 0.5 s 77.9 (drop 3.1) | difference 2.6, p = 0.0119 -> no large effect  (PRIMARY)
+TS+LDA          full 63.4 | no eye-sites + no first 0.5 s 62.1 (drop 1.2) | random 25 removed + no first 0.5 s 61.5 (drop 1.9) | difference -0.7, p = 0.8304 -> no large effect
+
+total time 11.6 min
+===== A.7-1 FINISHED =====

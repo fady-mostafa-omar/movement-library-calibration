@@ -1,0 +1,23 @@
+model,condition,n,mean,median,n_above_50,p_vs_50
+TS+LDA,cons8 strict,106,62.2,60.7,85,0.0
+TS+LDA,pool31 strict,106,63.4,62.4,89,0.0
+TS+LDA,all64 strict,106,64.9,64.5,96,0.0
+TS+LDA,nearC3_8 strict,106,59.3,57.1,81,0.0
+TS+LDA,cons8 recentered,106,66.0,66.4,94,0.0
+TS+LDA,pool31 recentered,106,69.0,68.6,96,0.0
+TS+LDA,all64 recentered,106,70.1,67.9,103,0.0
+TS+LDA,nearC3_8 recentered,106,66.7,66.1,91,0.0
+TS+LDA,cons8 strict shuffled,106,50.9,50.0,52,0.1464
+ShallowConvNet,cons8 strict,106,69.7,69.2,102,0.0
+ShallowConvNet,cons8 strict post,106,68.3,68.4,96,0.0
+ShallowConvNet,cons8 strict shuffled,106,51.0,50.0,50,0.2522
+ShallowConvNet,central5 strict,106,68.4,67.9,97,0.0
+ShallowConvNet,parietal3 strict,106,58.3,57.0,83,0.0
+ShallowConvNet,occ5 strict,106,65.9,66.2,95,0.0
+ShallowConvNet,nearC3_8 strict,106,65.4,65.4,94,0.0
+ShallowConvNet,pool31 strict,106,71.0,72.5,98,0.0
+ShallowConvNet,all64 strict,106,72.5,73.8,101,0.0
+ShallowConvNet,cons8 aligned,106,67.7,67.7,94,0.0
+ShallowConvNet,nearC3_8 aligned,106,66.6,66.0,91,0.0
+ShallowConvNet,pool31 aligned,106,68.3,67.9,96,0.0
+ShallowConvNet,all64 aligned,106,71.8,71.4,104,0.0

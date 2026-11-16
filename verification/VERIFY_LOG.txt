@@ -1,0 +1,287 @@
+Repository verification, 2026-11-16 13:55 UTC
+
+[1] copied 18 analysis scripts and 67 result files from /content/drive/MyDrive/classification_MI-ME/30_v06_pipeline
+    not copied (by type): .npz: 256
+    analysis scripts: 03_A2b_electrodes/a2b1.py, 03_A2b_electrodes/a2b2.py, 04_A3_ceiling/a3.py, 05_A4_four_cells/a4a.py, 06_A6_adaptation/a6.py, 07_A4b_deep/a4b1.py, 07_A4b_deep/a4b1c.py, 08_A7_physionet/a7_1.py, 09_A7_2a_physionet_rest/a72a.py, 10_A8_calibration/a8.py, 11_A9_robustness/a9.py, 12_A10_deep_calibration/a10.py, 12_A10_deep_calibration/a10b.py, 12_A10_deep_calibration/a10c.py, 14_A11_13/a11_13_cpu.py, 14_A11_13/a11_13_gpu.py, 15_R1_followup/n1_n3.py, 15_R1_followup/n4_n5.py, 15_R1_followup/n5_same_budget.py
+
+[2] registry (copied from 60_repo_check): 12600 trials, 1234 rejected; 64 channels
+
+[privacy] 0 e-mail address(es), Paper 3 mention(s) or key(s) found in the repository files
+
+[3] preprocessing, subject 1 (both sessions), against the files used for the paper
+    $ python code/01_preprocessing/preprocess_ofner.py --raw /content/drive/MyDrive/classification_MI-ME/01_data_inventory/raw_ofner_data/MNE-upperlimb-data/zenodo/834976 --out /content/repo_verification_tmp/preprocessed --subjects 1 --check /content/drive/MyDrive/classification_MI-ME/30_v06_pipeline/01_preprocessed
+    registry: 12600 trials, 1234 R4M-rejected, 30 sessions
+    ME subject  1: channels by ['position (EOG reversed)'] | events 420 | registry class mismatches 0 | NaN 0 | PASS: signal max diff 0.00e+00 uV, class 0, cue time 0.0e+00 s, cue sample 0 | 0.8 min
+    MI subject  1: channels by ['names'] | events 420 | registry class mismatches 0 | NaN 0 | PASS: signal max diff 0.00e+00 uV, class 0, cue time 0.0e+00 s, cue sample 0 | 1.5 min
+    
+    2/2 sessions identical to the reference files
+    exit code 0 | 2.2 min
+
+[3] sanity check, subject 1, against the saved results of the first run
+    $ python code/02_sanity_check/sanity_check_ofner2017.py --data /content/repo_verification_tmp/preprocessed --out /content/repo_verification_tmp/sanity --subjects 1 --check results/02_A2_sanity
+    subject 1 done (1.6 min)
+    cond        task   chans  acc_10x10  acc_loro  ofner_2017
+      ME  mov_vs_mov     eeg       64.1      62.5        55.0
+      ME  mov_vs_mov     eog       18.8       NaN         NaN
+      ME  mov_vs_mov frontal       30.3       NaN         NaN
+      ME mov_vs_rest     eeg       87.4      89.9        86.0
+      ME mov_vs_rest     eog       49.5       NaN         NaN
+      ME mov_vs_rest frontal       48.8       NaN         NaN
+      MI  mov_vs_mov     eeg       29.5      27.7        27.0
+      MI  mov_vs_mov     eog       22.2       NaN         NaN
+      MI  mov_vs_mov frontal       17.1       NaN         NaN
+      MI mov_vs_rest     eeg       70.7      71.8        73.0
+      MI mov_vs_rest     eog       58.2       NaN         NaN
+      MI mov_vs_rest frontal       55.7       NaN         NaN
+    
+    compared with the saved results (12 rows):
+      leave-one-run-out identical: 12/12
+      10x10, 6 movements identical: 6/6
+      10x10, movement vs rest: mean |difference| 0.72 points (random subsample of the first run not recorded; group means are compared in the README)
+      trial and feature counts identical (ME): 6/6
+    exit code 0 | 3.8 min
+
+[3] same-budget comparison, recomputed from N5_curves.csv and compared with the saved N5_same_budget.csv
+    $ python code/03_analysis/15_R1_followup/n5_same_budget.py --dir results/15_R1_followup --out verification/N5_same_budget_recomputed.csv --check results/15_R1_followup/N5_same_budget.csv
+        window budget  n  own_mean  hybrid_mean  own_minus_hybrid  ci95_lo  ci95_hi  wilcoxon_p  hybrid_mean_all15  own_mean_all_available
+    from 1.0 s     10 13    58.205       71.218           -13.013  -18.833   -7.192       0.003             70.056                  58.205
+    from 1.0 s     20 15    65.611       71.556            -5.944   -9.074   -2.815       0.001             71.556                  65.611
+    from 1.0 s     30 15    68.333       73.111            -4.778   -7.593   -1.963       0.005             73.111                  68.333
+    from 1.0 s     45 15    72.889       73.389            -0.500   -2.425    1.425       0.568             73.389                  72.889
+    from 1.0 s     60 15    73.778       74.167            -0.389   -3.118    2.341       0.460             74.167                  73.778
+    from 1.0 s    all 15    75.778       75.222             0.556   -2.282    3.393       0.659             75.222                  75.778
+         0-3 s     10 13    56.474       66.218            -9.744  -13.223   -6.264       0.002             65.500                  56.474
+         0-3 s     20 15    59.722       64.889            -5.167   -9.433   -0.901       0.013             64.889                  59.722
+         0-3 s     30 15    61.333       65.222            -3.889   -6.023   -1.755       0.005             65.222                  61.333
+         0-3 s     45 15    63.444       63.556            -0.111   -3.003    2.781       0.975             63.556                  63.444
+         0-3 s     60 15    64.444       66.333            -1.889   -4.153    0.375       0.098             66.333                  64.444
+         0-3 s    all 15    67.111       66.000             1.111   -0.875    3.097       0.254             66.000                  67.111
+    
+    compared with /content/paper2_repo/results/15_R1_followup/N5_same_budget.csv: 12/12 rows matched, largest difference 8.88e-16 -> identical
+    exit code 0 | 3.8 min
+
+[3] figures and tables from results/ (full run)
+    $ python code/figures_tables/make_figures_tables.py
+    font used: Arial
+    font used: Arial
+    
+    ########## Figure 1 ##########
+    saved fig1_design: .pdf .eps .tif (7540 x 2880 px = 192 x 73 mm at 1000 dpi) and _preview.png
+    
+    ########## Figure 2 ##########
+    saved fig2_timing_decoders: .pdf .eps .tif (7540 x 2880 px = 192 x 73 mm at 1000 dpi) and _preview.png
+    
+    ########## Figure 3 ##########
+    saved fig3_electrodes: .pdf .eps .tif (7163 x 3170 px = 182 x 81 mm at 1000 dpi) and _preview.png
+    
+    checks (step files): selected 8 sites 61.0 (61.0); nearest-C3 8 sites 55.4 (55.4); 31 sites 60.8 (60.8); 61 sites 58.3 (58.3);
+      A.4a cell 4: fold-specific 8 61.0 (61.0), same 8 chosen with the test people 66.9 (66.9)
+    
+    ########## Figure 4 ##########
+    saved fig4_cells_people: .pdf .eps .tif (7475 x 3464 px = 190 x 88 mm at 1000 dpi) and _preview.png
+    
+    checks: TS+LDA cells 67.1 / 62.0 / 62.7 / 61.0 (67.1/62.0/62.7/61.0)
+      ShallowConvNet cells 61.4 / 68.5 / 64.6 / 66.3 (61.4/68.5/64.6 A.4b-1; 66.3 A.10b)
+      T2 51.1 / 49.8 / 52.3 / 50.8 (51.1/49.8/52.3/50.8)
+      per person means: selected own calibration 73.1 (73.1), strict 61.0 (61.0), recentered 65.4 (65.4), deep aligned 60 68.1 (68.1)
+    
+    ########## Figure 5 ##########
+    saved fig5_calibration: .pdf .eps .tif (7465 x 3566 px = 190 x 91 mm at 1000 dpi) and _preview.png
+    
+    checks N5 (mean %):
+      Own calibration (1.0 s)                  10:58.2 20:65.6 30:68.3 45:72.9 60:73.8 90:75.8
+      Own calibration, 0–3 s                   10:56.5 20:59.7 30:61.3 45:63.4 60:64.4 90:67.1
+      Library + recentering (1.0 s)            0:64.6 10:68.6 20:68.9 30:68.6 45:68.9 60:68.6 90:69.4
+      Hybrid (1.0 s)                           10:70.1 20:71.6 30:73.1 45:73.4 60:74.2 90:75.2
+      ShallowConvNet + alignment               0:66.3 10:67.4 20:68.5 30:68.3 45:68.2 60:68.1 90:67.5
+      zero calibration TS+LDA 0-3 s 61.0 (61.0); selected own calibration 73.1 (73.1)
+      documented: own (1.0 s) 58.2/65.6/68.3/72.9/73.8/75.8; own 0-3 s 56.5/59.7/61.3/63.4/64.4/67.1; recentering (1.0 s) 64.6 | 68.6/68.9/68.6/68.9/68.6/69.4; hybrid (1.0 s) 70.1/71.6/73.1/73.4/74.2/75.2; deep 66.3 | 67.4 ... 67.5
+    checks difference from the selected own calibration (diff [90% CI]):
+      Zero calibration         -12.1 [-14.5,  -9.6]
+      Recentered, 60 trials     -7.7 [-10.7,  -4.6]
+      Hybrid, 60 trials         -6.7 [ -9.8,  -3.7]
+      Zero calibration          -8.5 [-11.1,  -5.9]
+      Recentered, 10 trials     -4.5 [ -7.8,  -1.2]
+      Recentered, 60 trials     -4.5 [ -8.2,  -0.8]
+      Hybrid, 10 trials         -3.0 [ -6.6,  +0.6]
+      Hybrid, 60 trials         +1.1 [ -1.8,  +4.0]
+      Zero calibration          -6.8 [-10.2,  -3.3]
+      Aligned, 10 trials        -5.7 [ -8.6,  -2.7]
+      Aligned, 60 trials        -5.0 [ -8.0,  -1.9]
+      documented (N1 family D, 0-3 s and deep): zero cal -12.1; rec60 -7.7; hybrid 60 -6.7; deep zero -6.8; aligned 10 -5.7; aligned 60 -5.0
+    
+    ########## Figure 6 ##########
+    saved fig6_library_size: .pdf .eps .tif (5296 x 3058 px = 135 x 78 mm at 1000 dpi) and _preview.png
+    
+    checks (a11_13_cpu log):
+      TS+LDA strict: 2:58.0 4:59.5 6:60.8 8:60.2 10:60.2 12:61.1 14:61.0 | b +1.01 [+0.16, +1.84] plateau
+      TS+LDA recentered 60: 2:61.7 4:63.1 6:64.2 8:64.3 10:64.4 12:64.9 14:65.4 | b +1.23 [+0.76, +1.74] inconclusive
+      ShallowConvNet strict: 3:62.2 6:63.4 9:64.0 12:66.3 | b +1.85 [+0.78, +2.95] still rising
+      ShallowConvNet aligned 60: 3:64.4 6:65.2 9:65.4 12:68.1 | b +1.56 [+0.64, +2.43] still rising
+      documented: TS strict 58.0 ... 61.0, b +1.01 plateau; TS recentered 61.7 ... 65.4, b +1.23 inconclusive;
+                  deep strict 62.2/63.4/64.0/66.3, b +1.85 still rising; deep aligned 64.4/65.2/65.4/68.1, b +1.56 still rising
+    
+    ########## Figure 7 ##########
+    saved fig7_detection: .pdf .eps .tif (7428 x 3003 px = 189 x 76 mm at 1000 dpi) and _preview.png
+    
+    checks (A.12): config | AUC | default hit/FA | 20%: hit/FA/n>30 | 10%: hit/FA
+      TS strict             71.2 |  64.2/ 42.2 |  45.3/ 28.2/5 |  30.0/ 17.1
+      TS recentered 60      71.5 |  75.7/ 44.9 |  49.4/ 21.6/3 |  32.9/ 11.1
+      TS own calibration    73.6 |  77.1/ 42.9 |  53.2/ 20.4/3 |  38.9/ 12.4
+      deep strict           74.3 |  66.2/ 33.8 |  58.4/ 27.0/5 |  43.1/ 16.1
+      deep aligned 60       75.6 |  67.9/ 32.0 |  60.5/ 26.3/6 |  43.5/ 16.6
+      documented: TS strict 71.2 | 64.2/42.2 | 45.3/28.2/5 | 30.0/17.1; TS rec 71.5 | 75.7/44.9 | 49.4/21.6/3 | 32.9/11.1;
+                  own 73.6 | 77.1/42.9 | 53.2/20.4/3 | 38.9/12.4; deep strict 74.3 | 66.2/33.8 | 58.4/27.0/5 | 43.1/16.1;
+                  deep aligned 75.6 | 67.9/32.0 | 60.5/26.3/6 | 43.5/16.6
+    
+    ########## Figure 8 ##########
+    saved fig8_decision_time: .pdf .eps .tif (3497 x 2828 px = 89 x 72 mm at 1000 dpi) and _preview.png
+    
+    checks (* = above 50%, one-sided Wilcoxon p < 0.05):
+      Own calibration (0–3 s)  48.7  48.9  52.7  60.8* 67.1*
+      Zero calibration         50.8  51.6  53.9* 59.4* 61.0*
+      Recentered, 60 trials    51.3  53.3* 55.6* 61.1* 65.4*
+      Hybrid, 60 trials        50.9  51.8  55.4* 61.7* 66.3*
+      documented: own 48.7/48.9/52.7/60.8*/67.1*; strict 50.8/51.6/53.9*/59.4*/61.0*; recentered 51.3/53.3*/55.6*/61.1*/65.4*; hybrid 50.9/51.8/55.4*/61.7*/66.3*
+    
+    ########## Figure 9 ##########
+    saved fig9_controls: .pdf .eps .tif (5405 x 2841 px = 137 x 72 mm at 1000 dpi) and _preview.png
+    
+    checks (means):
+      Full model (0–3 s)           TS  61.0 | deep  66.5
+      Without the first 0.5 s      TS  62.6 | deep  65.3
+      Pre-cue window (−2 to 0 s)   TS  50.2 | deep  49.5
+      Shuffled training labels     TS  50.0 | deep  50.3
+      Central 5 sites only         TS  55.6 | deep  63.0
+      Parietal 3 sites only        TS  51.6 | deep  60.9
+      Nearest 8 sites to C3        TS  55.4
+      EOG channels only            TS  50.7 | deep  51.0
+      Frontal 5 sites only         TS  52.1 | deep  51.9
+      documented TS: 61.0, 62.6, 50.2, 50.0, 55.6, 51.6, 55.4, 50.7, 52.1; deep: 66.5, 65.3, 49.5, 50.3, 63.0, 60.9, EOG 51.0, frontal 51.9 (N4)
+    
+    ########## Figure 10 ##########
+    saved fig10_physionet: .pdf .eps .tif (7444 x 4560 px = 189 x 116 mm at 1000 dpi) and _preview.png
+    
+    checks (means):
+      All 64 sites                                   | ShallowConvNet  81.0 (n = 106) | TS+LDA  63.4 (n = 106)
+      All 64, without first 0.5 s                    | ShallowConvNet  77.5 (n = 106) | TS+LDA  61.5 (n = 106)
+      No frontal/temporal sites, without first 0.5 s | ShallowConvNet  75.3 (n = 106) | TS+LDA  62.1 (n = 106)
+      25 random sites removed, without first 0.5 s   | ShallowConvNet  77.9 (n = 106) | TS+LDA  61.5 (n = 106)
+      25 frontal/temporal sites only                 | ShallowConvNet  78.7 (n = 106) | TS+LDA  58.6 (n = 106)
+      Our 8 sites                                    | ShallowConvNet  69.7 (n = 106) | TS+LDA  62.2 (n = 106)
+      Our 8, without first 0.5 s                     | ShallowConvNet  68.3 (n = 106) | TS+LDA --
+      Shuffled training labels                       | ShallowConvNet  51.0 (n = 106) | TS+LDA  50.9 (n = 106)
+      Central 5 sites only                           | ShallowConvNet  68.4 (n = 106) | TS+LDA --
+      Parietal 3 sites only                          | ShallowConvNet  58.3 (n = 106) | TS+LDA --
+      Occipital 5 sites only (visual)                | ShallowConvNet  65.9 (n = 106) | TS+LDA --
+      Nearest 8 sites to C3                          | ShallowConvNet  65.4 (n = 106) | TS+LDA  59.3 (n = 106)
+      All 64 sites                                   | ShallowConvNet  72.5 (n = 106) | TS+LDA  64.9 (n = 106)
+      A.7-1 rule: drop no-eye + post 5.6, drop random + post 3.1, difference 2.6 (p = 0.011)   documented 5.6 / 3.1 / 2.6 (p = 0.012)
+      A.7-2a: central 5 - occipital 5 = +2.5 (p = 0.079)   documented +2.5 (p = 0.080)
+      documented A.7-1 Shallow 81.0/77.5/75.3/77.9/78.7, TS 63.4/61.5/62.1/61.5/58.6;
+                 A.7-2a Shallow 69.7/68.3/51.0/68.4/58.3/65.9/65.4/72.5, TS 62.2/-/50.9/-/-/-/59.3/64.9
+    
+    ########## Graphical abstract ##########
+    checks: deep strict 66.3 (66.3) | TS+LDA strict 61.0 (61.0) | own 10 58.2 (58.2, n = 13) | hybrid 10 same people 71.2 (71.2) | selected own 73.1 (73.1) | false alarms deep 33.1 (33.1), TS 42.2 (42.2)
+    TIFF size: 2362 x 944 px (needs at least 1328 x 531; ratio 2.50, needs 2.50)
+    
+    ########## Tables 1-6, S8 ##########
+    
+    === tables: checks against the step documents (only differences are listed) ===
+    
+    
+    === Wilcoxon p: documented | earlier code (no rounding) | tie-robust (used in the tables)   [scipy 1.16.3] ===
+      T5 1020_6 Zero calibration                 0.980 |  0.9749 |  0.8998  (normal approx. (5 tied, 1 zero))
+      T5 1020_6 Recentered, 60 trials            0.180 |  0.1814 |  0.1659  (normal approx. (7 tied, 1 zero))
+      T5 1020_6 Own calibration (0–3 s)          0.650 |  0.6495 |  0.6489  (normal approx. (6 tied, 0 zero))
+      T5 1020_9 Zero calibration                 0.950 |  0.9498 |  0.9497  (normal approx. (7 tied, 1 zero))
+      T5 1020_9 Recentered, 60 trials            0.210 |  0.2114 |  0.2111  (normal approx. (4 tied, 0 zero))
+      T5 1020_9 Own calibration (0–3 s)          0.430 |  0.4319 |  0.4689  (normal approx. (6 tied, 1 zero))
+      T4 window strict                           0.013 |  0.0130 |  0.0129  (normal approx. (4 tied, 2 zero))
+      T4 window recentered 60                    0.050 |  0.0499 |  0.0465  (normal approx. (5 tied, 0 zero))
+      T4 ensemble strict                         0.272 |  0.2716 |  0.2709  (normal approx. (5 tied, 1 zero))
+      T4 ensemble strict vs TS+LDA               0.009 |  0.0092 |  0.0068  (normal approx. (6 tied, 1 zero))
+      T4 ensemble adapted                        0.239 |  0.2393 |  0.2233  (normal approx. (4 tied, 3 zero))
+      T4 ensemble adapted vs TS+LDA              0.009 |  0.0092 |  0.0091  (normal approx. (3 tied, 1 zero))
+      Holm-adjusted:
+      T4 window strict                           0.026 |  0.0260 |  0.0259  tie-robust Holm p < 0.05: yes
+      T4 window recentered 60                    0.050 |  0.0499 |  0.0465  tie-robust Holm p < 0.05: yes
+      T4 ensemble strict                         0.479 |  0.4786 |  0.4466  tie-robust Holm p < 0.05: no
+      T4 ensemble adapted                        0.479 |  0.4786 |  0.4466  tie-robust Holm p < 0.05: no
+    
+    92/92 checks OK
+    saved: ['P2_tables.md', 'Table2_1020.csv', 'Table3_accuracy.csv', 'Table4_own_references.csv', 'Table5_detection.csv', 'TableS8_attempts.csv']
+    
+    ########## Supplementary tables ##########
+    supplementary: S1-S7 saved (P2_supplementary.md, 1235 values in P2_supplementary_long.csv)
+      checks (means): S1 own 67.1 (67.1), zero cal. 61.0 (61.0); S2 strict 66.3 (66.3), aligned 60 68.1 (68.1); S5 AUC deep aligned 60 75.6 (75.6); S1 selected 73.1 (73.1), strongest 75.8 (75.8)
+    
+    ########## p-value audit ##########
+    p-value audit: 45 comparisons recomputed
+      A.4a TS+LDA cells (Holm over 6)              cell 1 (own MI) − cell 2 (others’ MI doc   0.033 | new   0.035 | Holm 0.176
+      A.4a TS+LDA cells (Holm over 6)              cell 1 (own MI) − cell 3 (own ME)    doc       – | new   0.099 | Holm 0.397
+      A.4a TS+LDA cells (Holm over 6)              cell 1 (own MI) − cell 4 (others’ ME doc   0.015 | new   0.012 | Holm 0.074
+      A.4a TS+LDA cells (Holm over 6)              cell 2 (others’ MI) − cell 3 (own ME doc       – | new   0.660 | Holm 1.000
+      A.4a TS+LDA cells (Holm over 6)              cell 2 (others’ MI) − cell 4 (others doc   0.610 | new   0.649 | Holm 1.000
+      A.4a TS+LDA cells (Holm over 6)              cell 3 (own ME) − cell 4 (others’ ME doc   0.360 | new   0.362 | Holm 1.000
+      A.4b-1 ShallowConvNet − TS+LDA, strict (seed cell 1                               doc   0.014 | new   0.013
+      A.4b-1 ShallowConvNet − TS+LDA, strict (seed cell 2                               doc   0.056 | new   0.055
+      A.4b-1 ShallowConvNet − TS+LDA, strict (seed cell 3                               doc   0.170 | new   0.167
+      A.4b-1 ShallowConvNet − TS+LDA, strict (seed cell 4                               doc   0.002 | new   0.002
+      TS+LDA recentering − strict (A.6/A.9)        recentered 10 trials                 doc   0.009 | new   0.017
+      TS+LDA recentering − strict (A.6/A.9)        recentered 60 trials                 doc   0.005 | new   0.008
+      TS+LDA recentering − strict (A.6/A.9)        recentered all                       doc   0.010 | new   0.021
+      TS+LDA (A.8/A.9)                             hybrid 60 − recentered 60            doc       – | new   0.944
+      TS+LDA (A.8/A.9)                             own calibration − recentered all     doc       – | new   0.460
+      A.10 ShallowConvNet − TS+LDA, strict         strict                               doc   0.006 | new   0.006
+      A.10 ShallowConvNet − TS+LDA at the same bud aligned 10 − recentered 10           doc   0.055 | new   0.055 | Holm 0.192
+      A.10 ShallowConvNet − TS+LDA at the same bud aligned 20 − recentered 20           doc   0.008 | new   0.011 | Holm 0.057
+      A.10 ShallowConvNet − TS+LDA at the same bud aligned 30 − recentered 30           doc   0.048 | new   0.048 | Holm 0.192
+      A.10 ShallowConvNet − TS+LDA at the same bud aligned 45 − recentered 45           doc   0.004 | new   0.007 | Holm 0.042
+      A.10 ShallowConvNet − TS+LDA at the same bud aligned 60 − recentered 60           doc   0.064 | new   0.065 | Holm 0.192
+      A.10 ShallowConvNet − TS+LDA at the same bud aligned all − recentered all         doc   0.229 | new   0.222 | Holm 0.222
+      A.10c ShallowConvNet − TS+LDA, hit           strict − strict                      doc   0.850 | new   0.842
+      A.10c ShallowConvNet − TS+LDA, false alarm   strict − strict                      doc   0.110 | new   0.099
+      A.10c ShallowConvNet − TS+LDA, hit           aligned 10 − recentered 10           doc   0.510 | new   0.514
+      A.10c ShallowConvNet − TS+LDA, false alarm   aligned 10 − recentered 10           doc   0.088 | new   0.088
+      A.10c ShallowConvNet − TS+LDA, hit           aligned 60 − recentered 60           doc   0.073 | new   0.073
+      A.10c ShallowConvNet − TS+LDA, false alarm   aligned 60 − recentered 60           doc   0.110 | new   0.107
+      A.10c ShallowConvNet − TS+LDA, hit           aligned all − recentered all         doc   0.099 | new   0.099
+      A.10c ShallowConvNet − TS+LDA, false alarm   aligned all − recentered all         doc   0.041 | new   0.041
+      A.10c ShallowConvNet − TS+LDA, hit           aligned 60 − own calibration         doc   0.073 | new   0.073
+      A.10c ShallowConvNet − TS+LDA, false alarm   aligned 60 − own calibration         doc   0.078 | new   0.078
+      A.12 AUC (Holm over 2)                       deep strict − TS strict              doc   0.055 | new   0.055 | Holm 0.055
+      A.12 AUC (Holm over 2)                       deep aligned 60 − TS recentered 60   doc   0.008 | new   0.008 | Holm 0.017
+      N1 own calibration (Table 4)                 P1 (from 1.0 s) − P0 (0–3 s)         doc   0.001 | new < 0.001
+      N1 own calibration (Table 4)                 selected own calibration − P0        doc   0.010 | new   0.010
+      N2 specificity (TS+LDA)                      zero calibration: other arm − hand   doc   0.046 | new   0.046
+      N2 specificity (TS+LDA)                      zero calibration: other arm − rest   doc   0.001 | new   0.001
+      N2 specificity (TS+LDA)                      recentered 60: other arm − hand      doc   0.009 | new   0.009
+      N2 specificity (TS+LDA)                      recentered 60: other arm − rest      doc   0.001 | new < 0.001
+      N5 same budget, from 1.0 s (descriptive)     hybrid 10 − own 10                   doc   0.003 | new   0.003
+      N5 same budget, from 1.0 s (descriptive)     hybrid 20 − own 20                   doc   0.001 | new   0.001
+      N5 same budget, from 1.0 s (descriptive)     hybrid 30 − own 30                   doc   0.005 | new   0.005
+      PhysioNet (ShallowConvNet)                   left vs right: frontal/temporal drop doc   0.012 | new   0.011
+      PhysioNet (ShallowConvNet)                   right fist vs rest: central 5 − occi doc   0.080 | new   0.079
+      => 0 conclusion(s) change at 0.05
+    
+    ########## summary ##########
+      Figure 1               OK
+      Figure 2               OK
+      Figure 3               OK
+      Figure 4               OK
+      Figure 5               OK
+      Figure 6               OK
+      Figure 7               OK
+      Figure 8               OK
+      Figure 9               OK
+      Figure 10              OK
+      Graphical abstract     OK
+      Tables 1-6, S8         OK
+      Supplementary tables   OK
+      p-value audit          OK
+    figures: /content/paper2_repo/outputs/figures
+    tables: /content/paper2_repo/outputs/tables
+    exit code 0 | 5.4 min
+
+[4] requirements.txt: matplotlib==3.10.0, mne==1.13.2, numpy==2.4.6, pandas==2.2.3, pillow==11.3.0, scikit-learn==1.6.1, scipy==1.16.3, torch==2.14.1+cpu

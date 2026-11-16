@@ -1,0 +1,76 @@
+
+===== A.4b-1 started 13:43:54 on cuda =====
+time series ME subject  1: 180 trials (0.2 min)
+time series ME subject  2: 180 trials (0.4 min)
+time series ME subject  3: 180 trials (0.5 min)
+time series ME subject  4: 180 trials (0.7 min)
+time series ME subject  5: 180 trials (0.8 min)
+time series ME subject  6: 180 trials (0.9 min)
+time series ME subject  7: 180 trials (1.1 min)
+time series ME subject  8: 180 trials (1.3 min)
+time series ME subject  9: 180 trials (1.4 min)
+time series ME subject 10: 180 trials (1.6 min)
+time series ME subject 11: 180 trials (1.8 min)
+time series ME subject 12: 180 trials (1.9 min)
+time series ME subject 13: 180 trials (2.1 min)
+time series ME subject 14: 180 trials (2.3 min)
+time series ME subject 15: 180 trials (2.4 min)
+time series MI subject  1: 180 trials (2.5 min)
+time series MI subject  2: 180 trials (2.6 min)
+time series MI subject  3: 180 trials (2.8 min)
+time series MI subject  4: 180 trials (2.9 min)
+time series MI subject  5: 180 trials (3.0 min)
+time series MI subject  6: 180 trials (3.1 min)
+time series MI subject  7: 180 trials (3.4 min)
+time series MI subject  8: 180 trials (3.5 min)
+time series MI subject  9: 180 trials (3.6 min)
+time series MI subject 10: 180 trials (3.8 min)
+time series MI subject 11: 180 trials (4.0 min)
+time series MI subject 12: 180 trials (4.1 min)
+time series MI subject 13: 180 trials (4.3 min)
+time series MI subject 14: 180 trials (4.4 min)
+time series MI subject 15: 180 trials (4.5 min)
+data ready (4.5 min)
+person  1 done (6.2 min)
+person  2 done (7.7 min)
+person  3 done (9.0 min)
+person  4 done (10.3 min)
+person  5 done (11.8 min)
+person  6 done (12.9 min)
+person  7 done (14.1 min)
+person  8 done (15.4 min)
+person  9 done (16.5 min)
+person 10 done (17.7 min)
+person 11 done (19.6 min)
+person 12 done (20.8 min)
+person 13 done (22.4 min)
+person 14 done (24.0 min)
+person 15 done (25.5 min)
+
+=== A.4b-1: deep models vs TS+LDA (T1, fold-specific 8 sites, new person MI runs 6-10, %, mean of 2 seeds) ===
+       cell    mode          model  mean  median  n_above_50  p_vs_50 diff_vs_TS+LDA p_vs_TS+LDA median_best_epoch
+  1 MI self  strict  TS+LDA (ours)  67.1    69.2          14   0.0004              -           -                 -
+  1 MI self  strict         EEGNet  56.5    56.2          12   0.0019          -10.6      0.0012                11
+  1 MI self  strict ShallowConvNet  61.4    58.8          15   0.0003           -5.7      0.0135                17
+2 MI others  strict  TS+LDA (ours)  62.0    61.7          14   0.0005              -           -                 -
+2 MI others  strict         EEGNet  65.3    65.8          15   0.0000            3.2      0.2114                31
+2 MI others  strict ShallowConvNet  68.5    70.8          15   0.0000            6.5      0.0555                17
+  3 ME self  strict  TS+LDA (ours)  62.7    64.2          15   0.0003              -           -                 -
+  3 ME self  strict         EEGNet  59.4    58.8          13   0.0009           -3.3      0.3028                22
+  3 ME self  strict ShallowConvNet  64.6    63.3          15   0.0000            1.9      0.1671                17
+4 ME others  strict  TS+LDA (ours)  61.0    60.0          13   0.0003              -           -                 -
+4 ME others  strict         EEGNet  65.8    63.7          15   0.0003            4.8      0.0287                19
+4 ME others  strict ShallowConvNet  66.5    65.8          15   0.0003            5.5      0.0024                17
+2 MI others aligned  TS+LDA (ours)  67.2    68.3          14   0.0005              -           -                 -
+2 MI others aligned         EEGNet  67.2    65.8          15   0.0003            0.0       0.978                30
+2 MI others aligned ShallowConvNet  69.9    72.1          15   0.0000            2.8      0.1514                10
+  3 ME self aligned  TS+LDA (ours)  65.2    66.7          15   0.0003              -           -                 -
+  3 ME self aligned         EEGNet  58.6    57.5          15   0.0003           -6.5      0.0231                18
+  3 ME self aligned ShallowConvNet  65.9    64.2          15   0.0003            0.8      0.9321                14
+4 ME others aligned  TS+LDA (ours)  65.3    64.2          14   0.0004              -           -                 -
+4 ME others aligned         EEGNet  66.2    66.2          14   0.0001            1.0      0.5136                21
+4 ME others aligned ShallowConvNet  67.9    68.3          15   0.0000            2.6      0.2078                14
+aligned = Euclidean alignment with the unlabelled MI runs 1-5 (same warm-up as A.6, 90 trials); TS+LDA aligned = A.6 recentering with 90 trials
+
+total time 25.6 min
+===== A.4b-1 FINISHED =====

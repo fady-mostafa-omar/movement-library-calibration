@@ -1,0 +1,87 @@
+===== A.9 started 20:13:33 =====
+A.2b cache loaded (0.0 min)
+subject 1 done (0.1 min)
+subject 2 done (0.2 min)
+subject 3 done (0.3 min)
+subject 4 done (0.3 min)
+subject 5 done (0.4 min)
+subject 6 done (0.5 min)
+subject 7 done (0.5 min)
+subject 8 done (0.6 min)
+subject 9 done (0.7 min)
+subject 10 done (0.8 min)
+subject 11 done (0.8 min)
+subject 12 done (0.9 min)
+subject 13 done (1.0 min)
+subject 14 done (1.0 min)
+subject 15 done (1.1 min)
+
+=== anchors (fold-specific 8, 0-3 s; must match A.4a / A.6 / A.8 within 0.3 points) ===
+  cell 1 own MI (labelled, ~27 min)     67.1  (earlier 67.1)  OK
+  cell 2 others MI                      62.0  (earlier 62.0)  OK
+  cell 3 own ME                         62.7  (earlier 62.7)  OK
+  cell 4 others ME (strict)             61.0  (earlier 61.0)  OK
+  recentered 60 trials                  65.4  (earlier 65.4)  OK
+  recentered all                        65.3  (earlier 65.3)  OK
+  recentered 10 trials                  63.9  (earlier 63.9)  OK
+  hybrid 60 trials                      66.3  (earlier 66.3)  OK
+
+=== V1: equivalence tests (paired, 15 subjects, margin +/-5 points, fixed in advance) ===
+comparison                                                   diff          90% CI  p TOST p TOST-W     boot 95% CI  equivalent within
+recentered 60 trials - cell 1 own MI (labelled, ~27 min)     -1.7 [ -5.0, +1.6]   0.051    0.062 [ -5.5, +1.7]   5.0 pts (not shown)
+recentered all - cell 1 own MI (labelled, ~27 min)           -1.8 [ -5.3, +1.6]   0.064    0.076 [ -5.7, +1.8]   5.3 pts (not shown)
+recentered 10 trials - cell 1 own MI (labelled, ~27 min)     -3.2 [ -6.2, -0.1]   0.153    0.147 [ -6.6, +0.1]   6.2 pts (not shown)
+hybrid 60 trials - cell 1 own MI (labelled, ~27 min)         -0.8 [ -3.2, +1.6]   0.004    0.007 [ -3.3, +1.8]   3.2 pts (YES)
+cell 4 others ME (strict) - cell 1 own MI (labelled, ~27 min)   -6.1 [ -9.7, -2.5]   0.703    0.590 [-10.2, -2.3]   9.7 pts (not shown)
+cell 4 others ME (strict) - cell 2 others MI                 -1.0 [ -4.7, +2.7]   0.038    0.039 [ -5.1, +2.9]   4.7 pts (YES)
+cell 4 others ME (strict) - cell 3 own ME                    -1.7 [ -6.0, +2.5]   0.098    0.048 [ -6.4, +2.7]   6.0 pts (not shown)
+equivalent within X = the smallest margin that the 90% CI fits inside; TOST-W = Wilcoxon version
+
+=== V2: who benefits (per-person Spearman correlations, fold-specific 8, 0-3 s) ===
+  cell 4 others ME (strict)        vs own calibration: rho = +0.62 (p = 0.014)
+  recentered 60 trials             vs own calibration: rho = +0.46 (p = 0.086)
+  cell 3 own ME                    vs own calibration: rho = +0.49 (p = 0.065)
+  cell 2 others MI                 vs own calibration: rho = +0.40 (p = 0.137)
+  below 60% with own calibration: [1, 10, 13]
+  below 60% with strict zero calibration: [1, 5, 8, 9, 10, 13, 14]  (also low with own calibration: [1, 10, 13])
+  below 60% with recentering (60 trials): [1, 13]  (also low with own calibration: [1, 13])
+  per person (own calibration | strict | recentered | own ME):
+    subject  1:  45.0 |  48.3 |  48.3 |  56.7
+    subject  2:  77.5 |  74.2 |  70.8 |  75.0
+    subject  3:  67.5 |  60.8 |  64.2 |  57.5
+    subject  4:  73.3 |  77.5 |  74.2 |  64.2
+    subject  5:  60.0 |  58.3 |  68.3 |  70.0
+    subject  6:  78.3 |  68.3 |  70.0 |  68.3
+    subject  7:  63.3 |  66.7 |  70.8 |  69.2
+    subject  8:  80.0 |  59.2 |  61.7 |  83.3
+    subject  9:  66.7 |  55.8 |  60.8 |  52.5
+    subject 10:  59.2 |  51.7 |  63.3 |  52.5
+    subject 11:  69.2 |  62.5 |  63.3 |  66.7
+    subject 12:  70.0 |  60.0 |  67.5 |  65.0
+    subject 13:  55.8 |  49.2 |  56.7 |  51.7
+    subject 14:  71.7 |  50.8 |  65.0 |  51.7
+    subject 15:  69.2 |  71.7 |  75.8 |  56.7
+
+=== V3: decision time (mean %, fold-specific 8; decision at the end of the last 1-s window after the cue) ===
+method                                  1.0s    1.5s    2.0s    2.5s    3.0s
+cell 4 others ME (strict)              50.8    51.6    53.9*   59.4*   61.0*
+recentered 60 trials                   51.3    53.3*   55.6*   61.1*   65.4*
+hybrid 60 trials                       50.9    51.8    55.4*   61.7*   66.3*
+cell 1 own MI (labelled, ~27 min)      48.7    48.9    52.7    60.8*   67.1*
+* = above 50% (Wilcoxon, one-sided p < 0.05)
+
+=== V4: hit rate (movement trials detected) and false-alarm rate (rest trials detected as movement), %, 0-3 s ===
+  cell 4 others ME (strict)            hit  64.2   false alarm  42.2
+  recentered 10 trials                 hit  68.6   false alarm  40.7
+  recentered 60 trials                 hit  75.7   false alarm  44.9
+  recentered all                       hit  75.0   false alarm  44.4
+  hybrid 60 trials                     hit  72.2   false alarm  39.6
+  cell 1 own MI (labelled, ~27 min)    hit  77.1   false alarm  42.9
+
+=== V6: rule-defined 10-20 montages vs fold-specific 8 (mean %, 0-3 s) ===
+  cell 4 others ME (strict)            fold-specific 8  61.0 | 1020_6  61.2 (+0.2, p = 0.975) | 1020_9  60.0 (-1.0, p = 0.950)
+  recentered 60 trials                 fold-specific 8  65.4 | 1020_6  63.7 (-1.7, p = 0.181) | 1020_9  62.9 (-2.4, p = 0.211)
+  cell 1 own MI (labelled, ~27 min)    fold-specific 8  67.1 | 1020_6  66.3 (-0.8, p = 0.649) | 1020_9  68.2 (+1.1, p = 0.432)
+  1020_6 = C3, Cz, C4, P3, Pz, P4; 1020_9 = + F3, Fz, F4 (fixed by rule, not selected on data)
+total time (1.1 min)
+===== A.9 FINISHED =====

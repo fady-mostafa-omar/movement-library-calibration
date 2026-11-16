@@ -1,0 +1,13 @@
+cond,task,chans,cv_rebuilt,cv_saved,cv_mean_abs_diff,cv_max_abs_diff,loro_rebuilt,loro_saved,ofner_2017
+ME,mov_vs_mov,eeg,54.5,54.5,0.0,0.0,53.1,53.1,55.0
+ME,mov_vs_mov,eog,24.4,24.4,0.0,0.0,,,
+ME,mov_vs_mov,frontal,30.2,30.2,0.0,0.0,,,
+ME,mov_vs_rest,eeg,83.1,83.4,1.4,2.8,85.5,85.5,86.0
+ME,mov_vs_rest,eog,57.0,57.0,1.8,4.5,,,
+ME,mov_vs_rest,frontal,65.9,65.7,1.3,3.9,,,
+MI,mov_vs_mov,eeg,26.1,26.1,0.0,0.0,26.1,26.1,27.0
+MI,mov_vs_mov,eog,18.6,18.6,0.0,0.0,,,
+MI,mov_vs_mov,frontal,18.7,18.7,0.0,0.0,,,
+MI,mov_vs_rest,eeg,72.1,71.7,1.8,3.7,72.9,72.9,73.0
+MI,mov_vs_rest,eog,54.7,54.7,1.9,4.1,,,
+MI,mov_vs_rest,frontal,58.2,57.6,1.7,3.4,,,
